@@ -1,0 +1,786 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="13.96" multi-file="no" uid="simp3e87f293ff6844c9ba1d8b1a0d06d1b4">
+  <meta>
+    <name>interfaceMaquette</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="ui-window" type="Window" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-group-box" type="Group Box" />
+        <value>9</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-label" type="Label" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-text-box" type="Text Box" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-button" type="Button" />
+        <value>11</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-list-box" type="List Box" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-grid" type="Grid" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-menu" type="Menu" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-panel" type="Panel" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>783</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-window" type="Window" />
+        <value>8</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-group-box" type="Group Box" />
+        <value>22</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-label" type="Label" />
+        <value>30</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-text-box" type="Text Box" />
+        <value>30</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-button" type="Button" />
+        <value>25</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-list-box" type="List Box" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-grid" type="Grid" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-menu" type="Menu" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-panel" type="Panel" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlUseCaseDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.Wireframing.UserInterfaceDiagram</type>
+        <value>5</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-02749d1abd6f4c61a0ff55e43b8d67f0" name="" task-id-sequence="0">
+    <working-schedule uid="ws-b5ae319571764680bef5422d79ede6d7" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="">
+        <first-name>Raphael</first-name>
+        <last-name>Gagnon</last-name>
+        <role />
+        <e-mail>raphaelgagnon@cegep-chicoutimi.qc.ca</e-mail>
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-cb770287262c4f8d9e19faec25b004f6" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+      <person id="">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-135c7c1ad14c40bca8625de8255f50d9" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types />
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="p706f1192463c4d32956ddb96c381be78_752784558" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>04/16/2024 16:29:42</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-usecase" id="pd3f565ea6900457f82e868d93fcc7e4a_931088729" name="UseCaseDiagram1" order-index="1" uid="" auto-routed-paths="false" default-line-style="default" view-location="-100,-100">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>04/16/2024 16:29:42</creation-date>
+          <change-date>04/16/2024 16:29:42</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items />
+        <layer id="7d04f0dd79884ef5b91414d2feb8c452" name="Default" visible="true" enabled="true" locked="false" />
+      </diagram>
+      <diagram type="user-interface" id="p4d74f445753647898e675e645c7f1d78_475045920" name="UserInterfaceDiagram1" order-index="2" overview-order-index="0" uid="" auto-routed-paths="false" default-line-style="default" view-location="0,-149">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>04/16/2024 16:32:55</creation-date>
+          <change-date>04/19/2024 08:06:53</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="a21334d3273e4b8a98ebbe111be302d4" cid="GRP011" type="ui-group-box" name="Enlever étudiant d'un cours" owner="29e4c5dad1534928a24b0d4fff2eb34b" change-tracking-state="added" creator="" creation-date="04/16/2024 17:33:43" />
+          <item id="a1af76d509ce47a794ff5f0c6baf873b" cid="LST001" type="ui-list-box" name="Sigle | Titre | durée" owner="429dc1404c9b481e8a01df730dc6c42c" change-tracking-state="added" creator="" creation-date="04/16/2024 17:09:35">
+            <list-box>
+              <list-items />
+            </list-box>
+          </item>
+          <item id="1b37d281cd9445bca683080e9b33c67c" cid="GRP004" type="ui-group-box" name="Liste d'étudiants" owner="29e4c5dad1534928a24b0d4fff2eb34b" change-tracking-state="added" creator="" creation-date="04/16/2024 17:06:50" />
+          <item id="dia55e956f2a2a4a598cda75919344ad8d4883" cid="LBL009" type="ui-label" name="idProfActuel" owner="di43392530ec434c258a1c0adfc3ee5aa24883" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:22" />
+          <item id="121e0e1a20a44dcfa8b305c2676d4c82" cid="WND002" type="ui-window" name="Afficher une liste de cours" change-tracking-state="added" creator="" creation-date="04/16/2024 17:14:34">
+            <owned-items />
+            <window show-min-button="true" show-max-button="true" show-close-button="true" show-size-grip="false" />
+          </item>
+          <item id="6397133794bf4704be8db9af8ca63de4" cid="BTN003" type="ui-button" name="Afficher la liste des cours " owner="c93103018c534127af37bfce41244bf1" change-tracking-state="added" creator="" creation-date="04/16/2024 17:05:27">
+            <button />
+          </item>
+          <item id="283c165ffdaf471d95419f381ecf10a3" cid="TXT006" type="ui-text-box" name="TextBox6" owner="173ff7da7760448d8dcbfe84d073bfec" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:21">
+            <text-box />
+          </item>
+          <item id="dibfa1c53f8a1240c5a3d280951e38d1a46870" cid="TXT012" type="ui-text-box" name="TextBox4" owner="di1ec3b8868b0a4d758ff595002ee22c378343" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:37">
+            <text-box />
+          </item>
+          <item id="29e4c5dad1534928a24b0d4fff2eb34b" cid="WND001" type="ui-window" name="Modifications dans un cours" change-tracking-state="added" creator="" creation-date="04/16/2024 16:33:00">
+            <owned-items />
+            <window show-min-button="true" show-max-button="true" show-close-button="true" show-size-grip="false" />
+          </item>
+          <item id="173ff7da7760448d8dcbfe84d073bfec" cid="GRP008" type="ui-group-box" name="Enlever étudiant dans un cours" owner="29e4c5dad1534928a24b0d4fff2eb34b" change-tracking-state="added" creator="" creation-date="04/16/2024 17:24:04">
+            <owned-items />
+          </item>
+          <item id="8aa39cdc9aa04e4292f8a04092da2293" cid="GRD001" type="ui-grid" name="Grid1" owner="29e4c5dad1534928a24b0d4fff2eb34b" change-tracking-state="added" creator="" creation-date="04/16/2024 17:45:21">
+            <grid />
+          </item>
+          <item id="di551d2ada0732491ca676b5234f88afeb4883" cid="TXT008" type="ui-text-box" name="TextBox4" owner="di43392530ec434c258a1c0adfc3ee5aa24883" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:37">
+            <text-box />
+          </item>
+          <item id="09b59f45e7844ccca82fc1dd21f2ed83" cid="LBL002" type="ui-label" name="id du prof:" owner="c93103018c534127af37bfce41244bf1" change-tracking-state="added" creator="" creation-date="04/16/2024 17:03:34" />
+          <item id="di87fc9f6905024b2faeea4e5ac1a31f796870" cid="LBL014" type="ui-label" name="idProf:" owner="di1ec3b8868b0a4d758ff595002ee22c378343" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:19" />
+          <item id="di38ae92790d294fc7a06c8845e04708807425" cid="GRP012" type="ui-group-box" name="Enlever étudiant d'un cours" owner="29e4c5dad1534928a24b0d4fff2eb34b" change-tracking-state="added" creator="" creation-date="04/16/2024 17:33:43" />
+          <item id="di3746faffdf194192bba9d8c2c25ddc726870" cid="BTN007" type="ui-button" name="Ajouter le cours" owner="di1ec3b8868b0a4d758ff595002ee22c378343" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:35">
+            <button />
+          </item>
+          <item id="a6373158523847868224fee65886cf1d" cid="GRP005" type="ui-group-box" owner="121e0e1a20a44dcfa8b305c2676d4c82" change-tracking-state="added" creator="" creation-date="04/16/2024 17:15:13" />
+          <item id="39fa56b860e04792bf8f6c5c85c94925" cid="BTN002" type="ui-button" name="Afficher l'historique des cours" owner="4d149ff20fc644f1a20c59b62f922cb1" change-tracking-state="added" creator="" creation-date="04/16/2024 16:52:59">
+            <button />
+          </item>
+          <item id="086221e08424464f9c71601c54b34755" cid="GRP006" type="ui-group-box" name="Liste de Cours" owner="121e0e1a20a44dcfa8b305c2676d4c82" change-tracking-state="added" creator="" creation-date="04/16/2024 17:16:19">
+            <owned-items />
+          </item>
+          <item id="di8a012479ae6d479bbbf7ba8b0dee42f06870" cid="LBL012" type="ui-label" name="Titre:" owner="di1ec3b8868b0a4d758ff595002ee22c378343" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:45" />
+          <item id="5965d1c6f3f74b6d8bbaf1818ca3da77" cid="LST003" type="ui-list-box" name="Sigle | Titre | Durée" owner="086221e08424464f9c71601c54b34755" change-tracking-state="added" creator="" creation-date="04/16/2024 17:16:42">
+            <list-box>
+              <list-items />
+            </list-box>
+          </item>
+          <item id="b68ed9e95ea34501949a833464a3900c" cid="TXT003" type="ui-text-box" name="TextBox3" owner="173ff7da7760448d8dcbfe84d073bfec" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:35">
+            <text-box />
+          </item>
+          <item id="difc2ade7614c742e78c78e924962a2f654883" cid="LBL008" type="ui-label" name="idSession:" owner="di43392530ec434c258a1c0adfc3ee5aa24883" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:45" />
+          <item id="39d9f02f97094767aebc33c1915d444d" cid="BTN005" type="ui-button" name="Supprimer" owner="173ff7da7760448d8dcbfe84d073bfec" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:35">
+            <button />
+          </item>
+          <item id="e7499975dcc34fadac16f3dcc4c74cb0" cid="LST002" type="ui-list-box" name="Sigle | Titre | Cours" owner="121e0e1a20a44dcfa8b305c2676d4c82" change-tracking-state="added" creator="" creation-date="04/16/2024 17:15:29">
+            <list-box>
+              <list-items />
+            </list-box>
+          </item>
+          <item id="did9280e5103ec478697a9c0446af558ad4883" cid="TXT010" type="ui-text-box" name="TextBox6" owner="di43392530ec434c258a1c0adfc3ee5aa24883" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:21">
+            <text-box />
+          </item>
+          <item id="cb37071f7d4743b799c5bf5c742c9b52" cid="LBL003" type="ui-label" name="CodePermanent:" owner="173ff7da7760448d8dcbfe84d073bfec" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:21" />
+          <item id="di2ab614a908474b9eae1bb5cbe0e6cf906870" cid="TXT011" type="ui-text-box" name="TextBox3" owner="di1ec3b8868b0a4d758ff595002ee22c378343" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:35">
+            <text-box />
+          </item>
+          <item id="di0bebcc0d3b6248d08d541a4edef0b8e48343" cid="LBL011" type="ui-label" name="Sigle:" owner="di1ec3b8868b0a4d758ff595002ee22c378343" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:21" />
+          <item id="55e32b0fdd204cb5b9cc0d80b188dadd" cid="TXT002" type="ui-text-box" name="TextBox2" owner="c93103018c534127af37bfce41244bf1" change-tracking-state="added" creator="" creation-date="04/16/2024 17:04:10">
+            <text-box />
+          </item>
+          <item id="did57fea4f9cce4031a1b53e7f6988e8474883" cid="LBL007" type="ui-label" name="Sigle:" owner="di43392530ec434c258a1c0adfc3ee5aa24883" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:21" />
+          <item id="c5e7f10d4cb645948ed36eb0c7072a16" cid="TXT004" type="ui-text-box" name="TextBox4" owner="173ff7da7760448d8dcbfe84d073bfec" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:37">
+            <text-box />
+          </item>
+          <item id="dif7234b298d664c43aa5b403af95f710b6870" cid="TXT013" type="ui-text-box" name="TextBox5" owner="di1ec3b8868b0a4d758ff595002ee22c378343" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:53">
+            <text-box />
+          </item>
+          <item id="dif1e5c2a347cf4079b83d494f32d78aa04883" cid="TXT007" type="ui-text-box" name="TextBox3" owner="di43392530ec434c258a1c0adfc3ee5aa24883" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:35">
+            <text-box />
+          </item>
+          <item id="di16eb3aebdef546bb811950e188e64b5c4883" cid="BTN006" type="ui-button" name="Modifier Enseignant" owner="di43392530ec434c258a1c0adfc3ee5aa24883" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:35">
+            <button />
+          </item>
+          <item id="di43392530ec434c258a1c0adfc3ee5aa24883" cid="GRP010" type="ui-group-box" name="Modifier l'enseignant d'un cours" owner="29e4c5dad1534928a24b0d4fff2eb34b" change-tracking-state="added" creator="" creation-date="04/16/2024 17:24:04">
+            <owned-items />
+          </item>
+          <item id="21f7afba0c3c4d6698d6a3b4b5e17ad5" cid="BTN004" type="ui-button" name="Afficher les bulletins des cours suivis" owner="4d149ff20fc644f1a20c59b62f922cb1" change-tracking-state="added" creator="" creation-date="04/16/2024 17:19:32">
+            <button />
+          </item>
+          <item id="d059778c5cc84f088e2ac62a962c20a6" cid="LBL004" type="ui-label" name="SigleCours:" owner="173ff7da7760448d8dcbfe84d073bfec" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:45" />
+          <item id="9f05a9b9f7594a08858c453909f5ce05" cid="TXT001" type="ui-text-box" name="TextBox1" owner="4d149ff20fc644f1a20c59b62f922cb1" change-tracking-state="added" creator="" creation-date="04/16/2024 16:51:28">
+            <text-box />
+          </item>
+          <item id="di8b5efc6955ee403fa6247caa27b2b9964883" cid="TXT009" type="ui-text-box" name="TextBox5" owner="di43392530ec434c258a1c0adfc3ee5aa24883" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:53">
+            <text-box />
+          </item>
+          <item id="dia7e5aa3571534ef8b3a21aa88eaac6c74883" cid="LBL010" type="ui-label" name="idProfNew:" owner="di43392530ec434c258a1c0adfc3ee5aa24883" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:19" />
+          <item id="29c7a9ec5e0443a382238f23ac8cb43d" cid="GRP009" type="ui-group-box" name="Modifier l'enseignant d'un cours" owner="29e4c5dad1534928a24b0d4fff2eb34b" change-tracking-state="added" creator="" creation-date="04/16/2024 17:30:33" />
+          <item id="di3cb09ae23be64cd483105ef54b8642b56870" cid="LBL013" type="ui-label" name="Durée:" owner="di1ec3b8868b0a4d758ff595002ee22c378343" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:22" />
+          <item id="fd677ee0762b4a409e401ba822a30772" cid="TXT005" type="ui-text-box" name="TextBox5" owner="173ff7da7760448d8dcbfe84d073bfec" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:53">
+            <text-box />
+          </item>
+          <item id="429dc1404c9b481e8a01df730dc6c42c" cid="GRP002" type="ui-group-box" name="Liste de cours" change-tracking-state="added" creator="" creation-date="04/16/2024 16:49:01">
+            <owned-items />
+          </item>
+          <item id="4377a385d625495e89b504eb7808df16" cid="LBL005" type="ui-label" name="idSession:" owner="173ff7da7760448d8dcbfe84d073bfec" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:22" />
+          <item id="0c73f1b0b63a46d584aed84819d27786" cid="BTN001" type="ui-button" name="Afficher la liste de cours" owner="4d149ff20fc644f1a20c59b62f922cb1" change-tracking-state="added" creator="" creation-date="04/16/2024 16:52:14">
+            <button />
+          </item>
+          <item id="diabc3d4c5a59a4f09b090266288a836456870" cid="TXT014" type="ui-text-box" name="TextBox6" owner="di1ec3b8868b0a4d758ff595002ee22c378343" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:21">
+            <text-box />
+          </item>
+          <item id="di1ec3b8868b0a4d758ff595002ee22c378343" cid="GRP013" type="ui-group-box" name="Ajouter un nouveau cours" owner="29e4c5dad1534928a24b0d4fff2eb34b" change-tracking-state="added" creator="" creation-date="04/16/2024 17:24:04">
+            <owned-items />
+          </item>
+          <item id="5156927f698c4007ba3786f92cec93ff" cid="LBL001" type="ui-label" name="Code permanent:" owner="4d149ff20fc644f1a20c59b62f922cb1" change-tracking-state="added" creator="" creation-date="04/16/2024 16:50:55" />
+        </abstract-items>
+        <layer id="375811d7c3314406af90c1e2f8755802" name="Default" visible="true" enabled="true" locked="false">
+          <item id="29e4c5dad1534928a24b0d4fff2eb34b" iid="980ec087c7d1499d9ed67d2c85a6af30" creation-date="04/16/2024 16:33:00" order-index="0" type="ui-window">
+            <layout ax="145" ay="-78" awidth="1016" aheight="490" x="145" y="-78" width="1016" height="490" expanded="145,-78,1016,490" collapsed="0,0,0,0" rotation-center="59,77" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="173ff7da7760448d8dcbfe84d073bfec" iid="3c0ec4df70c24d749d489d6184a4633b" container="29e4c5dad1534928a24b0d4fff2eb34b" container-iid="980ec087c7d1499d9ed67d2c85a6af30" creation-date="04/16/2024 17:24:04" order-index="12" type="ui-group-box">
+            <layout ax="779" ay="-26.75" awidth="363" aheight="323.5" x="779" y="-26.75" width="363" height="323.5" expanded="779,-26.75,363,323.5" collapsed="0,0,0,0" rotation-center="114.5,-81.25" />
+          </item>
+          <item id="cb37071f7d4743b799c5bf5c742c9b52" iid="26d3a199ea5c447782a784320bdacf95" container="173ff7da7760448d8dcbfe84d073bfec" container-iid="3c0ec4df70c24d749d489d6184a4633b" creation-date="04/16/2024 17:26:21" order-index="13" type="ui-label">
+            <layout ax="801" ay="1.25" awidth="135" aheight="36" x="469" y="-17" width="53" height="20" rotation-center="13.5,0" />
+          </item>
+          <item id="d059778c5cc84f088e2ac62a962c20a6" iid="ac6bdb088cdc46a7b3ed60483207d6a1" container="173ff7da7760448d8dcbfe84d073bfec" container-iid="3c0ec4df70c24d749d489d6184a4633b" creation-date="04/16/2024 17:26:45" order-index="14" type="ui-label">
+            <layout ax="796.75" ay="47.25" awidth="96" aheight="36" x="519.75" y="50.5" width="61.5" height="20" rotation-center="17.75,0" />
+          </item>
+          <item id="4377a385d625495e89b504eb7808df16" iid="fa53ecf636ca403cb3fe024fa737ecfd" container="173ff7da7760448d8dcbfe84d073bfec" container-iid="3c0ec4df70c24d749d489d6184a4633b" creation-date="04/16/2024 17:27:22" order-index="15" type="ui-label">
+            <layout ax="795.5" ay="99.75" awidth="86" aheight="36" x="518.5" y="103" width="64" height="20" rotation-center="-43,0" />
+          </item>
+          <item id="b68ed9e95ea34501949a833464a3900c" iid="34b210c6f8394ad29f566c19d721ddc7" container="173ff7da7760448d8dcbfe84d073bfec" container-iid="3c0ec4df70c24d749d489d6184a4633b" creation-date="04/16/2024 17:27:35" order-index="16" type="ui-text-box">
+            <layout ax="958" ay="3.5" awidth="121" aheight="36" x="958" y="3.5" width="121" height="20" rotation-center="14.5,0" />
+          </item>
+          <item id="c5e7f10d4cb645948ed36eb0c7072a16" iid="fa255db33feb4843b1b71414d3a29bdd" container="173ff7da7760448d8dcbfe84d073bfec" container-iid="3c0ec4df70c24d749d489d6184a4633b" creation-date="04/16/2024 17:28:37" order-index="18" type="ui-text-box">
+            <layout ax="946" ay="51.75" awidth="121" aheight="36" x="946" y="51.75" width="121" height="20" rotation-center="14.5,0" />
+          </item>
+          <item id="fd677ee0762b4a409e401ba822a30772" iid="140ff1da589246fc8ca72f7ba296e35d" container="173ff7da7760448d8dcbfe84d073bfec" container-iid="3c0ec4df70c24d749d489d6184a4633b" creation-date="04/16/2024 17:28:53" order-index="19" type="ui-text-box">
+            <layout ax="943.5" ay="100.75" awidth="150" aheight="36" x="943.5" y="100.75" width="150" height="20" />
+          </item>
+          <item id="39d9f02f97094767aebc33c1915d444d" iid="b0ffe9da3e494a028f6acc5fdb3cc060" container="173ff7da7760448d8dcbfe84d073bfec" container-iid="3c0ec4df70c24d749d489d6184a4633b" creation-date="04/16/2024 17:29:35" order-index="21" type="ui-button">
+            <layout ax="834" ay="179.5" awidth="214" aheight="36" x="834" y="179.5" width="214" height="30" rotation-center="-42.5,0" />
+          </item>
+          <item id="di43392530ec434c258a1c0adfc3ee5aa24883" iid="5463a71b9e07470c82030e8e63abf08c" container="29e4c5dad1534928a24b0d4fff2eb34b" container-iid="980ec087c7d1499d9ed67d2c85a6af30" creation-date="04/16/2024 17:24:04" order-index="12" type="ui-group-box">
+            <layout ax="469" ay="-26.5" awidth="296" aheight="323" x="469" y="-26.5" width="296" height="323" expanded="469,-26.5,296,323" collapsed="0,0,0,0" rotation-center="81,-81.5" />
+          </item>
+          <item id="did57fea4f9cce4031a1b53e7f6988e8474883" iid="642a052e8cbe48648eaf90c45ae231cb" container="di43392530ec434c258a1c0adfc3ee5aa24883" container-iid="5463a71b9e07470c82030e8e63abf08c" creation-date="04/16/2024 17:26:21" order-index="13" type="ui-label">
+            <layout ax="491" ay="1.5" awidth="53" aheight="36" x="469" y="-17" width="53" height="20" rotation-center="13.5,0" />
+          </item>
+          <item id="difc2ade7614c742e78c78e924962a2f654883" iid="648f453176ef4e08a6d0378c8c96a3c2" container="di43392530ec434c258a1c0adfc3ee5aa24883" container-iid="5463a71b9e07470c82030e8e63abf08c" creation-date="04/16/2024 17:26:45" order-index="14" type="ui-label">
+            <layout ax="486.75" ay="47.5" awidth="82" aheight="36" x="519.75" y="50.5" width="61.5" height="20" rotation-center="17.75,0" />
+          </item>
+          <item id="dia55e956f2a2a4a598cda75919344ad8d4883" iid="9310254e1dcf42ea931bb01e64f807eb" container="di43392530ec434c258a1c0adfc3ee5aa24883" container-iid="5463a71b9e07470c82030e8e63abf08c" creation-date="04/16/2024 17:27:22" order-index="15" type="ui-label">
+            <layout ax="494" ay="111" awidth="109" aheight="36" x="811" y="97.25" width="109" height="20" rotation-center="-44.5,0" />
+          </item>
+          <item id="dif1e5c2a347cf4079b83d494f32d78aa04883" iid="9bd64831295745839c44a172bd3b9b54" container="di43392530ec434c258a1c0adfc3ee5aa24883" container-iid="5463a71b9e07470c82030e8e63abf08c" creation-date="04/16/2024 17:27:35" order-index="16" type="ui-text-box">
+            <layout ax="553" ay="3.5" awidth="121" aheight="36" x="503" y="-15" width="121" height="20" rotation-center="14.5,0" />
+          </item>
+          <item id="dia7e5aa3571534ef8b3a21aa88eaac6c74883" iid="0b1d5ef10aad4fa7a4e508b2e05e2af3" container="di43392530ec434c258a1c0adfc3ee5aa24883" container-iid="5463a71b9e07470c82030e8e63abf08c" creation-date="04/16/2024 17:28:19" order-index="17" type="ui-label">
+            <layout ax="479.75" ay="161.5" awidth="96" aheight="36" x="796.75" y="147.75" width="84" height="20" rotation-center="33,0" />
+          </item>
+          <item id="di551d2ada0732491ca676b5234f88afeb4883" iid="cdaec6007d93476a8c2c202385a2f589" container="di43392530ec434c258a1c0adfc3ee5aa24883" container-iid="5463a71b9e07470c82030e8e63abf08c" creation-date="04/16/2024 17:28:37" order-index="18" type="ui-text-box">
+            <layout ax="582" ay="51.5" awidth="121" aheight="36" x="899" y="37.75" width="121" height="20" rotation-center="14.5,0" />
+          </item>
+          <item id="di8b5efc6955ee403fa6247caa27b2b9964883" iid="8cd3d3d8ccef4ac0b317cd98b1f5ab16" container="di43392530ec434c258a1c0adfc3ee5aa24883" container-iid="5463a71b9e07470c82030e8e63abf08c" creation-date="04/16/2024 17:28:53" order-index="19" type="ui-text-box">
+            <layout ax="603" ay="117" awidth="100" aheight="36" x="920" y="103.25" width="100" height="20" rotation-center="25,0" />
+          </item>
+          <item id="did9280e5103ec478697a9c0446af558ad4883" iid="ae1baa87061d461cbc4bb28e7d62b820" container="di43392530ec434c258a1c0adfc3ee5aa24883" container-iid="5463a71b9e07470c82030e8e63abf08c" creation-date="04/16/2024 17:29:21" order-index="20" type="ui-text-box">
+            <layout ax="587.5" ay="168.5" awidth="110" aheight="28" x="904.5" y="154.75" width="110" height="20" rotation-center="20,0" />
+          </item>
+          <item id="di16eb3aebdef546bb811950e188e64b5c4883" iid="1408ad8807a8488cbc1dc2c393cd460e" container="di43392530ec434c258a1c0adfc3ee5aa24883" container-iid="5463a71b9e07470c82030e8e63abf08c" creation-date="04/16/2024 17:29:35" order-index="21" type="ui-button">
+            <layout ax="518" ay="229" awidth="214" aheight="36" x="551" y="232" width="214" height="30" rotation-center="-42.5,0" />
+          </item>
+          <item id="di1ec3b8868b0a4d758ff595002ee22c378343" iid="b69400301e684f15beadc1584b1a528f" container="29e4c5dad1534928a24b0d4fff2eb34b" container-iid="980ec087c7d1499d9ed67d2c85a6af30" creation-date="04/16/2024 17:24:04" order-index="12" type="ui-group-box">
+            <layout ax="159" ay="-32.75" awidth="296" aheight="323.5" x="159" y="-32.75" width="296" height="323.5" expanded="159,-32.75,296,323.5" collapsed="0,0,0,0" rotation-center="81,-81.25" />
+          </item>
+          <item id="di0bebcc0d3b6248d08d541a4edef0b8e48343" iid="417cad410e844b86b86ee3aa883e3b1b" container="di1ec3b8868b0a4d758ff595002ee22c378343" container-iid="b69400301e684f15beadc1584b1a528f" creation-date="04/16/2024 17:26:21" order-index="13" type="ui-label">
+            <layout ax="181" ay="-4.75" awidth="53" aheight="36" x="469" y="-17" width="53" height="20" rotation-center="13.5,0" />
+          </item>
+          <item id="di8a012479ae6d479bbbf7ba8b0dee42f06870" iid="6b500f30c91d4001b32451d5e782621a" container="di1ec3b8868b0a4d758ff595002ee22c378343" container-iid="b69400301e684f15beadc1584b1a528f" creation-date="04/16/2024 17:26:45" order-index="14" type="ui-label">
+            <layout ax="176.75" ay="41.25" awidth="61.5" aheight="36" x="519.75" y="50.5" width="61.5" height="20" rotation-center="17.75,0" />
+          </item>
+          <item id="di3cb09ae23be64cd483105ef54b8642b56870" iid="321f825ca6ee450ebcdf2a5bed51cb0a" container="di1ec3b8868b0a4d758ff595002ee22c378343" container-iid="b69400301e684f15beadc1584b1a528f" creation-date="04/16/2024 17:27:22" order-index="15" type="ui-label">
+            <layout ax="175.5" ay="93.75" awidth="64" aheight="36" x="518.5" y="103" width="64" height="20" rotation-center="-43,0" />
+          </item>
+          <item id="di2ab614a908474b9eae1bb5cbe0e6cf906870" iid="09dc1b0b477c498b811c48d96c82b2b4" container="di1ec3b8868b0a4d758ff595002ee22c378343" container-iid="b69400301e684f15beadc1584b1a528f" creation-date="04/16/2024 17:27:35" order-index="16" type="ui-text-box">
+            <layout ax="243" ay="-2.75" awidth="121" aheight="36" x="503" y="-15" width="121" height="20" rotation-center="14.5,0" />
+          </item>
+          <item id="di87fc9f6905024b2faeea4e5ac1a31f796870" iid="1e85dd70c94c4f418751d9d7c1dacb77" container="di1ec3b8868b0a4d758ff595002ee22c378343" container-iid="b69400301e684f15beadc1584b1a528f" creation-date="04/16/2024 17:28:19" order-index="17" type="ui-label">
+            <layout ax="165.5" ay="145.75" awidth="84" aheight="36" x="508.5" y="155" width="84" height="20" rotation-center="33,0" />
+          </item>
+          <item id="dibfa1c53f8a1240c5a3d280951e38d1a46870" iid="cf82ef96368243ca84c9c23394312dac" container="di1ec3b8868b0a4d758ff595002ee22c378343" container-iid="b69400301e684f15beadc1584b1a528f" creation-date="04/16/2024 17:28:37" order-index="18" type="ui-text-box">
+            <layout ax="243" ay="49.25" awidth="121" aheight="36" x="591" y="54" width="121" height="20" rotation-center="14.5,0" />
+          </item>
+          <item id="dif7234b298d664c43aa5b403af95f710b6870" iid="126c081cb33b4b37bb50f0f5e8746c56" container="di1ec3b8868b0a4d758ff595002ee22c378343" container-iid="b69400301e684f15beadc1584b1a528f" creation-date="04/16/2024 17:28:53" order-index="19" type="ui-text-box">
+            <layout ax="243" ay="93.75" awidth="150" aheight="36" x="586" y="103" width="150" height="20" />
+          </item>
+          <item id="diabc3d4c5a59a4f09b090266288a836456870" iid="c72f13ae083144f480a5fd0ccb630ee0" container="di1ec3b8868b0a4d758ff595002ee22c378343" container-iid="b69400301e684f15beadc1584b1a528f" creation-date="04/16/2024 17:29:21" order-index="20" type="ui-text-box">
+            <layout ax="243" ay="153.75" awidth="150" aheight="28" x="592" y="165" width="150" height="20" />
+          </item>
+          <item id="di3746faffdf194192bba9d8c2c25ddc726870" iid="54c5ff2913dc4bca998996857ced49d2" container="di1ec3b8868b0a4d758ff595002ee22c378343" container-iid="b69400301e684f15beadc1584b1a528f" creation-date="04/16/2024 17:29:35" order-index="21" type="ui-button">
+            <layout ax="208" ay="222.75" awidth="214" aheight="36" x="551" y="232" width="214" height="30" rotation-center="-42.5,0" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="user-interface" id="p3d4fec2833254086bafcf002d9748d3b_249988457" name="UserInterfaceDiagram2" order-index="3" overview-order-index="1" uid="" auto-routed-paths="false" default-line-style="default" view-location="0,-100">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>04/16/2024 17:17:58</creation-date>
+          <change-date>04/19/2024 07:57:27</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di4f57ae30d4b24568bda49ae1aaa543cc5308" cid="BTN014" type="ui-button" name="Afficher les bulletins des cours suivis" owner="di561de8a186ea45679db787705b514fc95308" change-tracking-state="added" creator="" creation-date="04/16/2024 17:19:32">
+            <button />
+          </item>
+          <item id="di43093b7bd2b84ccaa85e53497c3d0f175308" cid="BTN013" type="ui-button" name="Afficher l'historique des cours" owner="di561de8a186ea45679db787705b514fc95308" change-tracking-state="added" creator="" creation-date="04/16/2024 16:52:59">
+            <button />
+          </item>
+          <item id="di2c36726ef9c54c02a74240cf26b827849238" cid="LBL016" type="ui-label" name="id du prof:" owner="di46749067547e497eab6260445d5022659238" change-tracking-state="added" creator="" creation-date="04/16/2024 17:03:34" />
+          <item id="diec0614cef19249d78779d4418b22c6c26959" cid="LST004" type="ui-list-box" name="Sigle | Titre | Durée | Resultat" owner="di151619eae48d421bb43935d45b3bf2a46959" change-tracking-state="added" creator="" creation-date="04/16/2024 17:16:42">
+            <list-box>
+              <list-items />
+            </list-box>
+          </item>
+          <item id="di151619eae48d421bb43935d45b3bf2a46959" cid="GRP007" type="ui-group-box" name="Liste de Cours" owner="die6aceb57a8f24b759cf588a0b399926c6959" change-tracking-state="added" creator="" creation-date="04/16/2024 17:16:19">
+            <owned-items />
+          </item>
+          <item id="di0788774ef53848e383ab19c58bc6671e9238" cid="BTN015" type="ui-button" name="Afficher la liste des cours " owner="di46749067547e497eab6260445d5022659238" change-tracking-state="added" creator="" creation-date="04/16/2024 17:05:27">
+            <button />
+          </item>
+          <item id="di5d498952405f4a69bff65dc6355808239238" cid="TXT016" type="ui-text-box" name="TextBox2" owner="di46749067547e497eab6260445d5022659238" change-tracking-state="added" creator="" creation-date="04/16/2024 17:04:10">
+            <text-box />
+          </item>
+          <item id="di514034b51b4b4f10b4f3c2262311dc745308" cid="TXT015" type="ui-text-box" name="TextBox1" owner="di561de8a186ea45679db787705b514fc95308" change-tracking-state="added" creator="" creation-date="04/16/2024 16:51:28">
+            <text-box />
+          </item>
+          <item id="dibc5e88d8ac6f4d7db652d7593e5f92e75308" cid="LBL015" type="ui-label" name="Code permanent:" owner="di561de8a186ea45679db787705b514fc95308" change-tracking-state="added" creator="" creation-date="04/16/2024 16:50:55" />
+          <item id="di561de8a186ea45679db787705b514fc95308" cid="GRP014" type="ui-group-box" name="Liste de cours selon étudiant" owner="die6aceb57a8f24b759cf588a0b399926c6959" change-tracking-state="added" creator="" creation-date="04/16/2024 16:44:40" />
+          <item id="di46749067547e497eab6260445d5022659238" cid="GRP015" type="ui-group-box" name="Liste de cours selon enseignant" owner="die6aceb57a8f24b759cf588a0b399926c6959" change-tracking-state="added" creator="" creation-date="04/16/2024 16:58:52" />
+          <item id="di2d8cf9b42a6c4c2bac86c83113082e5e5308" cid="BTN012" type="ui-button" name="Afficher la liste de cours" owner="di561de8a186ea45679db787705b514fc95308" change-tracking-state="added" creator="" creation-date="04/16/2024 16:52:14">
+            <button />
+          </item>
+          <item id="die6aceb57a8f24b759cf588a0b399926c6959" cid="WND003" type="ui-window" name="Afficher une liste de cours" change-tracking-state="added" creator="" creation-date="04/16/2024 17:14:34">
+            <owned-items />
+            <window show-min-button="true" show-max-button="true" show-close-button="true" show-size-grip="false" />
+          </item>
+        </abstract-items>
+        <layer id="6015c45c28e24f4bbc218aee43f3ae83" name="Default" visible="true" enabled="true" locked="false">
+          <item id="die6aceb57a8f24b759cf588a0b399926c6959" iid="66ac121a04e94c1eb21e373bf8b9cbd8" creation-date="04/16/2024 17:14:34" order-index="13" type="ui-window">
+            <layout ax="261" ay="-21" awidth="989" aheight="645" x="261" y="-21" width="989" height="645" expanded="261,-21,989,645" collapsed="0,0,0,0" rotation-center="62.5,-172.5" />
+          </item>
+          <item id="di151619eae48d421bb43935d45b3bf2a46959" iid="74c4a57d5b384538b81cd00ab0a8ed2b" container="die6aceb57a8f24b759cf588a0b399926c6959" container-iid="66ac121a04e94c1eb21e373bf8b9cbd8" creation-date="04/16/2024 17:16:19" order-index="15" type="ui-group-box">
+            <layout ax="628" ay="24" awidth="572" aheight="453.5" x="628" y="24" width="572" height="453.5" expanded="628,24,572,453.5" collapsed="0,0,0,0" rotation-center="-96,-142" />
+          </item>
+          <item id="diec0614cef19249d78779d4418b22c6c26959" iid="378795eff61e44f49fd6e6e6a765c9d3" container="di151619eae48d421bb43935d45b3bf2a46959" container-iid="74c4a57d5b384538b81cd00ab0a8ed2b" creation-date="04/16/2024 17:16:42" order-index="16" type="ui-list-box">
+            <layout ax="661" ay="70.5" awidth="506" aheight="360.5" x="661" y="70.5" width="506" height="360.5" rotation-center="-183,-102.25" />
+          </item>
+          <item id="di561de8a186ea45679db787705b514fc95308" iid="baa6f40df03941e0aff19432bef6a041" container="die6aceb57a8f24b759cf588a0b399926c6959" container-iid="66ac121a04e94c1eb21e373bf8b9cbd8" creation-date="04/16/2024 16:44:40" order-index="1" type="ui-group-box">
+            <layout ax="299" ay="24" awidth="291" aheight="354" x="299" y="24" width="291" height="354" expanded="299,24,291,354" collapsed="0,0,0,0" rotation-center="15.5,-97" />
+          </item>
+          <item id="dibc5e88d8ac6f4d7db652d7593e5f92e75308" iid="1be93a189c5c48ec8067366a21efb6b0" container="di561de8a186ea45679db787705b514fc95308" container-iid="baa6f40df03941e0aff19432bef6a041" creation-date="04/16/2024 16:50:55" order-index="3" type="ui-label">
+            <layout ax="299" ay="48" awidth="150" aheight="36" x="398" y="104" width="150" height="20" />
+          </item>
+          <item id="di514034b51b4b4f10b4f3c2262311dc745308" iid="e2df595341f64f9e9b328f01c1f1ca22" container="di561de8a186ea45679db787705b514fc95308" container-iid="baa6f40df03941e0aff19432bef6a041" creation-date="04/16/2024 16:51:28" order-index="4" type="ui-text-box">
+            <layout ax="449" ay="52" awidth="113" aheight="28" x="548" y="108" width="113" height="20" rotation-center="18.5,0" />
+          </item>
+          <item id="di2d8cf9b42a6c4c2bac86c83113082e5e5308" iid="b9dd054ee9614985b3de23ff5d49e28c" container="di561de8a186ea45679db787705b514fc95308" container-iid="baa6f40df03941e0aff19432bef6a041" creation-date="04/16/2024 16:52:14" order-index="5" type="ui-button">
+            <layout ax="336" ay="98" awidth="113" aheight="36" x="435" y="154" width="113" height="30" rotation-center="38.5,0" />
+          </item>
+          <item id="di43093b7bd2b84ccaa85e53497c3d0f175308" iid="9fb77d9c819342d39d212b9c23695f33" container="di561de8a186ea45679db787705b514fc95308" container-iid="baa6f40df03941e0aff19432bef6a041" creation-date="04/16/2024 16:52:59" order-index="6" type="ui-button">
+            <layout ax="317" ay="174" awidth="171" aheight="53" x="416.5" y="230" width="171" height="53" rotation-center="30.5,-8.5" />
+          </item>
+          <item id="di4f57ae30d4b24568bda49ae1aaa543cc5308" iid="163f4e8c2c0243f88ec8b74a9dc8500e" container="di561de8a186ea45679db787705b514fc95308" container-iid="baa6f40df03941e0aff19432bef6a041" creation-date="04/16/2024 17:19:32" order-index="11" type="ui-button">
+            <layout ax="323" ay="254" awidth="160" aheight="77" x="422" y="310" width="160" height="77" rotation-center="60,-20.5" />
+          </item>
+          <item id="di46749067547e497eab6260445d5022659238" iid="ed842d36b8e2404da32342d33f494d7f" container="die6aceb57a8f24b759cf588a0b399926c6959" container-iid="66ac121a04e94c1eb21e373bf8b9cbd8" creation-date="04/16/2024 16:58:52" order-index="7" type="ui-group-box">
+            <layout ax="308.5" ay="408" awidth="272" aheight="161" x="308.5" y="408" width="272" height="161" expanded="308.5,408,272,161" collapsed="0,0,0,0" rotation-center="-66,-0.5" />
+          </item>
+          <item id="di2c36726ef9c54c02a74240cf26b827849238" iid="6d8175e282734a1ba8da64b6723d4a5f" container="di46749067547e497eab6260445d5022659238" container-iid="ed842d36b8e2404da32342d33f494d7f" creation-date="04/16/2024 17:03:34" order-index="8" type="ui-label">
+            <layout ax="318.5" ay="439" awidth="116" aheight="36" x="175" y="245" width="116.5" height="20" rotation-center="16.75,0" />
+          </item>
+          <item id="di5d498952405f4a69bff65dc6355808239238" iid="ff03bb7526ac4e6ab724b7c094350b9a" container="di46749067547e497eab6260445d5022659238" container-iid="ed842d36b8e2404da32342d33f494d7f" creation-date="04/16/2024 17:04:10" order-index="9" type="ui-text-box">
+            <layout ax="432.5" ay="443" awidth="113" aheight="28" x="291.5" y="293" width="113" height="20" rotation-center="18.5,0" />
+          </item>
+          <item id="di0788774ef53848e383ab19c58bc6671e9238" iid="a42faa9c28c54a7a9176f84a0525c87d" container="di46749067547e497eab6260445d5022659238" container-iid="ed842d36b8e2404da32342d33f494d7f" creation-date="04/16/2024 17:05:27" order-index="10" type="ui-button">
+            <layout ax="319.5" ay="506" awidth="196" aheight="36" x="178.5" y="356" width="100" height="30" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="user-interface" id="pa959dc1d68d34750ad0a3386611516a7_262332391" name="UserInterfaceDiagram3" order-index="4" overview-order-index="2" uid="" auto-routed-paths="false" default-line-style="default">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>04/19/2024 07:34:52</creation-date>
+          <change-date>04/19/2024 09:26:15</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="6508de1ce71546f49074f1fb1325edb8" cid="BTN008" type="ui-button" name="Afficher une liste de cours(ou de bulletins)" owner="2caaa88a9db8492bb44a7d4fc410deb5" creator="" creation-date="04/19/2024 07:38:21">
+            <button />
+          </item>
+          <item id="e187ce78569645b7b2f167054ea72d99" cid="BTN017" type="ui-button" name="Afficher une liste d'étudiants" owner="2caaa88a9db8492bb44a7d4fc410deb5" creator="" creation-date="04/19/2024 09:26:15">
+            <button />
+          </item>
+          <item id="4e7ad4168c864d07ba66196c1d738be1" cid="BTN009" type="ui-button" name="Ajouter/Modifier/Retirer dans un cours" owner="2caaa88a9db8492bb44a7d4fc410deb5" creator="" creation-date="04/19/2024 07:39:09">
+            <button />
+          </item>
+          <item id="2ad45314f29d489ab64f15d45a70bbaa" cid="BTN016" type="ui-button" name="Ajouter/Modifier étudiant" owner="2caaa88a9db8492bb44a7d4fc410deb5" creator="" creation-date="04/19/2024 08:12:01">
+            <button />
+          </item>
+          <item id="472dbcd03b974350b584a972bb5e5233" cid="BTN010" type="ui-button" name="PUT" owner="2caaa88a9db8492bb44a7d4fc410deb5" creator="" creation-date="04/19/2024 07:40:19">
+            <button />
+          </item>
+          <item id="8c6c5782b09248d3845a1e71ba65e9ae" cid="BTN011" type="ui-button" name="POST-COURS" owner="2caaa88a9db8492bb44a7d4fc410deb5" creator="" creation-date="04/19/2024 07:40:35">
+            <button />
+          </item>
+          <item id="2caaa88a9db8492bb44a7d4fc410deb5" cid="WND004" type="ui-window" name="GESTION DE BULLETINS" creator="" creation-date="04/19/2024 07:37:19">
+            <owned-items />
+            <window show-min-button="true" show-max-button="true" show-close-button="true" show-size-grip="false" />
+          </item>
+          <item id="14e2944bfc1f47318d505ce075c17f36" cid="ELEM001" type="ui-panel" name="Get" owner="2caaa88a9db8492bb44a7d4fc410deb5" creator="" creation-date="04/19/2024 07:38:08" />
+        </abstract-items>
+        <layer id="edc890a63b164a8a86f1db11af15aeb5" name="Default" visible="true" enabled="true" locked="false">
+          <item id="2caaa88a9db8492bb44a7d4fc410deb5" iid="7adb617379a94050a892edbaadb1848f" creation-date="04/19/2024 07:37:19" order-index="0" type="ui-window">
+            <layout ax="182" ay="24" awidth="751" aheight="578" x="182" y="24" width="751" height="578" expanded="182,24,751,578" collapsed="0,0,0,0" rotation-center="-175.5,-139" />
+          </item>
+          <item id="4e7ad4168c864d07ba66196c1d738be1" iid="0d0d0c5c3eb04c53be47a91a0f131fd7" container="2caaa88a9db8492bb44a7d4fc410deb5" container-iid="7adb617379a94050a892edbaadb1848f" creation-date="04/19/2024 07:39:09" order-index="2" type="ui-button">
+            <layout ax="199.75" ay="193.5" awidth="185" aheight="119.5" x="199.75" y="193.5" width="185" height="119.5" rotation-center="60.5,-44.75" />
+          </item>
+          <item id="2ad45314f29d489ab64f15d45a70bbaa" iid="952848c7d9c847a7b0545af00176e6e0" container="2caaa88a9db8492bb44a7d4fc410deb5" container-iid="7adb617379a94050a892edbaadb1848f" creation-date="04/19/2024 08:12:01" order-index="3" type="ui-button">
+            <layout ax="204.625" ay="450" awidth="171.75" aheight="119" x="204.625" y="450" width="171.75" height="119" rotation-center="16.125,-41.5" />
+          </item>
+          <item id="e187ce78569645b7b2f167054ea72d99" iid="7aa6674b21554524aa3b2416bc7bbf1e" container="2caaa88a9db8492bb44a7d4fc410deb5" container-iid="7adb617379a94050a892edbaadb1848f" creation-date="04/19/2024 09:26:15" order-index="4" type="ui-button">
+            <layout ax="204.625" ay="332" awidth="141.75" aheight="108" x="204.625" y="332" width="141.75" height="108" rotation-center="41.625,-36" />
+          </item>
+          <item id="6508de1ce71546f49074f1fb1325edb8" iid="addad5c627784ca6afd189d830154321" container="2caaa88a9db8492bb44a7d4fc410deb5" container-iid="7adb617379a94050a892edbaadb1848f" creation-date="04/19/2024 07:38:21" order-index="1" type="ui-button">
+            <layout ax="196.25" ay="75" awidth="188.5" aheight="89" x="196.25" y="75" width="188.5" height="89" rotation-center="7.75,-29.5" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="user-interface" id="p9532f23715c24d06a05cc145909ba49f_728983198" name="UserInterfaceDiagram4" order-index="5" overview-order-index="3" uid="" auto-routed-paths="false" default-line-style="default">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>04/19/2024 07:53:51</creation-date>
+          <change-date>04/19/2024 09:27:43</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di79bf5479c7b941b19459b47663de12af8480" cid="TXT017" type="ui-text-box" name="TextBox1" owner="didd10078f7ea64b2f85f65769655967c48480" change-tracking-state="added" creator="" creation-date="04/16/2024 16:51:28">
+            <text-box />
+          </item>
+          <item id="di9f119536a2da44ef98472cd84cbda6168480" cid="WND005" type="ui-window" name="Afficher une liste d'étudiants" change-tracking-state="added" creator="" creation-date="04/16/2024 17:14:34">
+            <window show-min-button="true" show-max-button="true" show-close-button="true" show-size-grip="false" />
+          </item>
+          <item id="di666237c77abb49e3a0fa2a1e429b11b78480" cid="GRP018" type="ui-group-box" name="Liste de diplomés" owner="di9f119536a2da44ef98472cd84cbda6168480" change-tracking-state="added" creator="" creation-date="04/16/2024 16:58:52" />
+          <item id="di0b6d24af01ee4663912777cf6e47385f8480" cid="BTN021" type="ui-button" name="Afficher la liste d'étudiants" owner="di666237c77abb49e3a0fa2a1e429b11b78480" change-tracking-state="added" creator="" creation-date="04/16/2024 17:05:27">
+            <button />
+          </item>
+          <item id="dibe50c9ecf84546d6b04f72f72b1131d78480" cid="LBL018" type="ui-label" name="Date de diplome:" owner="di666237c77abb49e3a0fa2a1e429b11b78480" change-tracking-state="added" creator="" creation-date="04/16/2024 17:03:34" />
+          <item id="di9d8107055b9243ab8019e8f95f7699e68480" cid="LBL017" type="ui-label" name="Sigle Cours" owner="didd10078f7ea64b2f85f65769655967c48480" change-tracking-state="added" creator="" creation-date="04/16/2024 16:50:55" />
+          <item id="didd10078f7ea64b2f85f65769655967c48480" cid="GRP017" type="ui-group-box" name="Liste d'étudiants" owner="di9f119536a2da44ef98472cd84cbda6168480" change-tracking-state="added" creator="" creation-date="04/16/2024 16:44:40" />
+          <item id="di1d01d4605f0545528a574f922e3dc6888480" cid="LST005" type="ui-list-box" name="Code permanent| Nom| Prénom | Date de naissance | Date inscription | Date de diplome | numero DA" owner="di90aec71ce5464c6c96729455a5c6c36c8480" change-tracking-state="added" creator="" creation-date="04/16/2024 17:16:42">
+            <list-box>
+              <list-items />
+            </list-box>
+          </item>
+          <item id="di90aec71ce5464c6c96729455a5c6c36c8480" cid="GRP016" type="ui-group-box" name="Liste d'étudiants" owner="di9f119536a2da44ef98472cd84cbda6168480" change-tracking-state="added" creator="" creation-date="04/16/2024 17:16:19" />
+          <item id="di15cc1521cab74d569ab842e5f340f15a8480" cid="TXT018" type="ui-text-box" name="TextBox2" owner="di666237c77abb49e3a0fa2a1e429b11b78480" change-tracking-state="added" creator="" creation-date="04/16/2024 17:04:10">
+            <text-box />
+          </item>
+          <item id="dia49b055bad4c457c94136922975cc82e8480" cid="BTN018" type="ui-button" name="Afficher la liste dÉtudiants" owner="didd10078f7ea64b2f85f65769655967c48480" change-tracking-state="added" creator="" creation-date="04/16/2024 16:52:14">
+            <button />
+          </item>
+        </abstract-items>
+        <layer id="e0b77e2e730c49759a0151d2c251d126" name="Default" visible="true" enabled="true" locked="false">
+          <item id="di9f119536a2da44ef98472cd84cbda6168480" iid="0fd59414d86e4c649e43aee974db28a2" creation-date="04/16/2024 17:14:34" order-index="13" type="ui-window">
+            <layout ax="103" ay="-21" awidth="1147" aheight="542" x="103" y="-21" width="1147" height="542" expanded="103,-21,1147,542" collapsed="0,0,0,0" rotation-center="141.5,-121" />
+          </item>
+          <item id="di90aec71ce5464c6c96729455a5c6c36c8480" iid="ff5673f5bdd74ffe87f8d3e2e4b1cc73" container="di9f119536a2da44ef98472cd84cbda6168480" container-iid="0fd59414d86e4c649e43aee974db28a2" creation-date="04/16/2024 17:16:19" order-index="15" type="ui-group-box">
+            <layout ax="425" ay="24" awidth="804" aheight="454" x="583" y="24" width="804" height="453.5" expanded="425,24,804,454" collapsed="0,0,0,0" rotation-center="-167,-142" />
+          </item>
+          <item id="didd10078f7ea64b2f85f65769655967c48480" iid="191a4e99dbcf45b086521a95c17528ae" container="di9f119536a2da44ef98472cd84cbda6168480" container-iid="0fd59414d86e4c649e43aee974db28a2" creation-date="04/16/2024 16:44:40" order-index="1" type="ui-group-box">
+            <layout ax="118.5" ay="24" awidth="291" aheight="161" x="276.5" y="24" width="291" height="161" expanded="118.5,24,291,161" collapsed="0,0,0,0" rotation-center="15.5,-0.5" />
+          </item>
+          <item id="di666237c77abb49e3a0fa2a1e429b11b78480" iid="68615a89a4f242bdaded7d2b81de0382" container="di9f119536a2da44ef98472cd84cbda6168480" container-iid="0fd59414d86e4c649e43aee974db28a2" creation-date="04/16/2024 16:58:52" order-index="7" type="ui-group-box">
+            <layout ax="122.5" ay="221" awidth="272" aheight="161" x="280.5" y="221" width="272" height="161" expanded="122.5,221,272,161" collapsed="0,0,0,0" rotation-center="-66,-0.5" />
+          </item>
+          <item id="di1d01d4605f0545528a574f922e3dc6888480" iid="027664fc7c1b4bdc8176bff9df1b77ca" container="di90aec71ce5464c6c96729455a5c6c36c8480" container-iid="ff5673f5bdd74ffe87f8d3e2e4b1cc73" creation-date="04/16/2024 17:16:42" order-index="16" type="ui-list-box">
+            <layout ax="458" ay="70" awidth="748" aheight="360" x="661" y="70.5" width="748" height="360.5" rotation-center="-304,-102.25" />
+          </item>
+          <item id="di9d8107055b9243ab8019e8f95f7699e68480" iid="de44fa372c3b4b8eb0693eeaba4ed5e7" container="didd10078f7ea64b2f85f65769655967c48480" container-iid="191a4e99dbcf45b086521a95c17528ae" creation-date="04/16/2024 16:50:55" order-index="3" type="ui-label">
+            <layout ax="118.5" ay="48" awidth="150" aheight="36" x="398" y="104" width="150" height="20" />
+          </item>
+          <item id="di79bf5479c7b941b19459b47663de12af8480" iid="56c50d38830343ce8b439042fd391513" container="didd10078f7ea64b2f85f65769655967c48480" container-iid="191a4e99dbcf45b086521a95c17528ae" creation-date="04/16/2024 16:51:28" order-index="4" type="ui-text-box">
+            <layout ax="268.5" ay="52" awidth="113" aheight="28" x="548" y="108" width="113" height="20" rotation-center="18.5,0" />
+          </item>
+          <item id="dia49b055bad4c457c94136922975cc82e8480" iid="c0c0a2c88367441c89478f439ea8f99a" container="didd10078f7ea64b2f85f65769655967c48480" container-iid="191a4e99dbcf45b086521a95c17528ae" creation-date="04/16/2024 16:52:14" order-index="5" type="ui-button">
+            <layout ax="155.5" ay="98" awidth="206" aheight="36" x="435" y="154" width="113" height="30" rotation-center="38.5,0" />
+          </item>
+          <item id="dibe50c9ecf84546d6b04f72f72b1131d78480" iid="8dd1473095b049c3816a12b06618e87a" container="di666237c77abb49e3a0fa2a1e429b11b78480" container-iid="68615a89a4f242bdaded7d2b81de0382" creation-date="04/16/2024 17:03:34" order-index="8" type="ui-label">
+            <layout ax="132.5" ay="252" awidth="139" aheight="36" x="175" y="245" width="116.5" height="20" rotation-center="16.75,0" />
+          </item>
+          <item id="di15cc1521cab74d569ab842e5f340f15a8480" iid="15b8bb05c6e8428c8529afbc81ef7fec" container="di666237c77abb49e3a0fa2a1e429b11b78480" container-iid="68615a89a4f242bdaded7d2b81de0382" creation-date="04/16/2024 17:04:10" order-index="9" type="ui-text-box">
+            <layout ax="265.5" ay="256" awidth="113" aheight="28" x="449" y="256" width="113" height="20" rotation-center="18.5,0" />
+          </item>
+          <item id="di0b6d24af01ee4663912777cf6e47385f8480" iid="15b74ee37691400a88f8217e1ac41bcf" container="di666237c77abb49e3a0fa2a1e429b11b78480" container-iid="68615a89a4f242bdaded7d2b81de0382" creation-date="04/16/2024 17:05:27" order-index="10" type="ui-button">
+            <layout ax="133.5" ay="319" awidth="210" aheight="36" x="178.5" y="356" width="100" height="30" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="user-interface" id="p7c03c757718a4959946a3359f77dcfab_595811952" name="UserInterfaceDiagram5" order-index="6" overview-order-index="4" uid="" auto-routed-paths="false" default-line-style="default">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>04/19/2024 09:36:35</creation-date>
+          <change-date>04/19/2024 09:39:01</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di094ad9f73c644447aaaf08dce93789e39750" cid="TXT019" type="ui-text-box" name="TextBox3" owner="dib499a684e2f941e3ac76abcd7b6c12869750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:35">
+            <text-box />
+          </item>
+          <item id="difc2fbbeb8d4c44d999ab9715506ff9789750" cid="TXT021" type="ui-text-box" name="TextBox5" owner="dib499a684e2f941e3ac76abcd7b6c12869750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:53">
+            <text-box />
+          </item>
+          <item id="difaff64c7a6074eb2b9b00f208121f4739750" cid="WND007" type="ui-window" name="Modifications/Ajout d'un étudiant" change-tracking-state="added" creator="" creation-date="04/16/2024 16:33:00">
+            <window show-min-button="true" show-max-button="true" show-close-button="true" show-size-grip="false" />
+          </item>
+          <item id="di1c13e57061b24ee0b08bd38081bec6ec9750" cid="LBL022" type="ui-label" name="Résultat:" owner="di3a8f2d11f3584de8993939e559471af39750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:21" />
+          <item id="di295f7c11532746d3afa9be629ffbed2a9750" cid="TXT020" type="ui-text-box" name="TextBox4" owner="dib499a684e2f941e3ac76abcd7b6c12869750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:37">
+            <text-box />
+          </item>
+          <item id="di180b2e9d5e6e45f69ca3a14e2ed053bc9750" cid="TXT028" type="ui-text-box" name="TextBox5" owner="did4671850f0074500925e8f3be3b567f89750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:53">
+            <text-box />
+          </item>
+          <item id="didd24d42fe1104e6682d9d844cc57340a9750" cid="TXT026" type="ui-text-box" name="TextBox3" owner="did4671850f0074500925e8f3be3b567f89750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:35">
+            <text-box />
+          </item>
+          <item id="di2a2edb04a3c9438bae93a35429c699ee9750" cid="TXT023" type="ui-text-box" name="TextBox4" owner="di3a8f2d11f3584de8993939e559471af39750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:37">
+            <text-box />
+          </item>
+          <item id="did762ab61cbc341fda07f0b96d69f46619750" cid="TXT024" type="ui-text-box" name="TextBox5" owner="di3a8f2d11f3584de8993939e559471af39750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:53">
+            <text-box />
+          </item>
+          <item id="di2cdb981151944238a7e7612111fa24e59750" cid="LBL020" type="ui-label" name="SigleCours:" owner="dib499a684e2f941e3ac76abcd7b6c12869750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:45" />
+          <item id="di393d2ec748334b2f992283a2f28f55c19750" cid="BTN024" type="ui-button" name="Ajouter l'étudiant" owner="did4671850f0074500925e8f3be3b567f89750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:35">
+            <button />
+          </item>
+          <item id="di1b81365851f646f5b8ebc428310054679750" cid="TXT025" type="ui-text-box" name="TextBox6" owner="di3a8f2d11f3584de8993939e559471af39750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:21">
+            <text-box />
+          </item>
+          <item id="di5326e1f4d6d44753a5d3b0eaeb5656ba9750" cid="LBL019" type="ui-label" name="CodePermanent:" owner="dib499a684e2f941e3ac76abcd7b6c12869750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:21" />
+          <item id="di361ead8bd9c24464b314d2033d80600d9750" cid="LBL024" type="ui-label" name="sigleCours:" owner="di3a8f2d11f3584de8993939e559471af39750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:22" />
+          <item id="di920b12c7cdb846f3bfbbad891f9ddfd29750" cid="LBL026" type="ui-label" name="Sigle:" owner="did4671850f0074500925e8f3be3b567f89750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:21" />
+          <item id="di2cab19d347064ad09f5bfb3f444737139750" cid="LBL023" type="ui-label" name="codePermanent:" owner="di3a8f2d11f3584de8993939e559471af39750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:45" />
+          <item id="di7b329c78da5c421ab8351e047acbd2139750" cid="LBL028" type="ui-label" name="noGroupe:" owner="did4671850f0074500925e8f3be3b567f89750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:22" />
+          <item id="di702cd752061448b4977eeea021ffbce79750" cid="TXT022" type="ui-text-box" name="TextBox3" owner="di3a8f2d11f3584de8993939e559471af39750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:35">
+            <text-box />
+          </item>
+          <item id="di112e68e1bbd1428d9e1a55fd716e0ba49750" cid="LBL027" type="ui-label" name="idProf:" owner="did4671850f0074500925e8f3be3b567f89750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:45" />
+          <item id="di6113b9275c37408ca9bf21ec40a2c4e39750" cid="BTN022" type="ui-button" name="Supprimer" owner="dib499a684e2f941e3ac76abcd7b6c12869750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:35">
+            <button />
+          </item>
+          <item id="di85571ef78df8408690833088ba0d655a9750" cid="LBL029" type="ui-label" name="codePermanent:" owner="did4671850f0074500925e8f3be3b567f89750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:19" />
+          <item id="di84700705fe4f4b4997db0e13d47a71a69750" cid="TXT027" type="ui-text-box" name="TextBox4" owner="did4671850f0074500925e8f3be3b567f89750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:37">
+            <text-box />
+          </item>
+          <item id="di73b6ec4e36b84c6ca44ef756b6ed96619750" cid="LBL025" type="ui-label" name="idSession:" owner="di3a8f2d11f3584de8993939e559471af39750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:19" />
+          <item id="di77aaaffb5a9f420fa3c730b44ef9f4db9750" cid="BTN023" type="ui-button" name="Modifier Résultat" owner="di3a8f2d11f3584de8993939e559471af39750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:35">
+            <button />
+          </item>
+          <item id="di3a8f2d11f3584de8993939e559471af39750" cid="GRP020" type="ui-group-box" name="Modifier résultat d'un étudiant" owner="difaff64c7a6074eb2b9b00f208121f4739750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:24:04" />
+          <item id="diac87f903862849e9be477840c11835879750" cid="LBL021" type="ui-label" name="idSession:" owner="dib499a684e2f941e3ac76abcd7b6c12869750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:22" />
+          <item id="did4671850f0074500925e8f3be3b567f89750" cid="GRP021" type="ui-group-box" name="Ajouter un étudiant dans un cours" owner="difaff64c7a6074eb2b9b00f208121f4739750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:24:04" />
+          <item id="dicc035821deac4e82a62a6816f2b7aa539750" cid="TXT029" type="ui-text-box" name="TextBox6" owner="did4671850f0074500925e8f3be3b567f89750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:21">
+            <text-box />
+          </item>
+        </abstract-items>
+        <layer id="030a8af6992a4fdd8cc6e9ab1133857b" name="Default" visible="true" enabled="true" locked="false">
+          <item id="difaff64c7a6074eb2b9b00f208121f4739750" iid="72284d93df4645a9b1f6ff21fba0802c" creation-date="04/16/2024 16:33:00" order-index="0" type="ui-window">
+            <layout ax="145" ay="-78" awidth="763" aheight="417" x="145" y="-78" width="763" height="417" expanded="145,-78,763,417" collapsed="0,0,0,0" rotation-center="185.5,113.5" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="di3a8f2d11f3584de8993939e559471af39750" iid="79ee63b2fb784890a31ce5fabdca8a4d" container="difaff64c7a6074eb2b9b00f208121f4739750" container-iid="72284d93df4645a9b1f6ff21fba0802c" creation-date="04/16/2024 17:24:04" order-index="12" type="ui-group-box">
+            <layout ax="502" ay="-32.5" awidth="374" aheight="323" x="502" y="-32.5" width="374" height="323" expanded="502,-32.5,374,323" collapsed="0,0,0,0" rotation-center="110,-81.5" />
+          </item>
+          <item id="did4671850f0074500925e8f3be3b567f89750" iid="e6d01e2f48934329891103656044a488" container="difaff64c7a6074eb2b9b00f208121f4739750" container-iid="72284d93df4645a9b1f6ff21fba0802c" creation-date="04/16/2024 17:24:04" order-index="12" type="ui-group-box">
+            <layout ax="159" ay="-33" awidth="311" aheight="324" x="159" y="-32.75" width="311" height="323.5" expanded="159,-33,311,324" collapsed="0,0,0,0" rotation-center="73.5,-81.25" />
+          </item>
+          <item id="di1c13e57061b24ee0b08bd38081bec6ec9750" iid="4ecd3c5879b44a8c8af05832d5f772a6" container="di3a8f2d11f3584de8993939e559471af39750" container-iid="79ee63b2fb784890a31ce5fabdca8a4d" creation-date="04/16/2024 17:26:21" order-index="13" type="ui-label">
+            <layout ax="524" ay="-4.5" awidth="78" aheight="36" x="469" y="-17" width="53" height="20" rotation-center="13.5,0" />
+          </item>
+          <item id="di2cab19d347064ad09f5bfb3f444737139750" iid="d34aa57a2f2144f5a927b1cad950f300" container="di3a8f2d11f3584de8993939e559471af39750" container-iid="79ee63b2fb784890a31ce5fabdca8a4d" creation-date="04/16/2024 17:26:45" order-index="14" type="ui-label">
+            <layout ax="520" ay="41.5" awidth="133" aheight="36" x="519.75" y="50.5" width="61.5" height="20" rotation-center="17.75,0" />
+          </item>
+          <item id="di361ead8bd9c24464b314d2033d80600d9750" iid="6b72d461edb848a18d2bb696511ede87" container="di3a8f2d11f3584de8993939e559471af39750" container-iid="79ee63b2fb784890a31ce5fabdca8a4d" creation-date="04/16/2024 17:27:22" order-index="15" type="ui-label">
+            <layout ax="527" ay="105.5" awidth="109" aheight="36" x="811" y="97.25" width="109" height="20" rotation-center="-44.5,0" />
+          </item>
+          <item id="di702cd752061448b4977eeea021ffbce79750" iid="bcea225f61ee408aa8c39cb9b4e7ecc7" container="di3a8f2d11f3584de8993939e559471af39750" container-iid="79ee63b2fb784890a31ce5fabdca8a4d" creation-date="04/16/2024 17:27:35" order-index="16" type="ui-text-box">
+            <layout ax="669" ay="-4.5" awidth="121" aheight="36" x="701" y="-4.5" width="121" height="20" rotation-center="14.5,0" />
+          </item>
+          <item id="di73b6ec4e36b84c6ca44ef756b6ed96619750" iid="8c0cbf0098ff4ae0a16ebec3bad3c81a" container="di3a8f2d11f3584de8993939e559471af39750" container-iid="79ee63b2fb784890a31ce5fabdca8a4d" creation-date="04/16/2024 17:28:19" order-index="17" type="ui-label">
+            <layout ax="513" ay="155.5" awidth="96" aheight="36" x="796.75" y="147.75" width="84" height="20" rotation-center="33,0" />
+          </item>
+          <item id="di2a2edb04a3c9438bae93a35429c699ee9750" iid="668d0aa12d8846e784f23d57e21eb368" container="di3a8f2d11f3584de8993939e559471af39750" container-iid="79ee63b2fb784890a31ce5fabdca8a4d" creation-date="04/16/2024 17:28:37" order-index="18" type="ui-text-box">
+            <layout ax="669" ay="44.5" awidth="121" aheight="36" x="701" y="44.5" width="121" height="20" rotation-center="14.5,0" />
+          </item>
+          <item id="did762ab61cbc341fda07f0b96d69f46619750" iid="90ef017c3235466dbed097190c3d8938" container="di3a8f2d11f3584de8993939e559471af39750" container-iid="79ee63b2fb784890a31ce5fabdca8a4d" creation-date="04/16/2024 17:28:53" order-index="19" type="ui-text-box">
+            <layout ax="679.5" ay="111.5" awidth="100" aheight="36" x="711.5" y="111.5" width="100" height="20" rotation-center="25,0" />
+          </item>
+          <item id="di1b81365851f646f5b8ebc428310054679750" iid="ca4e044ca8db4e3d8e368f9542c471a2" container="di3a8f2d11f3584de8993939e559471af39750" container-iid="79ee63b2fb784890a31ce5fabdca8a4d" creation-date="04/16/2024 17:29:21" order-index="20" type="ui-text-box">
+            <layout ax="679.5" ay="164.5" awidth="110" aheight="28" x="711.5" y="164.5" width="110" height="20" rotation-center="20,0" />
+          </item>
+          <item id="di77aaaffb5a9f420fa3c730b44ef9f4db9750" iid="8bba18e53ef24982b5cafab1406bfcd8" container="di3a8f2d11f3584de8993939e559471af39750" container-iid="79ee63b2fb784890a31ce5fabdca8a4d" creation-date="04/16/2024 17:29:35" order-index="21" type="ui-button">
+            <layout ax="602" ay="222" awidth="214" aheight="36" x="634" y="222" width="214" height="30" rotation-center="-42.5,0" />
+          </item>
+          <item id="di920b12c7cdb846f3bfbbad891f9ddfd29750" iid="8f56ee71bd394a61a067bf5110f99128" container="did4671850f0074500925e8f3be3b567f89750" container-iid="e6d01e2f48934329891103656044a488" creation-date="04/16/2024 17:26:21" order-index="13" type="ui-label">
+            <layout ax="181" ay="-5" awidth="53" aheight="36" x="469" y="-17" width="53" height="20" rotation-center="13.5,0" />
+          </item>
+          <item id="di112e68e1bbd1428d9e1a55fd716e0ba49750" iid="01903ff64ebb44499c9907f6157447a6" container="did4671850f0074500925e8f3be3b567f89750" container-iid="e6d01e2f48934329891103656044a488" creation-date="04/16/2024 17:26:45" order-index="14" type="ui-label">
+            <layout ax="177" ay="41" awidth="62" aheight="36" x="519.75" y="50.5" width="61.5" height="20" rotation-center="17.75,0" />
+          </item>
+          <item id="di7b329c78da5c421ab8351e047acbd2139750" iid="3100dc3d2c574205ae3f1fdc4563d2a1" container="did4671850f0074500925e8f3be3b567f89750" container-iid="e6d01e2f48934329891103656044a488" creation-date="04/16/2024 17:27:22" order-index="15" type="ui-label">
+            <layout ax="162.5" ay="96" awidth="91" aheight="36" x="162.5" y="96" width="64" height="20" rotation-center="-43,0" />
+          </item>
+          <item id="didd24d42fe1104e6682d9d844cc57340a9750" iid="9af918913af043fda6f2b9071906755c" container="did4671850f0074500925e8f3be3b567f89750" container-iid="e6d01e2f48934329891103656044a488" creation-date="04/16/2024 17:27:35" order-index="16" type="ui-text-box">
+            <layout ax="243" ay="-3" awidth="121" aheight="36" x="503" y="-15" width="121" height="20" rotation-center="14.5,0" />
+          </item>
+          <item id="di85571ef78df8408690833088ba0d655a9750" iid="8319f7b6c4124aaa8bf349e10f0c5234" container="did4671850f0074500925e8f3be3b567f89750" container-iid="e6d01e2f48934329891103656044a488" creation-date="04/16/2024 17:28:19" order-index="17" type="ui-label">
+            <layout ax="166" ay="146" awidth="133" aheight="36" x="508.5" y="155" width="84" height="20" rotation-center="33,0" />
+          </item>
+          <item id="di84700705fe4f4b4997db0e13d47a71a69750" iid="d5ebfe730f4c4b8f8cc5c6d7c9cb8b5e" container="did4671850f0074500925e8f3be3b567f89750" container-iid="e6d01e2f48934329891103656044a488" creation-date="04/16/2024 17:28:37" order-index="18" type="ui-text-box">
+            <layout ax="243" ay="49" awidth="121" aheight="36" x="591" y="54" width="121" height="20" rotation-center="14.5,0" />
+          </item>
+          <item id="di180b2e9d5e6e45f69ca3a14e2ed053bc9750" iid="b8433827d6484b49a0493a5e44a48e65" container="did4671850f0074500925e8f3be3b567f89750" container-iid="e6d01e2f48934329891103656044a488" creation-date="04/16/2024 17:28:53" order-index="19" type="ui-text-box">
+            <layout ax="267" ay="96" awidth="150" aheight="36" x="267" y="96" width="150" height="20" />
+          </item>
+          <item id="dicc035821deac4e82a62a6816f2b7aa539750" iid="7fa7b9f83893426189f98ad47c87e578" container="did4671850f0074500925e8f3be3b567f89750" container-iid="e6d01e2f48934329891103656044a488" creation-date="04/16/2024 17:29:21" order-index="20" type="ui-text-box">
+            <layout ax="305" ay="150" awidth="150" aheight="28" x="305" y="150" width="150" height="20" />
+          </item>
+          <item id="di393d2ec748334b2f992283a2f28f55c19750" iid="7b1303198a6145729f960cfda46fa3fe" container="did4671850f0074500925e8f3be3b567f89750" container-iid="e6d01e2f48934329891103656044a488" creation-date="04/16/2024 17:29:35" order-index="21" type="ui-button">
+            <layout ax="208" ay="222" awidth="214" aheight="36" x="551" y="232" width="214" height="30" rotation-center="-42.5,0" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
