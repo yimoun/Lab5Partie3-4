@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sim-project version="13.96" multi-file="no" uid="simp3e87f293ff6844c9ba1d8b1a0d06d1b4">
+<sim-project version="12.75" multi-file="no" uid="simp3e87f293ff6844c9ba1d8b1a0d06d1b4">
   <meta>
     <name>interfaceMaquette</name>
-    <authors> </authors>
+    <authors>Raphael Gagnon</authors>
     <description />
   </meta>
   <counters models="1">
@@ -17,15 +17,15 @@
       </counter>
       <counter>
         <item-type type-id="ui-label" type="Label" />
-        <value>6</value>
+        <value>7</value>
       </counter>
       <counter>
         <item-type type-id="ui-text-box" type="Text Box" />
-        <value>6</value>
+        <value>7</value>
       </counter>
       <counter>
         <item-type type-id="ui-button" type="Button" />
-        <value>11</value>
+        <value>12</value>
       </counter>
       <counter>
         <item-type type-id="ui-list-box" type="List Box" />
@@ -41,13 +41,13 @@
       </counter>
       <counter>
         <item-type type-id="ui-panel" type="Panel" />
-        <value>1</value>
+        <value>2</value>
       </counter>
     </entity-names>
     <entity-ids>
       <counter>
         <item-type type-id="group" type="Group" />
-        <value>783</value>
+        <value>858</value>
       </counter>
       <counter>
         <item-type type-id="ui-window" type="Window" />
@@ -59,15 +59,15 @@
       </counter>
       <counter>
         <item-type type-id="ui-label" type="Label" />
-        <value>30</value>
+        <value>31</value>
       </counter>
       <counter>
         <item-type type-id="ui-text-box" type="Text Box" />
-        <value>30</value>
+        <value>31</value>
       </counter>
       <counter>
         <item-type type-id="ui-button" type="Button" />
-        <value>25</value>
+        <value>26</value>
       </counter>
       <counter>
         <item-type type-id="ui-list-box" type="List Box" />
@@ -83,6 +83,10 @@
       </counter>
       <counter>
         <item-type type-id="ui-panel" type="Panel" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="comment" type="Comment" />
         <value>2</value>
       </counter>
     </entity-ids>
@@ -120,6 +124,16 @@
         <phone-number />
         <description />
         <color>#00000000</color>
+        <working-schedule uid="ws-143ac027f39e4d24be3f7947199e2dc8" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+      <person id="">
+        <first-name>Raphael</first-name>
+        <last-name>Gagnon</last-name>
+        <role />
+        <e-mail>raphaelgagnon@cegep-chicoutimi.qc.ca</e-mail>
+        <phone-number />
+        <description />
+        <color>#00000000</color>
       </person>
     </persons>
     <teams />
@@ -134,12 +148,11 @@
     <type-sets>
       <type-set file="UmlTypes.xml" />
     </type-sets>
-    <custom-types>
-      <parameters />
-      <types />
-    </custom-types>
+    <custom-types />
   </types>
-  <items />
+  <items>
+    <item id="3463b72e59554374a3f4ea5458c953b5" cid="GROUP839" type="group" name="Group" style-class="" creator="" creation-date="04/19/2024 14:52:07" />
+  </items>
   <models>
     <model id="p706f1192463c4d32956ddb96c381be78_752784558" name="Model1" namespace="" order-index="1">
       <meta>
@@ -154,7 +167,7 @@
       </meta>
       <abstract-items />
       <sub-models />
-      <diagram type="uml-usecase" id="pd3f565ea6900457f82e868d93fcc7e4a_931088729" name="UseCaseDiagram1" order-index="1" uid="" auto-routed-paths="false" default-line-style="default" view-location="-100,-100">
+      <diagram type="uml-usecase" id="pd3f565ea6900457f82e868d93fcc7e4a_931088729" name="UseCaseDiagram1" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-100,-100">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -173,7 +186,7 @@
         <abstract-items />
         <layer id="7d04f0dd79884ef5b91414d2feb8c452" name="Default" visible="true" enabled="true" locked="false" />
       </diagram>
-      <diagram type="user-interface" id="p4d74f445753647898e675e645c7f1d78_475045920" name="UserInterfaceDiagram1" order-index="2" overview-order-index="0" uid="" auto-routed-paths="false" default-line-style="default" view-location="0,-149">
+      <diagram type="user-interface" id="p4d74f445753647898e675e645c7f1d78_475045920" name="UserInterfaceDiagram1" order-index="2" overview-order-index="0" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="0,-186">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -185,142 +198,189 @@
           </authors>
           <description />
           <creation-date>04/16/2024 16:32:55</creation-date>
-          <change-date>04/19/2024 08:06:53</change-date>
+          <change-date>04/19/2024 14:52:07</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
         <abstract-items>
-          <item id="a21334d3273e4b8a98ebbe111be302d4" cid="GRP011" type="ui-group-box" name="Enlever étudiant d'un cours" owner="29e4c5dad1534928a24b0d4fff2eb34b" change-tracking-state="added" creator="" creation-date="04/16/2024 17:33:43" />
-          <item id="a1af76d509ce47a794ff5f0c6baf873b" cid="LST001" type="ui-list-box" name="Sigle | Titre | durée" owner="429dc1404c9b481e8a01df730dc6c42c" change-tracking-state="added" creator="" creation-date="04/16/2024 17:09:35">
+          <item id="a21334d3273e4b8a98ebbe111be302d4" cid="GRP011" type="ui-group-box" name="Enlever étudiant d'un cours" style-class="" owner="29e4c5dad1534928a24b0d4fff2eb34b" change-tracking-state="added" creator="" creation-date="04/16/2024 17:33:43" />
+          <item id="a1af76d509ce47a794ff5f0c6baf873b" cid="LST001" type="ui-list-box" name="Sigle | Titre | durée" style-class="" owner="429dc1404c9b481e8a01df730dc6c42c" change-tracking-state="added" creator="" creation-date="04/16/2024 17:09:35">
             <list-box>
               <list-items />
             </list-box>
           </item>
-          <item id="1b37d281cd9445bca683080e9b33c67c" cid="GRP004" type="ui-group-box" name="Liste d'étudiants" owner="29e4c5dad1534928a24b0d4fff2eb34b" change-tracking-state="added" creator="" creation-date="04/16/2024 17:06:50" />
-          <item id="dia55e956f2a2a4a598cda75919344ad8d4883" cid="LBL009" type="ui-label" name="idProfActuel" owner="di43392530ec434c258a1c0adfc3ee5aa24883" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:22" />
-          <item id="121e0e1a20a44dcfa8b305c2676d4c82" cid="WND002" type="ui-window" name="Afficher une liste de cours" change-tracking-state="added" creator="" creation-date="04/16/2024 17:14:34">
-            <owned-items />
+          <item id="1b37d281cd9445bca683080e9b33c67c" cid="GRP004" type="ui-group-box" name="Liste d'étudiants" style-class="" owner="29e4c5dad1534928a24b0d4fff2eb34b" change-tracking-state="added" creator="" creation-date="04/16/2024 17:06:50" />
+          <item id="dia55e956f2a2a4a598cda75919344ad8d4883" cid="LBL009" type="ui-label" name="idProfActuel" style-class="" owner="di43392530ec434c258a1c0adfc3ee5aa24883" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:22" />
+          <item id="121e0e1a20a44dcfa8b305c2676d4c82" cid="WND002" type="ui-window" name="Afficher une liste de cours" style-class="" change-tracking-state="added" creator="" creation-date="04/16/2024 17:14:34">
+            <owned-items>
+              <owned-item ref="a6373158523847868224fee65886cf1d" />
+              <owned-item ref="086221e08424464f9c71601c54b34755" />
+              <owned-item ref="e7499975dcc34fadac16f3dcc4c74cb0" />
+            </owned-items>
             <window show-min-button="true" show-max-button="true" show-close-button="true" show-size-grip="false" />
           </item>
-          <item id="6397133794bf4704be8db9af8ca63de4" cid="BTN003" type="ui-button" name="Afficher la liste des cours " owner="c93103018c534127af37bfce41244bf1" change-tracking-state="added" creator="" creation-date="04/16/2024 17:05:27">
+          <item id="6397133794bf4704be8db9af8ca63de4" cid="BTN003" type="ui-button" name="Afficher la liste des cours " style-class="" change-tracking-state="added" creator="" creation-date="04/16/2024 17:05:27">
             <button />
           </item>
-          <item id="283c165ffdaf471d95419f381ecf10a3" cid="TXT006" type="ui-text-box" name="TextBox6" owner="173ff7da7760448d8dcbfe84d073bfec" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:21">
-            <text-box />
+          <item id="283c165ffdaf471d95419f381ecf10a3" cid="TXT006" type="ui-text-box" name="TextBox6" style-class="" owner="173ff7da7760448d8dcbfe84d073bfec" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:21">
+            <text-box password-dots="false" display-password-button="false" />
           </item>
-          <item id="dibfa1c53f8a1240c5a3d280951e38d1a46870" cid="TXT012" type="ui-text-box" name="TextBox4" owner="di1ec3b8868b0a4d758ff595002ee22c378343" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:37">
-            <text-box />
+          <item id="dibfa1c53f8a1240c5a3d280951e38d1a46870" cid="TXT012" type="ui-text-box" name="TextBox4" style-class="" owner="di1ec3b8868b0a4d758ff595002ee22c378343" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:37">
+            <text-box password-dots="false" display-password-button="false" />
           </item>
-          <item id="29e4c5dad1534928a24b0d4fff2eb34b" cid="WND001" type="ui-window" name="Modifications dans un cours" change-tracking-state="added" creator="" creation-date="04/16/2024 16:33:00">
-            <owned-items />
+          <item id="29e4c5dad1534928a24b0d4fff2eb34b" cid="WND001" type="ui-window" name="Modifications dans un cours" style-class="" change-tracking-state="added" creator="" creation-date="04/16/2024 16:33:00">
+            <owned-items>
+              <owned-item ref="a21334d3273e4b8a98ebbe111be302d4" />
+              <owned-item ref="1b37d281cd9445bca683080e9b33c67c" />
+              <owned-item ref="173ff7da7760448d8dcbfe84d073bfec" />
+              <owned-item ref="8aa39cdc9aa04e4292f8a04092da2293" />
+              <owned-item ref="di38ae92790d294fc7a06c8845e04708807425" />
+              <owned-item ref="di43392530ec434c258a1c0adfc3ee5aa24883" />
+              <owned-item ref="29c7a9ec5e0443a382238f23ac8cb43d" />
+              <owned-item ref="di1ec3b8868b0a4d758ff595002ee22c378343" />
+            </owned-items>
             <window show-min-button="true" show-max-button="true" show-close-button="true" show-size-grip="false" />
           </item>
-          <item id="173ff7da7760448d8dcbfe84d073bfec" cid="GRP008" type="ui-group-box" name="Enlever étudiant dans un cours" owner="29e4c5dad1534928a24b0d4fff2eb34b" change-tracking-state="added" creator="" creation-date="04/16/2024 17:24:04">
-            <owned-items />
+          <item id="173ff7da7760448d8dcbfe84d073bfec" cid="GRP008" type="ui-group-box" name="Enlever étudiant dans un cours" style-class="" owner="29e4c5dad1534928a24b0d4fff2eb34b" change-tracking-state="added" creator="" creation-date="04/16/2024 17:24:04">
+            <owned-items>
+              <owned-item ref="283c165ffdaf471d95419f381ecf10a3" />
+              <owned-item ref="b68ed9e95ea34501949a833464a3900c" />
+              <owned-item ref="39d9f02f97094767aebc33c1915d444d" />
+              <owned-item ref="cb37071f7d4743b799c5bf5c742c9b52" />
+              <owned-item ref="c5e7f10d4cb645948ed36eb0c7072a16" />
+              <owned-item ref="d059778c5cc84f088e2ac62a962c20a6" />
+              <owned-item ref="fd677ee0762b4a409e401ba822a30772" />
+              <owned-item ref="4377a385d625495e89b504eb7808df16" />
+            </owned-items>
           </item>
-          <item id="8aa39cdc9aa04e4292f8a04092da2293" cid="GRD001" type="ui-grid" name="Grid1" owner="29e4c5dad1534928a24b0d4fff2eb34b" change-tracking-state="added" creator="" creation-date="04/16/2024 17:45:21">
+          <item id="8aa39cdc9aa04e4292f8a04092da2293" cid="GRD001" type="ui-grid" name="Grid1" style-class="" owner="29e4c5dad1534928a24b0d4fff2eb34b" change-tracking-state="added" creator="" creation-date="04/16/2024 17:45:21">
             <grid />
           </item>
-          <item id="di551d2ada0732491ca676b5234f88afeb4883" cid="TXT008" type="ui-text-box" name="TextBox4" owner="di43392530ec434c258a1c0adfc3ee5aa24883" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:37">
-            <text-box />
+          <item id="di551d2ada0732491ca676b5234f88afeb4883" cid="TXT008" type="ui-text-box" name="TextBox4" style-class="" owner="di43392530ec434c258a1c0adfc3ee5aa24883" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:37">
+            <text-box password-dots="false" display-password-button="false" />
           </item>
-          <item id="09b59f45e7844ccca82fc1dd21f2ed83" cid="LBL002" type="ui-label" name="id du prof:" owner="c93103018c534127af37bfce41244bf1" change-tracking-state="added" creator="" creation-date="04/16/2024 17:03:34" />
-          <item id="di87fc9f6905024b2faeea4e5ac1a31f796870" cid="LBL014" type="ui-label" name="idProf:" owner="di1ec3b8868b0a4d758ff595002ee22c378343" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:19" />
-          <item id="di38ae92790d294fc7a06c8845e04708807425" cid="GRP012" type="ui-group-box" name="Enlever étudiant d'un cours" owner="29e4c5dad1534928a24b0d4fff2eb34b" change-tracking-state="added" creator="" creation-date="04/16/2024 17:33:43" />
-          <item id="di3746faffdf194192bba9d8c2c25ddc726870" cid="BTN007" type="ui-button" name="Ajouter le cours" owner="di1ec3b8868b0a4d758ff595002ee22c378343" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:35">
+          <item id="09b59f45e7844ccca82fc1dd21f2ed83" cid="LBL002" type="ui-label" name="id du prof:" style-class="" change-tracking-state="added" creator="" creation-date="04/16/2024 17:03:34" />
+          <item id="di87fc9f6905024b2faeea4e5ac1a31f796870" cid="LBL014" type="ui-label" name="idProf:" style-class="" owner="di1ec3b8868b0a4d758ff595002ee22c378343" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:19" />
+          <item id="di38ae92790d294fc7a06c8845e04708807425" cid="GRP012" type="ui-group-box" name="Enlever étudiant d'un cours" style-class="" owner="29e4c5dad1534928a24b0d4fff2eb34b" change-tracking-state="added" creator="" creation-date="04/16/2024 17:33:43" />
+          <item id="di3746faffdf194192bba9d8c2c25ddc726870" cid="BTN007" type="ui-button" name="Ajouter le cours" style-class="" owner="di1ec3b8868b0a4d758ff595002ee22c378343" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:35">
             <button />
           </item>
-          <item id="a6373158523847868224fee65886cf1d" cid="GRP005" type="ui-group-box" owner="121e0e1a20a44dcfa8b305c2676d4c82" change-tracking-state="added" creator="" creation-date="04/16/2024 17:15:13" />
-          <item id="39fa56b860e04792bf8f6c5c85c94925" cid="BTN002" type="ui-button" name="Afficher l'historique des cours" owner="4d149ff20fc644f1a20c59b62f922cb1" change-tracking-state="added" creator="" creation-date="04/16/2024 16:52:59">
+          <item id="a6373158523847868224fee65886cf1d" cid="GRP005" type="ui-group-box" name="" style-class="" owner="121e0e1a20a44dcfa8b305c2676d4c82" change-tracking-state="added" creator="" creation-date="04/16/2024 17:15:13" />
+          <item id="39fa56b860e04792bf8f6c5c85c94925" cid="BTN002" type="ui-button" name="Afficher l'historique des cours" style-class="" change-tracking-state="added" creator="" creation-date="04/16/2024 16:52:59">
             <button />
           </item>
-          <item id="086221e08424464f9c71601c54b34755" cid="GRP006" type="ui-group-box" name="Liste de Cours" owner="121e0e1a20a44dcfa8b305c2676d4c82" change-tracking-state="added" creator="" creation-date="04/16/2024 17:16:19">
-            <owned-items />
+          <item id="086221e08424464f9c71601c54b34755" cid="GRP006" type="ui-group-box" name="Liste de Cours" style-class="" owner="121e0e1a20a44dcfa8b305c2676d4c82" change-tracking-state="added" creator="" creation-date="04/16/2024 17:16:19">
+            <owned-items>
+              <owned-item ref="5965d1c6f3f74b6d8bbaf1818ca3da77" />
+            </owned-items>
           </item>
-          <item id="di8a012479ae6d479bbbf7ba8b0dee42f06870" cid="LBL012" type="ui-label" name="Titre:" owner="di1ec3b8868b0a4d758ff595002ee22c378343" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:45" />
-          <item id="5965d1c6f3f74b6d8bbaf1818ca3da77" cid="LST003" type="ui-list-box" name="Sigle | Titre | Durée" owner="086221e08424464f9c71601c54b34755" change-tracking-state="added" creator="" creation-date="04/16/2024 17:16:42">
+          <item id="di8a012479ae6d479bbbf7ba8b0dee42f06870" cid="LBL012" type="ui-label" name="Titre:" style-class="" owner="di1ec3b8868b0a4d758ff595002ee22c378343" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:45" />
+          <item id="5965d1c6f3f74b6d8bbaf1818ca3da77" cid="LST003" type="ui-list-box" name="Sigle | Titre | Durée" style-class="" owner="086221e08424464f9c71601c54b34755" change-tracking-state="added" creator="" creation-date="04/16/2024 17:16:42">
             <list-box>
               <list-items />
             </list-box>
           </item>
-          <item id="b68ed9e95ea34501949a833464a3900c" cid="TXT003" type="ui-text-box" name="TextBox3" owner="173ff7da7760448d8dcbfe84d073bfec" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:35">
-            <text-box />
+          <item id="b68ed9e95ea34501949a833464a3900c" cid="TXT003" type="ui-text-box" name="TextBox3" style-class="" owner="173ff7da7760448d8dcbfe84d073bfec" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:35">
+            <text-box password-dots="false" display-password-button="false" />
           </item>
-          <item id="difc2ade7614c742e78c78e924962a2f654883" cid="LBL008" type="ui-label" name="idSession:" owner="di43392530ec434c258a1c0adfc3ee5aa24883" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:45" />
-          <item id="39d9f02f97094767aebc33c1915d444d" cid="BTN005" type="ui-button" name="Supprimer" owner="173ff7da7760448d8dcbfe84d073bfec" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:35">
+          <item id="difc2ade7614c742e78c78e924962a2f654883" cid="LBL008" type="ui-label" name="idSession:" style-class="" owner="di43392530ec434c258a1c0adfc3ee5aa24883" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:45" />
+          <item id="39d9f02f97094767aebc33c1915d444d" cid="BTN005" type="ui-button" name="Supprimer" style-class="" owner="173ff7da7760448d8dcbfe84d073bfec" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:35">
             <button />
           </item>
-          <item id="e7499975dcc34fadac16f3dcc4c74cb0" cid="LST002" type="ui-list-box" name="Sigle | Titre | Cours" owner="121e0e1a20a44dcfa8b305c2676d4c82" change-tracking-state="added" creator="" creation-date="04/16/2024 17:15:29">
+          <item id="e7499975dcc34fadac16f3dcc4c74cb0" cid="LST002" type="ui-list-box" name="Sigle | Titre | Cours" style-class="" owner="121e0e1a20a44dcfa8b305c2676d4c82" change-tracking-state="added" creator="" creation-date="04/16/2024 17:15:29">
             <list-box>
               <list-items />
             </list-box>
           </item>
-          <item id="did9280e5103ec478697a9c0446af558ad4883" cid="TXT010" type="ui-text-box" name="TextBox6" owner="di43392530ec434c258a1c0adfc3ee5aa24883" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:21">
-            <text-box />
+          <item id="did9280e5103ec478697a9c0446af558ad4883" cid="TXT010" type="ui-text-box" name="TextBox6" style-class="" owner="di43392530ec434c258a1c0adfc3ee5aa24883" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:21">
+            <text-box password-dots="false" display-password-button="false" />
           </item>
-          <item id="cb37071f7d4743b799c5bf5c742c9b52" cid="LBL003" type="ui-label" name="CodePermanent:" owner="173ff7da7760448d8dcbfe84d073bfec" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:21" />
-          <item id="di2ab614a908474b9eae1bb5cbe0e6cf906870" cid="TXT011" type="ui-text-box" name="TextBox3" owner="di1ec3b8868b0a4d758ff595002ee22c378343" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:35">
-            <text-box />
+          <item id="cb37071f7d4743b799c5bf5c742c9b52" cid="LBL003" type="ui-label" name="CodePermanent:" style-class="" owner="173ff7da7760448d8dcbfe84d073bfec" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:21" />
+          <item id="di2ab614a908474b9eae1bb5cbe0e6cf906870" cid="TXT011" type="ui-text-box" name="TextBox3" style-class="" owner="di1ec3b8868b0a4d758ff595002ee22c378343" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:35">
+            <text-box password-dots="false" display-password-button="false" />
           </item>
-          <item id="di0bebcc0d3b6248d08d541a4edef0b8e48343" cid="LBL011" type="ui-label" name="Sigle:" owner="di1ec3b8868b0a4d758ff595002ee22c378343" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:21" />
-          <item id="55e32b0fdd204cb5b9cc0d80b188dadd" cid="TXT002" type="ui-text-box" name="TextBox2" owner="c93103018c534127af37bfce41244bf1" change-tracking-state="added" creator="" creation-date="04/16/2024 17:04:10">
-            <text-box />
+          <item id="di0bebcc0d3b6248d08d541a4edef0b8e48343" cid="LBL011" type="ui-label" name="Sigle:" style-class="" owner="di1ec3b8868b0a4d758ff595002ee22c378343" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:21" />
+          <item id="55e32b0fdd204cb5b9cc0d80b188dadd" cid="TXT002" type="ui-text-box" name="TextBox2" style-class="" change-tracking-state="added" creator="" creation-date="04/16/2024 17:04:10">
+            <text-box password-dots="false" display-password-button="false" />
           </item>
-          <item id="did57fea4f9cce4031a1b53e7f6988e8474883" cid="LBL007" type="ui-label" name="Sigle:" owner="di43392530ec434c258a1c0adfc3ee5aa24883" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:21" />
-          <item id="c5e7f10d4cb645948ed36eb0c7072a16" cid="TXT004" type="ui-text-box" name="TextBox4" owner="173ff7da7760448d8dcbfe84d073bfec" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:37">
-            <text-box />
+          <item id="did57fea4f9cce4031a1b53e7f6988e8474883" cid="LBL007" type="ui-label" name="Sigle:" style-class="" owner="di43392530ec434c258a1c0adfc3ee5aa24883" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:21" />
+          <item id="c5e7f10d4cb645948ed36eb0c7072a16" cid="TXT004" type="ui-text-box" name="TextBox4" style-class="" owner="173ff7da7760448d8dcbfe84d073bfec" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:37">
+            <text-box password-dots="false" display-password-button="false" />
           </item>
-          <item id="dif7234b298d664c43aa5b403af95f710b6870" cid="TXT013" type="ui-text-box" name="TextBox5" owner="di1ec3b8868b0a4d758ff595002ee22c378343" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:53">
-            <text-box />
+          <item id="dif7234b298d664c43aa5b403af95f710b6870" cid="TXT013" type="ui-text-box" name="TextBox5" style-class="" owner="di1ec3b8868b0a4d758ff595002ee22c378343" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:53">
+            <text-box password-dots="false" display-password-button="false" />
           </item>
-          <item id="dif1e5c2a347cf4079b83d494f32d78aa04883" cid="TXT007" type="ui-text-box" name="TextBox3" owner="di43392530ec434c258a1c0adfc3ee5aa24883" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:35">
-            <text-box />
+          <item id="dif1e5c2a347cf4079b83d494f32d78aa04883" cid="TXT007" type="ui-text-box" name="TextBox3" style-class="" owner="di43392530ec434c258a1c0adfc3ee5aa24883" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:35">
+            <text-box password-dots="false" display-password-button="false" />
           </item>
-          <item id="di16eb3aebdef546bb811950e188e64b5c4883" cid="BTN006" type="ui-button" name="Modifier Enseignant" owner="di43392530ec434c258a1c0adfc3ee5aa24883" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:35">
+          <item id="di16eb3aebdef546bb811950e188e64b5c4883" cid="BTN006" type="ui-button" name="Modifier Enseignant" style-class="" owner="di43392530ec434c258a1c0adfc3ee5aa24883" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:35">
             <button />
           </item>
-          <item id="di43392530ec434c258a1c0adfc3ee5aa24883" cid="GRP010" type="ui-group-box" name="Modifier l'enseignant d'un cours" owner="29e4c5dad1534928a24b0d4fff2eb34b" change-tracking-state="added" creator="" creation-date="04/16/2024 17:24:04">
-            <owned-items />
+          <item id="di43392530ec434c258a1c0adfc3ee5aa24883" cid="GRP010" type="ui-group-box" name="Modifier l'enseignant d'un cours" style-class="" owner="29e4c5dad1534928a24b0d4fff2eb34b" change-tracking-state="added" creator="" creation-date="04/16/2024 17:24:04">
+            <owned-items>
+              <owned-item ref="dia55e956f2a2a4a598cda75919344ad8d4883" />
+              <owned-item ref="di551d2ada0732491ca676b5234f88afeb4883" />
+              <owned-item ref="difc2ade7614c742e78c78e924962a2f654883" />
+              <owned-item ref="did9280e5103ec478697a9c0446af558ad4883" />
+              <owned-item ref="did57fea4f9cce4031a1b53e7f6988e8474883" />
+              <owned-item ref="dif1e5c2a347cf4079b83d494f32d78aa04883" />
+              <owned-item ref="di16eb3aebdef546bb811950e188e64b5c4883" />
+              <owned-item ref="di8b5efc6955ee403fa6247caa27b2b9964883" />
+              <owned-item ref="dia7e5aa3571534ef8b3a21aa88eaac6c74883" />
+            </owned-items>
           </item>
-          <item id="21f7afba0c3c4d6698d6a3b4b5e17ad5" cid="BTN004" type="ui-button" name="Afficher les bulletins des cours suivis" owner="4d149ff20fc644f1a20c59b62f922cb1" change-tracking-state="added" creator="" creation-date="04/16/2024 17:19:32">
+          <item id="21f7afba0c3c4d6698d6a3b4b5e17ad5" cid="BTN004" type="ui-button" name="Afficher les bulletins des cours suivis" style-class="" change-tracking-state="added" creator="" creation-date="04/16/2024 17:19:32">
             <button />
           </item>
-          <item id="d059778c5cc84f088e2ac62a962c20a6" cid="LBL004" type="ui-label" name="SigleCours:" owner="173ff7da7760448d8dcbfe84d073bfec" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:45" />
-          <item id="9f05a9b9f7594a08858c453909f5ce05" cid="TXT001" type="ui-text-box" name="TextBox1" owner="4d149ff20fc644f1a20c59b62f922cb1" change-tracking-state="added" creator="" creation-date="04/16/2024 16:51:28">
-            <text-box />
+          <item id="d059778c5cc84f088e2ac62a962c20a6" cid="LBL004" type="ui-label" name="SigleCours:" style-class="" owner="173ff7da7760448d8dcbfe84d073bfec" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:45" />
+          <item id="9f05a9b9f7594a08858c453909f5ce05" cid="TXT001" type="ui-text-box" name="TextBox1" style-class="" change-tracking-state="added" creator="" creation-date="04/16/2024 16:51:28">
+            <text-box password-dots="false" display-password-button="false" />
           </item>
-          <item id="di8b5efc6955ee403fa6247caa27b2b9964883" cid="TXT009" type="ui-text-box" name="TextBox5" owner="di43392530ec434c258a1c0adfc3ee5aa24883" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:53">
-            <text-box />
+          <item id="di8b5efc6955ee403fa6247caa27b2b9964883" cid="TXT009" type="ui-text-box" name="TextBox5" style-class="" owner="di43392530ec434c258a1c0adfc3ee5aa24883" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:53">
+            <text-box password-dots="false" display-password-button="false" />
           </item>
-          <item id="dia7e5aa3571534ef8b3a21aa88eaac6c74883" cid="LBL010" type="ui-label" name="idProfNew:" owner="di43392530ec434c258a1c0adfc3ee5aa24883" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:19" />
-          <item id="29c7a9ec5e0443a382238f23ac8cb43d" cid="GRP009" type="ui-group-box" name="Modifier l'enseignant d'un cours" owner="29e4c5dad1534928a24b0d4fff2eb34b" change-tracking-state="added" creator="" creation-date="04/16/2024 17:30:33" />
-          <item id="di3cb09ae23be64cd483105ef54b8642b56870" cid="LBL013" type="ui-label" name="Durée:" owner="di1ec3b8868b0a4d758ff595002ee22c378343" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:22" />
-          <item id="fd677ee0762b4a409e401ba822a30772" cid="TXT005" type="ui-text-box" name="TextBox5" owner="173ff7da7760448d8dcbfe84d073bfec" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:53">
-            <text-box />
+          <item id="dia7e5aa3571534ef8b3a21aa88eaac6c74883" cid="LBL010" type="ui-label" name="idProfNew:" style-class="" owner="di43392530ec434c258a1c0adfc3ee5aa24883" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:19" />
+          <item id="29c7a9ec5e0443a382238f23ac8cb43d" cid="GRP009" type="ui-group-box" name="Modifier l'enseignant d'un cours" style-class="" owner="29e4c5dad1534928a24b0d4fff2eb34b" change-tracking-state="added" creator="" creation-date="04/16/2024 17:30:33" />
+          <item id="di3cb09ae23be64cd483105ef54b8642b56870" cid="LBL013" type="ui-label" name="Durée:" style-class="" owner="di1ec3b8868b0a4d758ff595002ee22c378343" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:22" />
+          <item id="fd677ee0762b4a409e401ba822a30772" cid="TXT005" type="ui-text-box" name="TextBox5" style-class="" owner="173ff7da7760448d8dcbfe84d073bfec" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:53">
+            <text-box password-dots="false" display-password-button="false" />
           </item>
-          <item id="429dc1404c9b481e8a01df730dc6c42c" cid="GRP002" type="ui-group-box" name="Liste de cours" change-tracking-state="added" creator="" creation-date="04/16/2024 16:49:01">
-            <owned-items />
+          <item id="429dc1404c9b481e8a01df730dc6c42c" cid="GRP002" type="ui-group-box" name="Liste de cours" style-class="" change-tracking-state="added" creator="" creation-date="04/16/2024 16:49:01">
+            <owned-items>
+              <owned-item ref="a1af76d509ce47a794ff5f0c6baf873b" />
+            </owned-items>
           </item>
-          <item id="4377a385d625495e89b504eb7808df16" cid="LBL005" type="ui-label" name="idSession:" owner="173ff7da7760448d8dcbfe84d073bfec" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:22" />
-          <item id="0c73f1b0b63a46d584aed84819d27786" cid="BTN001" type="ui-button" name="Afficher la liste de cours" owner="4d149ff20fc644f1a20c59b62f922cb1" change-tracking-state="added" creator="" creation-date="04/16/2024 16:52:14">
+          <item id="4377a385d625495e89b504eb7808df16" cid="LBL005" type="ui-label" name="idSession:" style-class="" owner="173ff7da7760448d8dcbfe84d073bfec" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:22" />
+          <item id="0c73f1b0b63a46d584aed84819d27786" cid="BTN001" type="ui-button" name="Afficher la liste de cours" style-class="" change-tracking-state="added" creator="" creation-date="04/16/2024 16:52:14">
             <button />
           </item>
-          <item id="diabc3d4c5a59a4f09b090266288a836456870" cid="TXT014" type="ui-text-box" name="TextBox6" owner="di1ec3b8868b0a4d758ff595002ee22c378343" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:21">
-            <text-box />
+          <item id="diabc3d4c5a59a4f09b090266288a836456870" cid="TXT014" type="ui-text-box" name="TextBox6" style-class="" owner="di1ec3b8868b0a4d758ff595002ee22c378343" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:21">
+            <text-box password-dots="false" display-password-button="false" />
           </item>
-          <item id="di1ec3b8868b0a4d758ff595002ee22c378343" cid="GRP013" type="ui-group-box" name="Ajouter un nouveau cours" owner="29e4c5dad1534928a24b0d4fff2eb34b" change-tracking-state="added" creator="" creation-date="04/16/2024 17:24:04">
-            <owned-items />
+          <item id="di1ec3b8868b0a4d758ff595002ee22c378343" cid="GRP013" type="ui-group-box" name="Ajouter un nouveau cours" style-class="" owner="29e4c5dad1534928a24b0d4fff2eb34b" change-tracking-state="added" creator="" creation-date="04/16/2024 17:24:04">
+            <owned-items>
+              <owned-item ref="dibfa1c53f8a1240c5a3d280951e38d1a46870" />
+              <owned-item ref="di87fc9f6905024b2faeea4e5ac1a31f796870" />
+              <owned-item ref="di3746faffdf194192bba9d8c2c25ddc726870" />
+              <owned-item ref="di8a012479ae6d479bbbf7ba8b0dee42f06870" />
+              <owned-item ref="di2ab614a908474b9eae1bb5cbe0e6cf906870" />
+              <owned-item ref="di0bebcc0d3b6248d08d541a4edef0b8e48343" />
+              <owned-item ref="dif7234b298d664c43aa5b403af95f710b6870" />
+              <owned-item ref="di3cb09ae23be64cd483105ef54b8642b56870" />
+              <owned-item ref="diabc3d4c5a59a4f09b090266288a836456870" />
+            </owned-items>
           </item>
-          <item id="5156927f698c4007ba3786f92cec93ff" cid="LBL001" type="ui-label" name="Code permanent:" owner="4d149ff20fc644f1a20c59b62f922cb1" change-tracking-state="added" creator="" creation-date="04/16/2024 16:50:55" />
+          <item id="5156927f698c4007ba3786f92cec93ff" cid="LBL001" type="ui-label" name="Code permanent:" style-class="" change-tracking-state="added" creator="" creation-date="04/16/2024 16:50:55" />
+          <item id="08ffbda6974d4b8b8b31f598c5ef6682" cid="CMT001" type="comment" name="" style-class="" change-tracking-state="added" creator="" creation-date="04/19/2024 14:50:17">
+            <comment>Un messageBox sera utilisé pour affiché des messages d'erreurs significatifs ou de confirmation </comment>
+          </item>
         </abstract-items>
         <layer id="375811d7c3314406af90c1e2f8755802" name="Default" visible="true" enabled="true" locked="false">
           <item id="29e4c5dad1534928a24b0d4fff2eb34b" iid="980ec087c7d1499d9ed67d2c85a6af30" creation-date="04/16/2024 16:33:00" order-index="0" type="ui-window">
-            <layout ax="145" ay="-78" awidth="1016" aheight="490" x="145" y="-78" width="1016" height="490" expanded="145,-78,1016,490" collapsed="0,0,0,0" rotation-center="59,77" container-layout="simple">
-              <container-layout padding="10,10,10,10" />
-            </layout>
+            <layout ax="145" ay="-78" awidth="1016" aheight="490" x="145" y="-78" width="1016" height="490" rotation-center="59,77" container-layout="simple" />
           </item>
           <item id="173ff7da7760448d8dcbfe84d073bfec" iid="3c0ec4df70c24d749d489d6184a4633b" container="29e4c5dad1534928a24b0d4fff2eb34b" container-iid="980ec087c7d1499d9ed67d2c85a6af30" creation-date="04/16/2024 17:24:04" order-index="12" type="ui-group-box">
-            <layout ax="779" ay="-26.75" awidth="363" aheight="323.5" x="779" y="-26.75" width="363" height="323.5" expanded="779,-26.75,363,323.5" collapsed="0,0,0,0" rotation-center="114.5,-81.25" />
+            <layout ax="779" ay="-26.75" awidth="363" aheight="323.5" x="779" y="-26.75" width="363" height="323.5" rotation-center="114.5,-81.25" />
           </item>
           <item id="cb37071f7d4743b799c5bf5c742c9b52" iid="26d3a199ea5c447782a784320bdacf95" container="173ff7da7760448d8dcbfe84d073bfec" container-iid="3c0ec4df70c24d749d489d6184a4633b" creation-date="04/16/2024 17:26:21" order-index="13" type="ui-label">
             <layout ax="801" ay="1.25" awidth="135" aheight="36" x="469" y="-17" width="53" height="20" rotation-center="13.5,0" />
@@ -344,7 +404,7 @@
             <layout ax="834" ay="179.5" awidth="214" aheight="36" x="834" y="179.5" width="214" height="30" rotation-center="-42.5,0" />
           </item>
           <item id="di43392530ec434c258a1c0adfc3ee5aa24883" iid="5463a71b9e07470c82030e8e63abf08c" container="29e4c5dad1534928a24b0d4fff2eb34b" container-iid="980ec087c7d1499d9ed67d2c85a6af30" creation-date="04/16/2024 17:24:04" order-index="12" type="ui-group-box">
-            <layout ax="469" ay="-26.5" awidth="296" aheight="323" x="469" y="-26.5" width="296" height="323" expanded="469,-26.5,296,323" collapsed="0,0,0,0" rotation-center="81,-81.5" />
+            <layout ax="469" ay="-26.5" awidth="296" aheight="323" x="469" y="-26.5" width="296" height="323" rotation-center="81,-81.5" />
           </item>
           <item id="did57fea4f9cce4031a1b53e7f6988e8474883" iid="642a052e8cbe48648eaf90c45ae231cb" container="di43392530ec434c258a1c0adfc3ee5aa24883" container-iid="5463a71b9e07470c82030e8e63abf08c" creation-date="04/16/2024 17:26:21" order-index="13" type="ui-label">
             <layout ax="491" ay="1.5" awidth="53" aheight="36" x="469" y="-17" width="53" height="20" rotation-center="13.5,0" />
@@ -374,7 +434,7 @@
             <layout ax="518" ay="229" awidth="214" aheight="36" x="551" y="232" width="214" height="30" rotation-center="-42.5,0" />
           </item>
           <item id="di1ec3b8868b0a4d758ff595002ee22c378343" iid="b69400301e684f15beadc1584b1a528f" container="29e4c5dad1534928a24b0d4fff2eb34b" container-iid="980ec087c7d1499d9ed67d2c85a6af30" creation-date="04/16/2024 17:24:04" order-index="12" type="ui-group-box">
-            <layout ax="159" ay="-32.75" awidth="296" aheight="323.5" x="159" y="-32.75" width="296" height="323.5" expanded="159,-32.75,296,323.5" collapsed="0,0,0,0" rotation-center="81,-81.25" />
+            <layout ax="159" ay="-32.75" awidth="296" aheight="323.5" x="159" y="-32.75" width="296" height="323.5" rotation-center="81,-81.25" />
           </item>
           <item id="di0bebcc0d3b6248d08d541a4edef0b8e48343" iid="417cad410e844b86b86ee3aa883e3b1b" container="di1ec3b8868b0a4d758ff595002ee22c378343" container-iid="b69400301e684f15beadc1584b1a528f" creation-date="04/16/2024 17:26:21" order-index="13" type="ui-label">
             <layout ax="181" ay="-4.75" awidth="53" aheight="36" x="469" y="-17" width="53" height="20" rotation-center="13.5,0" />
@@ -403,9 +463,17 @@
           <item id="di3746faffdf194192bba9d8c2c25ddc726870" iid="54c5ff2913dc4bca998996857ced49d2" container="di1ec3b8868b0a4d758ff595002ee22c378343" container-iid="b69400301e684f15beadc1584b1a528f" creation-date="04/16/2024 17:29:35" order-index="21" type="ui-button">
             <layout ax="208" ay="222.75" awidth="214" aheight="36" x="551" y="232" width="214" height="30" rotation-center="-42.5,0" />
           </item>
+          <item id="3463b72e59554374a3f4ea5458c953b5" iid="19c2251b30a949de8bf7dc0b0f26b605" creation-date="04/19/2024 14:52:07" order-index="23" type="group">
+            <layout ax="543.5" ay="447" awidth="140" aheight="100" x="543.5" y="447" width="140" height="160" />
+            <group-items>
+              <item id="08ffbda6974d4b8b8b31f598c5ef6682" iid="7b2bb6ddc00441dd81a20ae5676296a9" creation-date="04/19/2024 14:50:17" order-index="22" type="entity">
+                <layout ax="543.5" ay="447" awidth="140" aheight="100" x="551" y="447" width="140" height="100" />
+              </item>
+            </group-items>
+          </item>
         </layer>
       </diagram>
-      <diagram type="user-interface" id="p3d4fec2833254086bafcf002d9748d3b_249988457" name="UserInterfaceDiagram2" order-index="3" overview-order-index="1" uid="" auto-routed-paths="false" default-line-style="default" view-location="0,-100">
+      <diagram type="user-interface" id="p3d4fec2833254086bafcf002d9748d3b_249988457" name="UserInterfaceDiagram2" order-index="3" overview-order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="0,-112" zoom="0.7">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -422,53 +490,73 @@
           <version />
         </meta>
         <abstract-items>
-          <item id="di4f57ae30d4b24568bda49ae1aaa543cc5308" cid="BTN014" type="ui-button" name="Afficher les bulletins des cours suivis" owner="di561de8a186ea45679db787705b514fc95308" change-tracking-state="added" creator="" creation-date="04/16/2024 17:19:32">
+          <item id="di4f57ae30d4b24568bda49ae1aaa543cc5308" cid="BTN014" type="ui-button" name="Afficher les bulletins des cours suivis" style-class="" owner="di561de8a186ea45679db787705b514fc95308" change-tracking-state="added" creator="" creation-date="04/16/2024 17:19:32">
             <button />
           </item>
-          <item id="di43093b7bd2b84ccaa85e53497c3d0f175308" cid="BTN013" type="ui-button" name="Afficher l'historique des cours" owner="di561de8a186ea45679db787705b514fc95308" change-tracking-state="added" creator="" creation-date="04/16/2024 16:52:59">
+          <item id="di43093b7bd2b84ccaa85e53497c3d0f175308" cid="BTN013" type="ui-button" name="Afficher l'historique des cours" style-class="" owner="di561de8a186ea45679db787705b514fc95308" change-tracking-state="added" creator="" creation-date="04/16/2024 16:52:59">
             <button />
           </item>
-          <item id="di2c36726ef9c54c02a74240cf26b827849238" cid="LBL016" type="ui-label" name="id du prof:" owner="di46749067547e497eab6260445d5022659238" change-tracking-state="added" creator="" creation-date="04/16/2024 17:03:34" />
-          <item id="diec0614cef19249d78779d4418b22c6c26959" cid="LST004" type="ui-list-box" name="Sigle | Titre | Durée | Resultat" owner="di151619eae48d421bb43935d45b3bf2a46959" change-tracking-state="added" creator="" creation-date="04/16/2024 17:16:42">
+          <item id="di2c36726ef9c54c02a74240cf26b827849238" cid="LBL016" type="ui-label" name="id du prof:" style-class="" owner="di46749067547e497eab6260445d5022659238" change-tracking-state="added" creator="" creation-date="04/16/2024 17:03:34" />
+          <item id="diec0614cef19249d78779d4418b22c6c26959" cid="LST004" type="ui-list-box" name="Sigle | Titre | Durée | Resultat" style-class="" owner="di151619eae48d421bb43935d45b3bf2a46959" change-tracking-state="added" creator="" creation-date="04/16/2024 17:16:42">
             <list-box>
               <list-items />
             </list-box>
           </item>
-          <item id="di151619eae48d421bb43935d45b3bf2a46959" cid="GRP007" type="ui-group-box" name="Liste de Cours" owner="die6aceb57a8f24b759cf588a0b399926c6959" change-tracking-state="added" creator="" creation-date="04/16/2024 17:16:19">
-            <owned-items />
+          <item id="di151619eae48d421bb43935d45b3bf2a46959" cid="GRP007" type="ui-group-box" name="Liste de Cours" style-class="" owner="die6aceb57a8f24b759cf588a0b399926c6959" change-tracking-state="added" creator="" creation-date="04/16/2024 17:16:19">
+            <owned-items>
+              <owned-item ref="diec0614cef19249d78779d4418b22c6c26959" />
+            </owned-items>
           </item>
-          <item id="di0788774ef53848e383ab19c58bc6671e9238" cid="BTN015" type="ui-button" name="Afficher la liste des cours " owner="di46749067547e497eab6260445d5022659238" change-tracking-state="added" creator="" creation-date="04/16/2024 17:05:27">
+          <item id="di0788774ef53848e383ab19c58bc6671e9238" cid="BTN015" type="ui-button" name="Afficher la liste des cours " style-class="" owner="di46749067547e497eab6260445d5022659238" change-tracking-state="added" creator="" creation-date="04/16/2024 17:05:27">
             <button />
           </item>
-          <item id="di5d498952405f4a69bff65dc6355808239238" cid="TXT016" type="ui-text-box" name="TextBox2" owner="di46749067547e497eab6260445d5022659238" change-tracking-state="added" creator="" creation-date="04/16/2024 17:04:10">
-            <text-box />
+          <item id="di5d498952405f4a69bff65dc6355808239238" cid="TXT016" type="ui-text-box" name="TextBox2" style-class="" owner="di46749067547e497eab6260445d5022659238" change-tracking-state="added" creator="" creation-date="04/16/2024 17:04:10">
+            <text-box password-dots="false" display-password-button="false" />
           </item>
-          <item id="di514034b51b4b4f10b4f3c2262311dc745308" cid="TXT015" type="ui-text-box" name="TextBox1" owner="di561de8a186ea45679db787705b514fc95308" change-tracking-state="added" creator="" creation-date="04/16/2024 16:51:28">
-            <text-box />
+          <item id="di514034b51b4b4f10b4f3c2262311dc745308" cid="TXT015" type="ui-text-box" name="TextBox1" style-class="" owner="di561de8a186ea45679db787705b514fc95308" change-tracking-state="added" creator="" creation-date="04/16/2024 16:51:28">
+            <text-box password-dots="false" display-password-button="false" />
           </item>
-          <item id="dibc5e88d8ac6f4d7db652d7593e5f92e75308" cid="LBL015" type="ui-label" name="Code permanent:" owner="di561de8a186ea45679db787705b514fc95308" change-tracking-state="added" creator="" creation-date="04/16/2024 16:50:55" />
-          <item id="di561de8a186ea45679db787705b514fc95308" cid="GRP014" type="ui-group-box" name="Liste de cours selon étudiant" owner="die6aceb57a8f24b759cf588a0b399926c6959" change-tracking-state="added" creator="" creation-date="04/16/2024 16:44:40" />
-          <item id="di46749067547e497eab6260445d5022659238" cid="GRP015" type="ui-group-box" name="Liste de cours selon enseignant" owner="die6aceb57a8f24b759cf588a0b399926c6959" change-tracking-state="added" creator="" creation-date="04/16/2024 16:58:52" />
-          <item id="di2d8cf9b42a6c4c2bac86c83113082e5e5308" cid="BTN012" type="ui-button" name="Afficher la liste de cours" owner="di561de8a186ea45679db787705b514fc95308" change-tracking-state="added" creator="" creation-date="04/16/2024 16:52:14">
+          <item id="dibc5e88d8ac6f4d7db652d7593e5f92e75308" cid="LBL015" type="ui-label" name="Code permanent:" style-class="" owner="di561de8a186ea45679db787705b514fc95308" change-tracking-state="added" creator="" creation-date="04/16/2024 16:50:55" />
+          <item id="di561de8a186ea45679db787705b514fc95308" cid="GRP014" type="ui-group-box" name="Liste de cours selon étudiant" style-class="" owner="die6aceb57a8f24b759cf588a0b399926c6959" change-tracking-state="added" creator="" creation-date="04/16/2024 16:44:40">
+            <owned-items>
+              <owned-item ref="di4f57ae30d4b24568bda49ae1aaa543cc5308" />
+              <owned-item ref="di43093b7bd2b84ccaa85e53497c3d0f175308" />
+              <owned-item ref="di514034b51b4b4f10b4f3c2262311dc745308" />
+              <owned-item ref="dibc5e88d8ac6f4d7db652d7593e5f92e75308" />
+              <owned-item ref="di2d8cf9b42a6c4c2bac86c83113082e5e5308" />
+            </owned-items>
+          </item>
+          <item id="di46749067547e497eab6260445d5022659238" cid="GRP015" type="ui-group-box" name="Liste de cours selon enseignant" style-class="" owner="die6aceb57a8f24b759cf588a0b399926c6959" change-tracking-state="added" creator="" creation-date="04/16/2024 16:58:52">
+            <owned-items>
+              <owned-item ref="di2c36726ef9c54c02a74240cf26b827849238" />
+              <owned-item ref="di0788774ef53848e383ab19c58bc6671e9238" />
+              <owned-item ref="di5d498952405f4a69bff65dc6355808239238" />
+            </owned-items>
+          </item>
+          <item id="di2d8cf9b42a6c4c2bac86c83113082e5e5308" cid="BTN012" type="ui-button" name="Afficher la liste de cours" style-class="" owner="di561de8a186ea45679db787705b514fc95308" change-tracking-state="added" creator="" creation-date="04/16/2024 16:52:14">
             <button />
           </item>
-          <item id="die6aceb57a8f24b759cf588a0b399926c6959" cid="WND003" type="ui-window" name="Afficher une liste de cours" change-tracking-state="added" creator="" creation-date="04/16/2024 17:14:34">
-            <owned-items />
+          <item id="die6aceb57a8f24b759cf588a0b399926c6959" cid="WND003" type="ui-window" name="Afficher une liste de cours" style-class="" change-tracking-state="added" creator="" creation-date="04/16/2024 17:14:34">
+            <owned-items>
+              <owned-item ref="di151619eae48d421bb43935d45b3bf2a46959" />
+              <owned-item ref="di561de8a186ea45679db787705b514fc95308" />
+              <owned-item ref="di46749067547e497eab6260445d5022659238" />
+            </owned-items>
             <window show-min-button="true" show-max-button="true" show-close-button="true" show-size-grip="false" />
           </item>
         </abstract-items>
         <layer id="6015c45c28e24f4bbc218aee43f3ae83" name="Default" visible="true" enabled="true" locked="false">
           <item id="die6aceb57a8f24b759cf588a0b399926c6959" iid="66ac121a04e94c1eb21e373bf8b9cbd8" creation-date="04/16/2024 17:14:34" order-index="13" type="ui-window">
-            <layout ax="261" ay="-21" awidth="989" aheight="645" x="261" y="-21" width="989" height="645" expanded="261,-21,989,645" collapsed="0,0,0,0" rotation-center="62.5,-172.5" />
+            <layout ax="261" ay="-21" awidth="989" aheight="645" x="261" y="-21" width="989" height="645" rotation-center="62.5,-172.5" />
           </item>
           <item id="di151619eae48d421bb43935d45b3bf2a46959" iid="74c4a57d5b384538b81cd00ab0a8ed2b" container="die6aceb57a8f24b759cf588a0b399926c6959" container-iid="66ac121a04e94c1eb21e373bf8b9cbd8" creation-date="04/16/2024 17:16:19" order-index="15" type="ui-group-box">
-            <layout ax="628" ay="24" awidth="572" aheight="453.5" x="628" y="24" width="572" height="453.5" expanded="628,24,572,453.5" collapsed="0,0,0,0" rotation-center="-96,-142" />
+            <layout ax="628" ay="24" awidth="572" aheight="453.5" x="628" y="24" width="572" height="453.5" rotation-center="-96,-142" />
           </item>
           <item id="diec0614cef19249d78779d4418b22c6c26959" iid="378795eff61e44f49fd6e6e6a765c9d3" container="di151619eae48d421bb43935d45b3bf2a46959" container-iid="74c4a57d5b384538b81cd00ab0a8ed2b" creation-date="04/16/2024 17:16:42" order-index="16" type="ui-list-box">
             <layout ax="661" ay="70.5" awidth="506" aheight="360.5" x="661" y="70.5" width="506" height="360.5" rotation-center="-183,-102.25" />
           </item>
           <item id="di561de8a186ea45679db787705b514fc95308" iid="baa6f40df03941e0aff19432bef6a041" container="die6aceb57a8f24b759cf588a0b399926c6959" container-iid="66ac121a04e94c1eb21e373bf8b9cbd8" creation-date="04/16/2024 16:44:40" order-index="1" type="ui-group-box">
-            <layout ax="299" ay="24" awidth="291" aheight="354" x="299" y="24" width="291" height="354" expanded="299,24,291,354" collapsed="0,0,0,0" rotation-center="15.5,-97" />
+            <layout ax="299" ay="24" awidth="291" aheight="354" x="299" y="24" width="291" height="354" rotation-center="15.5,-97" />
           </item>
           <item id="dibc5e88d8ac6f4d7db652d7593e5f92e75308" iid="1be93a189c5c48ec8067366a21efb6b0" container="di561de8a186ea45679db787705b514fc95308" container-iid="baa6f40df03941e0aff19432bef6a041" creation-date="04/16/2024 16:50:55" order-index="3" type="ui-label">
             <layout ax="299" ay="48" awidth="150" aheight="36" x="398" y="104" width="150" height="20" />
@@ -486,7 +574,7 @@
             <layout ax="323" ay="254" awidth="160" aheight="77" x="422" y="310" width="160" height="77" rotation-center="60,-20.5" />
           </item>
           <item id="di46749067547e497eab6260445d5022659238" iid="ed842d36b8e2404da32342d33f494d7f" container="die6aceb57a8f24b759cf588a0b399926c6959" container-iid="66ac121a04e94c1eb21e373bf8b9cbd8" creation-date="04/16/2024 16:58:52" order-index="7" type="ui-group-box">
-            <layout ax="308.5" ay="408" awidth="272" aheight="161" x="308.5" y="408" width="272" height="161" expanded="308.5,408,272,161" collapsed="0,0,0,0" rotation-center="-66,-0.5" />
+            <layout ax="308.5" ay="408" awidth="272" aheight="161" x="308.5" y="408" width="272" height="161" rotation-center="-66,-0.5" />
           </item>
           <item id="di2c36726ef9c54c02a74240cf26b827849238" iid="6d8175e282734a1ba8da64b6723d4a5f" container="di46749067547e497eab6260445d5022659238" container-iid="ed842d36b8e2404da32342d33f494d7f" creation-date="04/16/2024 17:03:34" order-index="8" type="ui-label">
             <layout ax="318.5" ay="439" awidth="116" aheight="36" x="175" y="245" width="116.5" height="20" rotation-center="16.75,0" />
@@ -499,7 +587,7 @@
           </item>
         </layer>
       </diagram>
-      <diagram type="user-interface" id="pa959dc1d68d34750ad0a3386611516a7_262332391" name="UserInterfaceDiagram3" order-index="4" overview-order-index="2" uid="" auto-routed-paths="false" default-line-style="default">
+      <diagram type="user-interface" id="pa959dc1d68d34750ad0a3386611516a7_262332391" name="UserInterfaceDiagram3" order-index="4" overview-order-index="2" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="0,2">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -511,54 +599,86 @@
           </authors>
           <description />
           <creation-date>04/19/2024 07:34:52</creation-date>
-          <change-date>04/19/2024 09:26:15</change-date>
+          <change-date>04/19/2024 15:00:56</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
         <abstract-items>
-          <item id="6508de1ce71546f49074f1fb1325edb8" cid="BTN008" type="ui-button" name="Afficher une liste de cours(ou de bulletins)" owner="2caaa88a9db8492bb44a7d4fc410deb5" creator="" creation-date="04/19/2024 07:38:21">
+          <item id="6508de1ce71546f49074f1fb1325edb8" cid="BTN008" type="ui-button" name="Afficher une liste de cours(ou de bulletins)" style-class="" owner="2caaa88a9db8492bb44a7d4fc410deb5" creator="" creation-date="04/19/2024 07:38:21">
             <button />
           </item>
-          <item id="e187ce78569645b7b2f167054ea72d99" cid="BTN017" type="ui-button" name="Afficher une liste d'étudiants" owner="2caaa88a9db8492bb44a7d4fc410deb5" creator="" creation-date="04/19/2024 09:26:15">
+          <item id="e187ce78569645b7b2f167054ea72d99" cid="BTN017" type="ui-button" name="Afficher une liste d'étudiants" style-class="" owner="2caaa88a9db8492bb44a7d4fc410deb5" creator="" creation-date="04/19/2024 09:26:15">
             <button />
           </item>
-          <item id="4e7ad4168c864d07ba66196c1d738be1" cid="BTN009" type="ui-button" name="Ajouter/Modifier/Retirer dans un cours" owner="2caaa88a9db8492bb44a7d4fc410deb5" creator="" creation-date="04/19/2024 07:39:09">
+          <item id="4e7ad4168c864d07ba66196c1d738be1" cid="BTN009" type="ui-button" name="Ajouter/Modifier/Retirer dans un cours" style-class="" owner="2caaa88a9db8492bb44a7d4fc410deb5" creator="" creation-date="04/19/2024 07:39:09">
             <button />
           </item>
-          <item id="2ad45314f29d489ab64f15d45a70bbaa" cid="BTN016" type="ui-button" name="Ajouter/Modifier étudiant" owner="2caaa88a9db8492bb44a7d4fc410deb5" creator="" creation-date="04/19/2024 08:12:01">
+          <item id="2ad45314f29d489ab64f15d45a70bbaa" cid="BTN016" type="ui-button" name="Ajouter/Modifier étudiant" style-class="" owner="2caaa88a9db8492bb44a7d4fc410deb5" creator="" creation-date="04/19/2024 08:12:01">
             <button />
           </item>
-          <item id="472dbcd03b974350b584a972bb5e5233" cid="BTN010" type="ui-button" name="PUT" owner="2caaa88a9db8492bb44a7d4fc410deb5" creator="" creation-date="04/19/2024 07:40:19">
+          <item id="472dbcd03b974350b584a972bb5e5233" cid="BTN010" type="ui-button" name="PUT" style-class="" owner="2caaa88a9db8492bb44a7d4fc410deb5" creator="" creation-date="04/19/2024 07:40:19">
             <button />
           </item>
-          <item id="8c6c5782b09248d3845a1e71ba65e9ae" cid="BTN011" type="ui-button" name="POST-COURS" owner="2caaa88a9db8492bb44a7d4fc410deb5" creator="" creation-date="04/19/2024 07:40:35">
+          <item id="8c6c5782b09248d3845a1e71ba65e9ae" cid="BTN011" type="ui-button" name="POST-COURS" style-class="" owner="2caaa88a9db8492bb44a7d4fc410deb5" creator="" creation-date="04/19/2024 07:40:35">
             <button />
           </item>
-          <item id="2caaa88a9db8492bb44a7d4fc410deb5" cid="WND004" type="ui-window" name="GESTION DE BULLETINS" creator="" creation-date="04/19/2024 07:37:19">
-            <owned-items />
+          <item id="2caaa88a9db8492bb44a7d4fc410deb5" cid="WND004" type="ui-window" name="MENU PRINCIPAL" style-class="" creator="" creation-date="04/19/2024 07:37:19">
+            <owned-items>
+              <owned-item ref="6508de1ce71546f49074f1fb1325edb8" />
+              <owned-item ref="e187ce78569645b7b2f167054ea72d99" />
+              <owned-item ref="4e7ad4168c864d07ba66196c1d738be1" />
+              <owned-item ref="2ad45314f29d489ab64f15d45a70bbaa" />
+              <owned-item ref="472dbcd03b974350b584a972bb5e5233" />
+              <owned-item ref="8c6c5782b09248d3845a1e71ba65e9ae" />
+              <owned-item ref="14e2944bfc1f47318d505ce075c17f36" />
+              <owned-item ref="876e39fc18c64ba5b78ea9e4c5e9adfa" />
+              <owned-item ref="65a25fbbfa434cb480ce095a54b4c5f2" />
+              <owned-item ref="e154fb8368714ac08c926541f01f3878" />
+              <owned-item ref="855b102af43d41ec8d7289cfc6699308" />
+            </owned-items>
             <window show-min-button="true" show-max-button="true" show-close-button="true" show-size-grip="false" />
           </item>
-          <item id="14e2944bfc1f47318d505ce075c17f36" cid="ELEM001" type="ui-panel" name="Get" owner="2caaa88a9db8492bb44a7d4fc410deb5" creator="" creation-date="04/19/2024 07:38:08" />
+          <item id="14e2944bfc1f47318d505ce075c17f36" cid="ELEM001" type="ui-panel" name="Get" style-class="" owner="2caaa88a9db8492bb44a7d4fc410deb5" creator="" creation-date="04/19/2024 07:38:08" />
+          <item id="876e39fc18c64ba5b78ea9e4c5e9adfa" cid="LBL030" type="ui-label" name="Votre clé d'API:" style-class="" owner="2caaa88a9db8492bb44a7d4fc410deb5" change-tracking-state="added" creator="" creation-date="04/19/2024 14:38:47" />
+          <item id="65a25fbbfa434cb480ce095a54b4c5f2" cid="TXT030" type="ui-text-box" name="TextBox7" style-class="" owner="2caaa88a9db8492bb44a7d4fc410deb5" change-tracking-state="added" creator="" creation-date="04/19/2024 14:39:55">
+            <text-box password-dots="false" display-password-button="false" />
+          </item>
+          <item id="e154fb8368714ac08c926541f01f3878" cid="ELEM002" type="ui-panel" name="Panel2" style-class="" owner="2caaa88a9db8492bb44a7d4fc410deb5" change-tracking-state="added" creator="" creation-date="04/19/2024 14:40:12" />
+          <item id="855b102af43d41ec8d7289cfc6699308" cid="BTN025" type="ui-button" name="Verifier votre saisie" style-class="" owner="2caaa88a9db8492bb44a7d4fc410deb5" change-tracking-state="added" creator="" creation-date="04/19/2024 15:00:56">
+            <button />
+          </item>
         </abstract-items>
         <layer id="edc890a63b164a8a86f1db11af15aeb5" name="Default" visible="true" enabled="true" locked="false">
           <item id="2caaa88a9db8492bb44a7d4fc410deb5" iid="7adb617379a94050a892edbaadb1848f" creation-date="04/19/2024 07:37:19" order-index="0" type="ui-window">
-            <layout ax="182" ay="24" awidth="751" aheight="578" x="182" y="24" width="751" height="578" expanded="182,24,751,578" collapsed="0,0,0,0" rotation-center="-175.5,-139" />
+            <layout ax="182" ay="24" awidth="751" aheight="642" x="182" y="24" width="751" height="642" rotation-center="-175.5,-171" />
           </item>
           <item id="4e7ad4168c864d07ba66196c1d738be1" iid="0d0d0c5c3eb04c53be47a91a0f131fd7" container="2caaa88a9db8492bb44a7d4fc410deb5" container-iid="7adb617379a94050a892edbaadb1848f" creation-date="04/19/2024 07:39:09" order-index="2" type="ui-button">
-            <layout ax="199.75" ay="193.5" awidth="185" aheight="119.5" x="199.75" y="193.5" width="185" height="119.5" rotation-center="60.5,-44.75" />
+            <layout ax="199.75" ay="255.5" awidth="185" aheight="119.5" x="199.75" y="255.5" width="185" height="119.5" rotation-center="60.5,-44.75" />
           </item>
           <item id="2ad45314f29d489ab64f15d45a70bbaa" iid="952848c7d9c847a7b0545af00176e6e0" container="2caaa88a9db8492bb44a7d4fc410deb5" container-iid="7adb617379a94050a892edbaadb1848f" creation-date="04/19/2024 08:12:01" order-index="3" type="ui-button">
-            <layout ax="204.625" ay="450" awidth="171.75" aheight="119" x="204.625" y="450" width="171.75" height="119" rotation-center="16.125,-41.5" />
+            <layout ax="206.375" ay="522" awidth="171.75" aheight="119" x="206.375" y="522" width="171.75" height="119" rotation-center="16.125,-41.5" />
           </item>
           <item id="e187ce78569645b7b2f167054ea72d99" iid="7aa6674b21554524aa3b2416bc7bbf1e" container="2caaa88a9db8492bb44a7d4fc410deb5" container-iid="7adb617379a94050a892edbaadb1848f" creation-date="04/19/2024 09:26:15" order-index="4" type="ui-button">
-            <layout ax="204.625" ay="332" awidth="141.75" aheight="108" x="204.625" y="332" width="141.75" height="108" rotation-center="41.625,-36" />
+            <layout ax="219.625" ay="389" awidth="141.75" aheight="108" x="219.625" y="389" width="141.75" height="108" rotation-center="41.625,-36" />
           </item>
           <item id="6508de1ce71546f49074f1fb1325edb8" iid="addad5c627784ca6afd189d830154321" container="2caaa88a9db8492bb44a7d4fc410deb5" container-iid="7adb617379a94050a892edbaadb1848f" creation-date="04/19/2024 07:38:21" order-index="1" type="ui-button">
-            <layout ax="196.25" ay="75" awidth="188.5" aheight="89" x="196.25" y="75" width="188.5" height="89" rotation-center="7.75,-29.5" />
+            <layout ax="196.25" ay="128" awidth="188.5" aheight="89" x="196.25" y="128" width="188.5" height="89" rotation-center="7.75,-29.5" />
+          </item>
+          <item id="876e39fc18c64ba5b78ea9e4c5e9adfa" iid="ea1aa5225025464f84333d43b727798f" container="2caaa88a9db8492bb44a7d4fc410deb5" container-iid="7adb617379a94050a892edbaadb1848f" creation-date="04/19/2024 14:38:47" order-index="5" type="ui-label">
+            <layout ax="215.5" ay="71.5" awidth="150" aheight="36" x="215.5" y="71.5" width="150" height="20" />
+          </item>
+          <item id="65a25fbbfa434cb480ce095a54b4c5f2" iid="2d67fa5af1bc4091af9b83b8e7ba4a47" container="2caaa88a9db8492bb44a7d4fc410deb5" container-iid="7adb617379a94050a892edbaadb1848f" creation-date="04/19/2024 14:39:55" order-index="6" type="ui-text-box">
+            <layout ax="399" ay="75.5" awidth="255" aheight="28" x="399" y="75.5" width="255" height="20" rotation-center="-57,0" />
+          </item>
+          <item id="e154fb8368714ac08c926541f01f3878" iid="882e5a7efd74495ab736600290a16eb0" container="2caaa88a9db8492bb44a7d4fc410deb5" container-iid="7adb617379a94050a892edbaadb1848f" creation-date="04/19/2024 14:40:12" order-index="7" type="ui-panel">
+            <layout ax="402.5" ay="128" awidth="499" aheight="513" x="402.5" y="128" width="499" height="513" rotation-center="-38,-131.5" />
+          </item>
+          <item id="855b102af43d41ec8d7289cfc6699308" iid="42473b2620664b589e6226e66db20950" container="2caaa88a9db8492bb44a7d4fc410deb5" container-iid="7adb617379a94050a892edbaadb1848f" creation-date="04/19/2024 15:00:56" order-index="8" type="ui-button">
+            <layout ax="716" ay="74.5" awidth="154" aheight="36" x="716" y="72" width="100" height="30" />
           </item>
         </layer>
       </diagram>
-      <diagram type="user-interface" id="p9532f23715c24d06a05cc145909ba49f_728983198" name="UserInterfaceDiagram4" order-index="5" overview-order-index="3" uid="" auto-routed-paths="false" default-line-style="default">
+      <diagram type="user-interface" id="p9532f23715c24d06a05cc145909ba49f_728983198" name="UserInterfaceDiagram4" order-index="5" overview-order-index="3" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="0,-143">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -575,44 +695,65 @@
           <version />
         </meta>
         <abstract-items>
-          <item id="di79bf5479c7b941b19459b47663de12af8480" cid="TXT017" type="ui-text-box" name="TextBox1" owner="didd10078f7ea64b2f85f65769655967c48480" change-tracking-state="added" creator="" creation-date="04/16/2024 16:51:28">
-            <text-box />
+          <item id="di79bf5479c7b941b19459b47663de12af8480" cid="TXT017" type="ui-text-box" name="TextBox1" style-class="" owner="didd10078f7ea64b2f85f65769655967c48480" change-tracking-state="added" creator="" creation-date="04/16/2024 16:51:28">
+            <text-box password-dots="false" display-password-button="false" />
           </item>
-          <item id="di9f119536a2da44ef98472cd84cbda6168480" cid="WND005" type="ui-window" name="Afficher une liste d'étudiants" change-tracking-state="added" creator="" creation-date="04/16/2024 17:14:34">
+          <item id="di9f119536a2da44ef98472cd84cbda6168480" cid="WND005" type="ui-window" name="Afficher une liste d'étudiants" style-class="" change-tracking-state="added" creator="" creation-date="04/16/2024 17:14:34">
+            <owned-items>
+              <owned-item ref="di666237c77abb49e3a0fa2a1e429b11b78480" />
+              <owned-item ref="didd10078f7ea64b2f85f65769655967c48480" />
+              <owned-item ref="di90aec71ce5464c6c96729455a5c6c36c8480" />
+            </owned-items>
             <window show-min-button="true" show-max-button="true" show-close-button="true" show-size-grip="false" />
           </item>
-          <item id="di666237c77abb49e3a0fa2a1e429b11b78480" cid="GRP018" type="ui-group-box" name="Liste de diplomés" owner="di9f119536a2da44ef98472cd84cbda6168480" change-tracking-state="added" creator="" creation-date="04/16/2024 16:58:52" />
-          <item id="di0b6d24af01ee4663912777cf6e47385f8480" cid="BTN021" type="ui-button" name="Afficher la liste d'étudiants" owner="di666237c77abb49e3a0fa2a1e429b11b78480" change-tracking-state="added" creator="" creation-date="04/16/2024 17:05:27">
+          <item id="di666237c77abb49e3a0fa2a1e429b11b78480" cid="GRP018" type="ui-group-box" name="Liste de diplomés" style-class="" owner="di9f119536a2da44ef98472cd84cbda6168480" change-tracking-state="added" creator="" creation-date="04/16/2024 16:58:52">
+            <owned-items>
+              <owned-item ref="di0b6d24af01ee4663912777cf6e47385f8480" />
+              <owned-item ref="dibe50c9ecf84546d6b04f72f72b1131d78480" />
+              <owned-item ref="di15cc1521cab74d569ab842e5f340f15a8480" />
+            </owned-items>
+          </item>
+          <item id="di0b6d24af01ee4663912777cf6e47385f8480" cid="BTN021" type="ui-button" name="Afficher la liste d'étudiants" style-class="" owner="di666237c77abb49e3a0fa2a1e429b11b78480" change-tracking-state="added" creator="" creation-date="04/16/2024 17:05:27">
             <button />
           </item>
-          <item id="dibe50c9ecf84546d6b04f72f72b1131d78480" cid="LBL018" type="ui-label" name="Date de diplome:" owner="di666237c77abb49e3a0fa2a1e429b11b78480" change-tracking-state="added" creator="" creation-date="04/16/2024 17:03:34" />
-          <item id="di9d8107055b9243ab8019e8f95f7699e68480" cid="LBL017" type="ui-label" name="Sigle Cours" owner="didd10078f7ea64b2f85f65769655967c48480" change-tracking-state="added" creator="" creation-date="04/16/2024 16:50:55" />
-          <item id="didd10078f7ea64b2f85f65769655967c48480" cid="GRP017" type="ui-group-box" name="Liste d'étudiants" owner="di9f119536a2da44ef98472cd84cbda6168480" change-tracking-state="added" creator="" creation-date="04/16/2024 16:44:40" />
-          <item id="di1d01d4605f0545528a574f922e3dc6888480" cid="LST005" type="ui-list-box" name="Code permanent| Nom| Prénom | Date de naissance | Date inscription | Date de diplome | numero DA" owner="di90aec71ce5464c6c96729455a5c6c36c8480" change-tracking-state="added" creator="" creation-date="04/16/2024 17:16:42">
+          <item id="dibe50c9ecf84546d6b04f72f72b1131d78480" cid="LBL018" type="ui-label" name="Date de diplome:" style-class="" owner="di666237c77abb49e3a0fa2a1e429b11b78480" change-tracking-state="added" creator="" creation-date="04/16/2024 17:03:34" />
+          <item id="di9d8107055b9243ab8019e8f95f7699e68480" cid="LBL017" type="ui-label" name="Sigle Cours" style-class="" owner="didd10078f7ea64b2f85f65769655967c48480" change-tracking-state="added" creator="" creation-date="04/16/2024 16:50:55" />
+          <item id="didd10078f7ea64b2f85f65769655967c48480" cid="GRP017" type="ui-group-box" name="Liste d'étudiants" style-class="" owner="di9f119536a2da44ef98472cd84cbda6168480" change-tracking-state="added" creator="" creation-date="04/16/2024 16:44:40">
+            <owned-items>
+              <owned-item ref="di79bf5479c7b941b19459b47663de12af8480" />
+              <owned-item ref="di9d8107055b9243ab8019e8f95f7699e68480" />
+              <owned-item ref="dia49b055bad4c457c94136922975cc82e8480" />
+            </owned-items>
+          </item>
+          <item id="di1d01d4605f0545528a574f922e3dc6888480" cid="LST005" type="ui-list-box" name="Code permanent| Nom| Prénom | Date de naissance | Date inscription | Date de diplome | numero DA" style-class="" owner="di90aec71ce5464c6c96729455a5c6c36c8480" change-tracking-state="added" creator="" creation-date="04/16/2024 17:16:42">
             <list-box>
               <list-items />
             </list-box>
           </item>
-          <item id="di90aec71ce5464c6c96729455a5c6c36c8480" cid="GRP016" type="ui-group-box" name="Liste d'étudiants" owner="di9f119536a2da44ef98472cd84cbda6168480" change-tracking-state="added" creator="" creation-date="04/16/2024 17:16:19" />
-          <item id="di15cc1521cab74d569ab842e5f340f15a8480" cid="TXT018" type="ui-text-box" name="TextBox2" owner="di666237c77abb49e3a0fa2a1e429b11b78480" change-tracking-state="added" creator="" creation-date="04/16/2024 17:04:10">
-            <text-box />
+          <item id="di90aec71ce5464c6c96729455a5c6c36c8480" cid="GRP016" type="ui-group-box" name="Liste d'étudiants" style-class="" owner="di9f119536a2da44ef98472cd84cbda6168480" change-tracking-state="added" creator="" creation-date="04/16/2024 17:16:19">
+            <owned-items>
+              <owned-item ref="di1d01d4605f0545528a574f922e3dc6888480" />
+            </owned-items>
           </item>
-          <item id="dia49b055bad4c457c94136922975cc82e8480" cid="BTN018" type="ui-button" name="Afficher la liste dÉtudiants" owner="didd10078f7ea64b2f85f65769655967c48480" change-tracking-state="added" creator="" creation-date="04/16/2024 16:52:14">
+          <item id="di15cc1521cab74d569ab842e5f340f15a8480" cid="TXT018" type="ui-text-box" name="TextBox2" style-class="" owner="di666237c77abb49e3a0fa2a1e429b11b78480" change-tracking-state="added" creator="" creation-date="04/16/2024 17:04:10">
+            <text-box password-dots="false" display-password-button="false" />
+          </item>
+          <item id="dia49b055bad4c457c94136922975cc82e8480" cid="BTN018" type="ui-button" name="Afficher la liste dÉtudiants" style-class="" owner="didd10078f7ea64b2f85f65769655967c48480" change-tracking-state="added" creator="" creation-date="04/16/2024 16:52:14">
             <button />
           </item>
         </abstract-items>
         <layer id="e0b77e2e730c49759a0151d2c251d126" name="Default" visible="true" enabled="true" locked="false">
           <item id="di9f119536a2da44ef98472cd84cbda6168480" iid="0fd59414d86e4c649e43aee974db28a2" creation-date="04/16/2024 17:14:34" order-index="13" type="ui-window">
-            <layout ax="103" ay="-21" awidth="1147" aheight="542" x="103" y="-21" width="1147" height="542" expanded="103,-21,1147,542" collapsed="0,0,0,0" rotation-center="141.5,-121" />
+            <layout ax="103" ay="-21" awidth="1147" aheight="542" x="103" y="-21" width="1147" height="542" rotation-center="141.5,-121" />
           </item>
           <item id="di90aec71ce5464c6c96729455a5c6c36c8480" iid="ff5673f5bdd74ffe87f8d3e2e4b1cc73" container="di9f119536a2da44ef98472cd84cbda6168480" container-iid="0fd59414d86e4c649e43aee974db28a2" creation-date="04/16/2024 17:16:19" order-index="15" type="ui-group-box">
-            <layout ax="425" ay="24" awidth="804" aheight="454" x="583" y="24" width="804" height="453.5" expanded="425,24,804,454" collapsed="0,0,0,0" rotation-center="-167,-142" />
+            <layout ax="425" ay="24" awidth="804" aheight="454" x="583" y="24" width="804" height="453.5" rotation-center="-167,-142" />
           </item>
           <item id="didd10078f7ea64b2f85f65769655967c48480" iid="191a4e99dbcf45b086521a95c17528ae" container="di9f119536a2da44ef98472cd84cbda6168480" container-iid="0fd59414d86e4c649e43aee974db28a2" creation-date="04/16/2024 16:44:40" order-index="1" type="ui-group-box">
-            <layout ax="118.5" ay="24" awidth="291" aheight="161" x="276.5" y="24" width="291" height="161" expanded="118.5,24,291,161" collapsed="0,0,0,0" rotation-center="15.5,-0.5" />
+            <layout ax="118.5" ay="24" awidth="291" aheight="161" x="276.5" y="24" width="291" height="161" rotation-center="15.5,-0.5" />
           </item>
           <item id="di666237c77abb49e3a0fa2a1e429b11b78480" iid="68615a89a4f242bdaded7d2b81de0382" container="di9f119536a2da44ef98472cd84cbda6168480" container-iid="0fd59414d86e4c649e43aee974db28a2" creation-date="04/16/2024 16:58:52" order-index="7" type="ui-group-box">
-            <layout ax="122.5" ay="221" awidth="272" aheight="161" x="280.5" y="221" width="272" height="161" expanded="122.5,221,272,161" collapsed="0,0,0,0" rotation-center="-66,-0.5" />
+            <layout ax="122.5" ay="221" awidth="272" aheight="161" x="280.5" y="221" width="272" height="161" rotation-center="-66,-0.5" />
           </item>
           <item id="di1d01d4605f0545528a574f922e3dc6888480" iid="027664fc7c1b4bdc8176bff9df1b77ca" container="di90aec71ce5464c6c96729455a5c6c36c8480" container-iid="ff5673f5bdd74ffe87f8d3e2e4b1cc73" creation-date="04/16/2024 17:16:42" order-index="16" type="ui-list-box">
             <layout ax="458" ay="70" awidth="748" aheight="360" x="661" y="70.5" width="748" height="360.5" rotation-center="-304,-102.25" />
@@ -637,7 +778,7 @@
           </item>
         </layer>
       </diagram>
-      <diagram type="user-interface" id="p7c03c757718a4959946a3359f77dcfab_595811952" name="UserInterfaceDiagram5" order-index="6" overview-order-index="4" uid="" auto-routed-paths="false" default-line-style="default">
+      <diagram type="user-interface" id="p7c03c757718a4959946a3359f77dcfab_595811952" name="UserInterfaceDiagram5" order-index="6" overview-order-index="4" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="0,-122">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -654,76 +795,102 @@
           <version />
         </meta>
         <abstract-items>
-          <item id="di094ad9f73c644447aaaf08dce93789e39750" cid="TXT019" type="ui-text-box" name="TextBox3" owner="dib499a684e2f941e3ac76abcd7b6c12869750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:35">
-            <text-box />
+          <item id="di094ad9f73c644447aaaf08dce93789e39750" cid="TXT019" type="ui-text-box" name="TextBox3" style-class="" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:35">
+            <text-box password-dots="false" display-password-button="false" />
           </item>
-          <item id="difc2fbbeb8d4c44d999ab9715506ff9789750" cid="TXT021" type="ui-text-box" name="TextBox5" owner="dib499a684e2f941e3ac76abcd7b6c12869750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:53">
-            <text-box />
+          <item id="difc2fbbeb8d4c44d999ab9715506ff9789750" cid="TXT021" type="ui-text-box" name="TextBox5" style-class="" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:53">
+            <text-box password-dots="false" display-password-button="false" />
           </item>
-          <item id="difaff64c7a6074eb2b9b00f208121f4739750" cid="WND007" type="ui-window" name="Modifications/Ajout d'un étudiant" change-tracking-state="added" creator="" creation-date="04/16/2024 16:33:00">
+          <item id="difaff64c7a6074eb2b9b00f208121f4739750" cid="WND007" type="ui-window" name="Modifications/Ajout d'un étudiant" style-class="" change-tracking-state="added" creator="" creation-date="04/16/2024 16:33:00">
+            <owned-items>
+              <owned-item ref="di3a8f2d11f3584de8993939e559471af39750" />
+              <owned-item ref="did4671850f0074500925e8f3be3b567f89750" />
+            </owned-items>
             <window show-min-button="true" show-max-button="true" show-close-button="true" show-size-grip="false" />
           </item>
-          <item id="di1c13e57061b24ee0b08bd38081bec6ec9750" cid="LBL022" type="ui-label" name="Résultat:" owner="di3a8f2d11f3584de8993939e559471af39750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:21" />
-          <item id="di295f7c11532746d3afa9be629ffbed2a9750" cid="TXT020" type="ui-text-box" name="TextBox4" owner="dib499a684e2f941e3ac76abcd7b6c12869750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:37">
-            <text-box />
+          <item id="di1c13e57061b24ee0b08bd38081bec6ec9750" cid="LBL022" type="ui-label" name="Résultat:" style-class="" owner="di3a8f2d11f3584de8993939e559471af39750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:21" />
+          <item id="di295f7c11532746d3afa9be629ffbed2a9750" cid="TXT020" type="ui-text-box" name="TextBox4" style-class="" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:37">
+            <text-box password-dots="false" display-password-button="false" />
           </item>
-          <item id="di180b2e9d5e6e45f69ca3a14e2ed053bc9750" cid="TXT028" type="ui-text-box" name="TextBox5" owner="did4671850f0074500925e8f3be3b567f89750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:53">
-            <text-box />
+          <item id="di180b2e9d5e6e45f69ca3a14e2ed053bc9750" cid="TXT028" type="ui-text-box" name="TextBox5" style-class="" owner="did4671850f0074500925e8f3be3b567f89750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:53">
+            <text-box password-dots="false" display-password-button="false" />
           </item>
-          <item id="didd24d42fe1104e6682d9d844cc57340a9750" cid="TXT026" type="ui-text-box" name="TextBox3" owner="did4671850f0074500925e8f3be3b567f89750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:35">
-            <text-box />
+          <item id="didd24d42fe1104e6682d9d844cc57340a9750" cid="TXT026" type="ui-text-box" name="TextBox3" style-class="" owner="did4671850f0074500925e8f3be3b567f89750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:35">
+            <text-box password-dots="false" display-password-button="false" />
           </item>
-          <item id="di2a2edb04a3c9438bae93a35429c699ee9750" cid="TXT023" type="ui-text-box" name="TextBox4" owner="di3a8f2d11f3584de8993939e559471af39750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:37">
-            <text-box />
+          <item id="di2a2edb04a3c9438bae93a35429c699ee9750" cid="TXT023" type="ui-text-box" name="TextBox4" style-class="" owner="di3a8f2d11f3584de8993939e559471af39750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:37">
+            <text-box password-dots="false" display-password-button="false" />
           </item>
-          <item id="did762ab61cbc341fda07f0b96d69f46619750" cid="TXT024" type="ui-text-box" name="TextBox5" owner="di3a8f2d11f3584de8993939e559471af39750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:53">
-            <text-box />
+          <item id="did762ab61cbc341fda07f0b96d69f46619750" cid="TXT024" type="ui-text-box" name="TextBox5" style-class="" owner="di3a8f2d11f3584de8993939e559471af39750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:53">
+            <text-box password-dots="false" display-password-button="false" />
           </item>
-          <item id="di2cdb981151944238a7e7612111fa24e59750" cid="LBL020" type="ui-label" name="SigleCours:" owner="dib499a684e2f941e3ac76abcd7b6c12869750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:45" />
-          <item id="di393d2ec748334b2f992283a2f28f55c19750" cid="BTN024" type="ui-button" name="Ajouter l'étudiant" owner="did4671850f0074500925e8f3be3b567f89750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:35">
+          <item id="di2cdb981151944238a7e7612111fa24e59750" cid="LBL020" type="ui-label" name="SigleCours:" style-class="" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:45" />
+          <item id="di393d2ec748334b2f992283a2f28f55c19750" cid="BTN024" type="ui-button" name="Ajouter l'étudiant" style-class="" owner="did4671850f0074500925e8f3be3b567f89750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:35">
             <button />
           </item>
-          <item id="di1b81365851f646f5b8ebc428310054679750" cid="TXT025" type="ui-text-box" name="TextBox6" owner="di3a8f2d11f3584de8993939e559471af39750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:21">
-            <text-box />
+          <item id="di1b81365851f646f5b8ebc428310054679750" cid="TXT025" type="ui-text-box" name="TextBox6" style-class="" owner="di3a8f2d11f3584de8993939e559471af39750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:21">
+            <text-box password-dots="false" display-password-button="false" />
           </item>
-          <item id="di5326e1f4d6d44753a5d3b0eaeb5656ba9750" cid="LBL019" type="ui-label" name="CodePermanent:" owner="dib499a684e2f941e3ac76abcd7b6c12869750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:21" />
-          <item id="di361ead8bd9c24464b314d2033d80600d9750" cid="LBL024" type="ui-label" name="sigleCours:" owner="di3a8f2d11f3584de8993939e559471af39750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:22" />
-          <item id="di920b12c7cdb846f3bfbbad891f9ddfd29750" cid="LBL026" type="ui-label" name="Sigle:" owner="did4671850f0074500925e8f3be3b567f89750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:21" />
-          <item id="di2cab19d347064ad09f5bfb3f444737139750" cid="LBL023" type="ui-label" name="codePermanent:" owner="di3a8f2d11f3584de8993939e559471af39750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:45" />
-          <item id="di7b329c78da5c421ab8351e047acbd2139750" cid="LBL028" type="ui-label" name="noGroupe:" owner="did4671850f0074500925e8f3be3b567f89750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:22" />
-          <item id="di702cd752061448b4977eeea021ffbce79750" cid="TXT022" type="ui-text-box" name="TextBox3" owner="di3a8f2d11f3584de8993939e559471af39750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:35">
-            <text-box />
+          <item id="di5326e1f4d6d44753a5d3b0eaeb5656ba9750" cid="LBL019" type="ui-label" name="CodePermanent:" style-class="" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:21" />
+          <item id="di361ead8bd9c24464b314d2033d80600d9750" cid="LBL024" type="ui-label" name="sigleCours:" style-class="" owner="di3a8f2d11f3584de8993939e559471af39750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:22" />
+          <item id="di920b12c7cdb846f3bfbbad891f9ddfd29750" cid="LBL026" type="ui-label" name="Sigle:" style-class="" owner="did4671850f0074500925e8f3be3b567f89750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:21" />
+          <item id="di2cab19d347064ad09f5bfb3f444737139750" cid="LBL023" type="ui-label" name="codePermanent:" style-class="" owner="di3a8f2d11f3584de8993939e559471af39750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:45" />
+          <item id="di7b329c78da5c421ab8351e047acbd2139750" cid="LBL028" type="ui-label" name="noGroupe:" style-class="" owner="did4671850f0074500925e8f3be3b567f89750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:22" />
+          <item id="di702cd752061448b4977eeea021ffbce79750" cid="TXT022" type="ui-text-box" name="TextBox3" style-class="" owner="di3a8f2d11f3584de8993939e559471af39750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:35">
+            <text-box password-dots="false" display-password-button="false" />
           </item>
-          <item id="di112e68e1bbd1428d9e1a55fd716e0ba49750" cid="LBL027" type="ui-label" name="idProf:" owner="did4671850f0074500925e8f3be3b567f89750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:45" />
-          <item id="di6113b9275c37408ca9bf21ec40a2c4e39750" cid="BTN022" type="ui-button" name="Supprimer" owner="dib499a684e2f941e3ac76abcd7b6c12869750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:35">
+          <item id="di112e68e1bbd1428d9e1a55fd716e0ba49750" cid="LBL027" type="ui-label" name="idProf:" style-class="" owner="did4671850f0074500925e8f3be3b567f89750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:26:45" />
+          <item id="di6113b9275c37408ca9bf21ec40a2c4e39750" cid="BTN022" type="ui-button" name="Supprimer" style-class="" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:35">
             <button />
           </item>
-          <item id="di85571ef78df8408690833088ba0d655a9750" cid="LBL029" type="ui-label" name="codePermanent:" owner="did4671850f0074500925e8f3be3b567f89750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:19" />
-          <item id="di84700705fe4f4b4997db0e13d47a71a69750" cid="TXT027" type="ui-text-box" name="TextBox4" owner="did4671850f0074500925e8f3be3b567f89750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:37">
-            <text-box />
+          <item id="di85571ef78df8408690833088ba0d655a9750" cid="LBL029" type="ui-label" name="codePermanent:" style-class="" owner="did4671850f0074500925e8f3be3b567f89750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:19" />
+          <item id="di84700705fe4f4b4997db0e13d47a71a69750" cid="TXT027" type="ui-text-box" name="TextBox4" style-class="" owner="did4671850f0074500925e8f3be3b567f89750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:37">
+            <text-box password-dots="false" display-password-button="false" />
           </item>
-          <item id="di73b6ec4e36b84c6ca44ef756b6ed96619750" cid="LBL025" type="ui-label" name="idSession:" owner="di3a8f2d11f3584de8993939e559471af39750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:19" />
-          <item id="di77aaaffb5a9f420fa3c730b44ef9f4db9750" cid="BTN023" type="ui-button" name="Modifier Résultat" owner="di3a8f2d11f3584de8993939e559471af39750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:35">
+          <item id="di73b6ec4e36b84c6ca44ef756b6ed96619750" cid="LBL025" type="ui-label" name="idSession:" style-class="" owner="di3a8f2d11f3584de8993939e559471af39750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:28:19" />
+          <item id="di77aaaffb5a9f420fa3c730b44ef9f4db9750" cid="BTN023" type="ui-button" name="Modifier Résultat" style-class="" owner="di3a8f2d11f3584de8993939e559471af39750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:35">
             <button />
           </item>
-          <item id="di3a8f2d11f3584de8993939e559471af39750" cid="GRP020" type="ui-group-box" name="Modifier résultat d'un étudiant" owner="difaff64c7a6074eb2b9b00f208121f4739750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:24:04" />
-          <item id="diac87f903862849e9be477840c11835879750" cid="LBL021" type="ui-label" name="idSession:" owner="dib499a684e2f941e3ac76abcd7b6c12869750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:22" />
-          <item id="did4671850f0074500925e8f3be3b567f89750" cid="GRP021" type="ui-group-box" name="Ajouter un étudiant dans un cours" owner="difaff64c7a6074eb2b9b00f208121f4739750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:24:04" />
-          <item id="dicc035821deac4e82a62a6816f2b7aa539750" cid="TXT029" type="ui-text-box" name="TextBox6" owner="did4671850f0074500925e8f3be3b567f89750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:21">
-            <text-box />
+          <item id="di3a8f2d11f3584de8993939e559471af39750" cid="GRP020" type="ui-group-box" name="Modifier résultat d'un étudiant" style-class="" owner="difaff64c7a6074eb2b9b00f208121f4739750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:24:04">
+            <owned-items>
+              <owned-item ref="di1c13e57061b24ee0b08bd38081bec6ec9750" />
+              <owned-item ref="di2a2edb04a3c9438bae93a35429c699ee9750" />
+              <owned-item ref="did762ab61cbc341fda07f0b96d69f46619750" />
+              <owned-item ref="di1b81365851f646f5b8ebc428310054679750" />
+              <owned-item ref="di361ead8bd9c24464b314d2033d80600d9750" />
+              <owned-item ref="di2cab19d347064ad09f5bfb3f444737139750" />
+              <owned-item ref="di702cd752061448b4977eeea021ffbce79750" />
+              <owned-item ref="di73b6ec4e36b84c6ca44ef756b6ed96619750" />
+              <owned-item ref="di77aaaffb5a9f420fa3c730b44ef9f4db9750" />
+            </owned-items>
+          </item>
+          <item id="diac87f903862849e9be477840c11835879750" cid="LBL021" type="ui-label" name="idSession:" style-class="" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:22" />
+          <item id="did4671850f0074500925e8f3be3b567f89750" cid="GRP021" type="ui-group-box" name="Ajouter un étudiant dans un cours" style-class="" owner="difaff64c7a6074eb2b9b00f208121f4739750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:24:04">
+            <owned-items>
+              <owned-item ref="di180b2e9d5e6e45f69ca3a14e2ed053bc9750" />
+              <owned-item ref="didd24d42fe1104e6682d9d844cc57340a9750" />
+              <owned-item ref="di393d2ec748334b2f992283a2f28f55c19750" />
+              <owned-item ref="di920b12c7cdb846f3bfbbad891f9ddfd29750" />
+              <owned-item ref="di7b329c78da5c421ab8351e047acbd2139750" />
+              <owned-item ref="di112e68e1bbd1428d9e1a55fd716e0ba49750" />
+              <owned-item ref="di85571ef78df8408690833088ba0d655a9750" />
+              <owned-item ref="di84700705fe4f4b4997db0e13d47a71a69750" />
+              <owned-item ref="dicc035821deac4e82a62a6816f2b7aa539750" />
+            </owned-items>
+          </item>
+          <item id="dicc035821deac4e82a62a6816f2b7aa539750" cid="TXT029" type="ui-text-box" name="TextBox6" style-class="" owner="did4671850f0074500925e8f3be3b567f89750" change-tracking-state="added" creator="" creation-date="04/16/2024 17:29:21">
+            <text-box password-dots="false" display-password-button="false" />
           </item>
         </abstract-items>
         <layer id="030a8af6992a4fdd8cc6e9ab1133857b" name="Default" visible="true" enabled="true" locked="false">
           <item id="difaff64c7a6074eb2b9b00f208121f4739750" iid="72284d93df4645a9b1f6ff21fba0802c" creation-date="04/16/2024 16:33:00" order-index="0" type="ui-window">
-            <layout ax="145" ay="-78" awidth="763" aheight="417" x="145" y="-78" width="763" height="417" expanded="145,-78,763,417" collapsed="0,0,0,0" rotation-center="185.5,113.5" container-layout="simple">
-              <container-layout padding="10,10,10,10" />
-            </layout>
+            <layout ax="145" ay="-78" awidth="763" aheight="417" x="145" y="-78" width="763" height="417" rotation-center="185.5,113.5" container-layout="simple" />
           </item>
           <item id="di3a8f2d11f3584de8993939e559471af39750" iid="79ee63b2fb784890a31ce5fabdca8a4d" container="difaff64c7a6074eb2b9b00f208121f4739750" container-iid="72284d93df4645a9b1f6ff21fba0802c" creation-date="04/16/2024 17:24:04" order-index="12" type="ui-group-box">
-            <layout ax="502" ay="-32.5" awidth="374" aheight="323" x="502" y="-32.5" width="374" height="323" expanded="502,-32.5,374,323" collapsed="0,0,0,0" rotation-center="110,-81.5" />
+            <layout ax="502" ay="-32.5" awidth="374" aheight="323" x="502" y="-32.5" width="374" height="323" rotation-center="110,-81.5" />
           </item>
           <item id="did4671850f0074500925e8f3be3b567f89750" iid="e6d01e2f48934329891103656044a488" container="difaff64c7a6074eb2b9b00f208121f4739750" container-iid="72284d93df4645a9b1f6ff21fba0802c" creation-date="04/16/2024 17:24:04" order-index="12" type="ui-group-box">
-            <layout ax="159" ay="-33" awidth="311" aheight="324" x="159" y="-32.75" width="311" height="323.5" expanded="159,-33,311,324" collapsed="0,0,0,0" rotation-center="73.5,-81.25" />
+            <layout ax="159" ay="-33" awidth="311" aheight="324" x="159" y="-32.75" width="311" height="323.5" rotation-center="73.5,-81.25" />
           </item>
           <item id="di1c13e57061b24ee0b08bd38081bec6ec9750" iid="4ecd3c5879b44a8c8af05832d5f772a6" container="di3a8f2d11f3584de8993939e559471af39750" container-iid="79ee63b2fb784890a31ce5fabdca8a4d" creation-date="04/16/2024 17:26:21" order-index="13" type="ui-label">
             <layout ax="524" ay="-4.5" awidth="78" aheight="36" x="469" y="-17" width="53" height="20" rotation-center="13.5,0" />
