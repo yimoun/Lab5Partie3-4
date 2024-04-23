@@ -10,11 +10,11 @@ namespace Lab5UI.Models
     class Cours
     {
         [JsonProperty(PropertyName = "sigleCours")]
-        public string SigleCours { get; set; }
+        public string? SigleCours { get; set; }
 
 
         [JsonProperty(PropertyName = "titreCours")]
-        public string TitreCours { get; set; }
+        public string? TitreCours { get; set; }
 
 
         [JsonProperty(PropertyName = "dureeCours")]
