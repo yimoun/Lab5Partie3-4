@@ -3,6 +3,9 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+          xmlns:viewmodel="clr-namespace:Lab5UI.ViewModel"
+      d:DataContext="{d:DesignInstance Type=viewmodel:VMListeCoursBulletins}"
+     
       xmlns:local="clr-namespace:Lab5UI.View"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
@@ -36,10 +39,10 @@
                         </Grid.ColumnDefinitions>
 
                         <Label Grid.Column="0" Content="Code permanent: " VerticalAlignment="Center" HorizontalAlignment="Right"/>
-                        <TextBox Grid.Column="1" Margin="5 15"></TextBox>
+                        <TextBox Grid.Column="1" Margin="5 15" Text="{Binding CodePermanent, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
                     </Grid>
                     
-                    <Button Grid.Row="1" Margin="50 10" Content="Afficher la liste de cours"/>
+                    <Button Grid.Row="1" Margin="50 10" Content="Afficher la liste de cours" Command="{Binding AfficherCours}"/>
                     <Button Grid.Row="2" Margin="50 10" Content="Afficher l'historique des cours"/>
                     <Button Grid.Row="3" Margin="50 10" Content="Afficher les bulletins des cours"/>
                 </Grid>
@@ -68,13 +71,13 @@
 
         </Grid>
         <GroupBox Grid.Column="1" Header="Liste des cours">
-            <ListView Margin="25" >
+            <ListView Margin="25" ItemsSource="{Binding LesCours}">
                 <ListView.View>
                     <GridView>
-                        <GridViewColumn Header="Sigle" Width="auto"/>
-                        <GridViewColumn Header="Titre" Width="auto"/>
-                        <GridViewColumn Header="Durée" Width="auto"/>
-                        <GridViewColumn Header="Résultat" Width="auto"/>
+                        <GridViewColumn Header="Sigle" Width="auto" DisplayMemberBinding="{Binding SigleCours}"/>
+                        <GridViewColumn Header="Titre" Width="auto" DisplayMemberBinding="{Binding TitreCours}"/>
+                        <GridViewColumn Header="Durée" Width="auto" DisplayMemberBinding="{Binding DureeCours}"/>
+                        <!--<GridViewColumn Header="Résultat" Width="auto"/>-->
                     </GridView>
                 </ListView.View>
             </ListView>

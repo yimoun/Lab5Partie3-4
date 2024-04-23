@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "SVLgG6v2a6LRhTMyaVI5GmdygVScx1WQRNvenkz2BKFamOFntK/+VQSCSrd3P5M8I0Ox0a8JBKiNZKUKP72QWA==",
+  "dgSpecHash": "fKon4cubskQxJZleQI/t+O6zySmrDOMYsWfUIWCDttysE1Ba4CJJeaT26X0Kcf96fFE1xeGBR8Dxnjfjj1cr3A==",
   "success": true,
   "projectFilePath": "C:\\Users\\2230912\\Desktop\\Lab5Partie3-4\\Lab5Partie3-4\\Lab5UI\\Lab5UI\\Lab5UI.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\2230912\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
+    "C:\\Users\\2230912\\.nuget\\packages\\communitytoolkit.mvvm\\8.0.0\\communitytoolkit.mvvm.8.0.0.nupkg.sha512",
     "C:\\Users\\2230912\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []

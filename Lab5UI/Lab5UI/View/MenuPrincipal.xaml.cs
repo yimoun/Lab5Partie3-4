@@ -1,4 +1,6 @@
-﻿using Lab5UI.View;
+﻿using Lab5UI.Models;
+using Lab5UI.View;
+using Lab5UI.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,10 +30,16 @@ namespace Lab5UI
         public MainWindow()
         {
             InitializeComponent();
+            APIHelper.InitializeClient();
 
             vueListeCoursBulletins = new VueListeCoursBulletins();
+            vueListeCoursBulletins.DataContext = new VMListeCoursBulletins();
+
             vueAjoutModifSupprCours = new VueAjoutModifSupprCours();
+
             vueListeEtudiants = new VueListeEtudiants();
+            vueListeEtudiants.DataContext = new VMListeEtudiants();
+
             vueAjoutModifEtudiant = new VueAjoutModifEtudiant();
         }
 
