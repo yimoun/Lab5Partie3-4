@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Lab5UI
+namespace Lab5UI.View
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Logique d'interaction pour VueListeCoursBulletins.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class VueListeCoursBulletins : Page
     {
-        public MainWindow()
+        public VueListeCoursBulletins()
         {
             InitializeComponent();
         }
