@@ -47,7 +47,7 @@
     <entity-ids>
       <counter>
         <item-type type-id="group" type="Group" />
-        <value>896</value>
+        <value>903</value>
       </counter>
       <counter>
         <item-type type-id="ui-window" type="Window" />
@@ -129,6 +129,16 @@
         <description />
         <color>#00000000</color>
         <working-schedule uid="ws-143ac027f39e4d24be3f7947199e2dc8" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+      <person id="">
+        <first-name>Raphael</first-name>
+        <last-name>Gagnon</last-name>
+        <role />
+        <e-mail>raphaelgagnon@cegep-chicoutimi.qc.ca</e-mail>
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-73b7db86b8cd42bcbb86dc694c741c4a" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
       </person>
       <person id="">
         <first-name>Raphael</first-name>
@@ -242,6 +252,8 @@
               <owned-item ref="di43392530ec434c258a1c0adfc3ee5aa24883" />
               <owned-item ref="29c7a9ec5e0443a382238f23ac8cb43d" />
               <owned-item ref="di1ec3b8868b0a4d758ff595002ee22c378343" />
+              <owned-item ref="a21334d3273e4b8a98ebbe111be302d4" />
+              <owned-item ref="1b37d281cd9445bca683080e9b33c67c" />
             </owned-items>
             <window show-min-button="true" show-max-button="true" show-close-button="true" show-size-grip="false" />
           </item>
@@ -255,6 +267,7 @@
               <owned-item ref="d059778c5cc84f088e2ac62a962c20a6" />
               <owned-item ref="fd677ee0762b4a409e401ba822a30772" />
               <owned-item ref="4377a385d625495e89b504eb7808df16" />
+              <owned-item ref="283c165ffdaf471d95419f381ecf10a3" />
             </owned-items>
           </item>
           <item id="8aa39cdc9aa04e4292f8a04092da2293" cid="GRD001" type="ui-grid" name="Grid1" style-class="" owner="29e4c5dad1534928a24b0d4fff2eb34b" change-tracking-state="added" creator="" creation-date="04/16/2024 17:45:21">
@@ -331,6 +344,7 @@
               <owned-item ref="di16eb3aebdef546bb811950e188e64b5c4883" />
               <owned-item ref="di8b5efc6955ee403fa6247caa27b2b9964883" />
               <owned-item ref="dia7e5aa3571534ef8b3a21aa88eaac6c74883" />
+              <owned-item ref="dia55e956f2a2a4a598cda75919344ad8d4883" />
             </owned-items>
           </item>
           <item id="21f7afba0c3c4d6698d6a3b4b5e17ad5" cid="BTN004" type="ui-button" name="Afficher les bulletins des cours suivis" style-class="" change-tracking-state="added" creator="" creation-date="04/16/2024 17:19:32">
@@ -352,6 +366,7 @@
           <item id="429dc1404c9b481e8a01df730dc6c42c" cid="GRP002" type="ui-group-box" name="Liste de cours" style-class="" change-tracking-state="added" creator="" creation-date="04/16/2024 16:49:01">
             <owned-items>
               <owned-item ref="a1af76d509ce47a794ff5f0c6baf873b" />
+              <owned-item ref="a1af76d509ce47a794ff5f0c6baf873b" />
             </owned-items>
           </item>
           <item id="4377a385d625495e89b504eb7808df16" cid="LBL005" type="ui-label" name="idSession:" style-class="" owner="173ff7da7760448d8dcbfe84d073bfec" change-tracking-state="added" creator="" creation-date="04/16/2024 17:27:22" />
@@ -372,6 +387,7 @@
               <owned-item ref="dif7234b298d664c43aa5b403af95f710b6870" />
               <owned-item ref="di3cb09ae23be64cd483105ef54b8642b56870" />
               <owned-item ref="diabc3d4c5a59a4f09b090266288a836456870" />
+              <owned-item ref="dibfa1c53f8a1240c5a3d280951e38d1a46870" />
             </owned-items>
           </item>
           <item id="5156927f698c4007ba3786f92cec93ff" cid="LBL001" type="ui-label" name="Code permanent:" style-class="" change-tracking-state="added" creator="" creation-date="04/16/2024 16:50:55" />
@@ -509,6 +525,7 @@
           <item id="di151619eae48d421bb43935d45b3bf2a46959" cid="GRP007" type="ui-group-box" name="Liste de Cours" style-class="" owner="die6aceb57a8f24b759cf588a0b399926c6959" change-tracking-state="added" creator="" creation-date="04/16/2024 17:16:19">
             <owned-items>
               <owned-item ref="diec0614cef19249d78779d4418b22c6c26959" />
+              <owned-item ref="diec0614cef19249d78779d4418b22c6c26959" />
             </owned-items>
           </item>
           <item id="di0788774ef53848e383ab19c58bc6671e9238" cid="BTN015" type="ui-button" name="Afficher la liste des cours " style-class="" owner="di46749067547e497eab6260445d5022659238" change-tracking-state="added" creator="" creation-date="04/16/2024 17:05:27">
@@ -528,10 +545,17 @@
               <owned-item ref="di514034b51b4b4f10b4f3c2262311dc745308" />
               <owned-item ref="dibc5e88d8ac6f4d7db652d7593e5f92e75308" />
               <owned-item ref="di2d8cf9b42a6c4c2bac86c83113082e5e5308" />
+              <owned-item ref="di4f57ae30d4b24568bda49ae1aaa543cc5308" />
+              <owned-item ref="di43093b7bd2b84ccaa85e53497c3d0f175308" />
+              <owned-item ref="di514034b51b4b4f10b4f3c2262311dc745308" />
+              <owned-item ref="dibc5e88d8ac6f4d7db652d7593e5f92e75308" />
             </owned-items>
           </item>
           <item id="di46749067547e497eab6260445d5022659238" cid="GRP015" type="ui-group-box" name="Liste de cours selon enseignant" style-class="" owner="die6aceb57a8f24b759cf588a0b399926c6959" change-tracking-state="added" creator="" creation-date="04/16/2024 16:58:52">
             <owned-items>
+              <owned-item ref="di2c36726ef9c54c02a74240cf26b827849238" />
+              <owned-item ref="di0788774ef53848e383ab19c58bc6671e9238" />
+              <owned-item ref="di5d498952405f4a69bff65dc6355808239238" />
               <owned-item ref="di2c36726ef9c54c02a74240cf26b827849238" />
               <owned-item ref="di0788774ef53848e383ab19c58bc6671e9238" />
               <owned-item ref="di5d498952405f4a69bff65dc6355808239238" />
@@ -542,6 +566,9 @@
           </item>
           <item id="die6aceb57a8f24b759cf588a0b399926c6959" cid="WND003" type="ui-window" name="Afficher une liste de cours" style-class="" change-tracking-state="added" creator="" creation-date="04/16/2024 17:14:34">
             <owned-items>
+              <owned-item ref="di151619eae48d421bb43935d45b3bf2a46959" />
+              <owned-item ref="di561de8a186ea45679db787705b514fc95308" />
+              <owned-item ref="di46749067547e497eab6260445d5022659238" />
               <owned-item ref="di151619eae48d421bb43935d45b3bf2a46959" />
               <owned-item ref="di561de8a186ea45679db787705b514fc95308" />
               <owned-item ref="di46749067547e497eab6260445d5022659238" />
@@ -591,7 +618,7 @@
           </item>
         </layer>
       </diagram>
-      <diagram type="user-interface" id="pa959dc1d68d34750ad0a3386611516a7_262332391" name="Principale" order-index="4" overview-order-index="2" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-100,-28">
+      <diagram type="user-interface" id="pa959dc1d68d34750ad0a3386611516a7_262332391" name="Principale" order-index="4" overview-order-index="2" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-408,-28">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -639,6 +666,12 @@
               <owned-item ref="65a25fbbfa434cb480ce095a54b4c5f2" />
               <owned-item ref="e154fb8368714ac08c926541f01f3878" />
               <owned-item ref="855b102af43d41ec8d7289cfc6699308" />
+              <owned-item ref="6508de1ce71546f49074f1fb1325edb8" />
+              <owned-item ref="e187ce78569645b7b2f167054ea72d99" />
+              <owned-item ref="4e7ad4168c864d07ba66196c1d738be1" />
+              <owned-item ref="2ad45314f29d489ab64f15d45a70bbaa" />
+              <owned-item ref="472dbcd03b974350b584a972bb5e5233" />
+              <owned-item ref="8c6c5782b09248d3845a1e71ba65e9ae" />
             </owned-items>
             <window show-min-button="true" show-max-button="true" show-close-button="true" show-size-grip="false" />
           </item>
@@ -682,7 +715,7 @@
           </item>
         </layer>
       </diagram>
-      <diagram type="user-interface" id="p9532f23715c24d06a05cc145909ba49f_728983198" name="listeEtudiants" order-index="5" overview-order-index="3" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-33,-129">
+      <diagram type="user-interface" id="p9532f23715c24d06a05cc145909ba49f_728983198" name="listeEtudiants" order-index="5" overview-order-index="3" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-41,-98">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -730,6 +763,7 @@
               <owned-item ref="d30454faa744460f874f82fc508e1478" />
               <owned-item ref="d62a834f42c44aa7ae8b57606ded336c" />
               <owned-item ref="2bbe098d30184f0690be42c83447d1c6" />
+              <owned-item ref="di79bf5479c7b941b19459b47663de12af8480" />
             </owned-items>
           </item>
           <item id="di1d01d4605f0545528a574f922e3dc6888480" cid="LST005" type="ui-list-box" name="Code permanent| Nom| Prénom | Date de naissance | Date inscription | Date de diplome | numero DA" style-class="" owner="di90aec71ce5464c6c96729455a5c6c36c8480" change-tracking-state="added" creator="" creation-date="04/16/2024 17:16:42">
