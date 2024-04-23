@@ -17,11 +17,11 @@
       </counter>
       <counter>
         <item-type type-id="ui-label" type="Label" />
-        <value>7</value>
+        <value>9</value>
       </counter>
       <counter>
         <item-type type-id="ui-text-box" type="Text Box" />
-        <value>7</value>
+        <value>8</value>
       </counter>
       <counter>
         <item-type type-id="ui-button" type="Button" />
@@ -47,7 +47,11 @@
     <entity-ids>
       <counter>
         <item-type type-id="group" type="Group" />
+<<<<<<< HEAD
         <value>877</value>
+=======
+        <value>896</value>
+>>>>>>> d096315f7107bdb8e5ff8c108285b113d47d1239
       </counter>
       <counter>
         <item-type type-id="ui-window" type="Window" />
@@ -59,11 +63,11 @@
       </counter>
       <counter>
         <item-type type-id="ui-label" type="Label" />
-        <value>31</value>
+        <value>33</value>
       </counter>
       <counter>
         <item-type type-id="ui-text-box" type="Text Box" />
-        <value>31</value>
+        <value>32</value>
       </counter>
       <counter>
         <item-type type-id="ui-button" type="Button" />
@@ -88,6 +92,10 @@
       <counter>
         <item-type type-id="comment" type="Comment" />
         <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="Universal Connector" />
+        <value>4</value>
       </counter>
     </entity-ids>
     <diagrams>
@@ -196,7 +204,11 @@
         <abstract-items />
         <layer id="7d04f0dd79884ef5b91414d2feb8c452" name="Default" visible="true" enabled="true" locked="false" />
       </diagram>
+<<<<<<< HEAD
       <diagram type="user-interface" id="p4d74f445753647898e675e645c7f1d78_475045920" name="UserInterfaceDiagram1" order-index="2" overview-order-index="0" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="68,-134" zoom="1.2">
+=======
+      <diagram type="user-interface" id="p4d74f445753647898e675e645c7f1d78_475045920" name="ModificationCours" order-index="2" overview-order-index="0" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="68,-134" zoom="1.2">
+>>>>>>> d096315f7107bdb8e5ff8c108285b113d47d1239
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -489,7 +501,11 @@
           </item>
         </layer>
       </diagram>
+<<<<<<< HEAD
       <diagram type="user-interface" id="p3d4fec2833254086bafcf002d9748d3b_249988457" name="UserInterfaceDiagram2" order-index="3" overview-order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-51,-89">
+=======
+      <diagram type="user-interface" id="p3d4fec2833254086bafcf002d9748d3b_249988457" name="listeCours" order-index="3" overview-order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-51,-89">
+>>>>>>> d096315f7107bdb8e5ff8c108285b113d47d1239
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -614,7 +630,11 @@
           </item>
         </layer>
       </diagram>
+<<<<<<< HEAD
       <diagram type="user-interface" id="pa959dc1d68d34750ad0a3386611516a7_262332391" name="UserInterfaceDiagram3" order-index="4" overview-order-index="2" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-100,-28">
+=======
+      <diagram type="user-interface" id="pa959dc1d68d34750ad0a3386611516a7_262332391" name="Principale" order-index="4" overview-order-index="2" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-100,-28">
+>>>>>>> d096315f7107bdb8e5ff8c108285b113d47d1239
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -711,7 +731,11 @@
           </item>
         </layer>
       </diagram>
+<<<<<<< HEAD
       <diagram type="user-interface" id="p9532f23715c24d06a05cc145909ba49f_728983198" name="UserInterfaceDiagram4" order-index="5" overview-order-index="3" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-33,-129">
+=======
+      <diagram type="user-interface" id="p9532f23715c24d06a05cc145909ba49f_728983198" name="listeEtudiants" order-index="5" overview-order-index="3" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-33,-129">
+>>>>>>> d096315f7107bdb8e5ff8c108285b113d47d1239
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -723,7 +747,7 @@
           </authors>
           <description />
           <creation-date>04/19/2024 07:53:51</creation-date>
-          <change-date>04/19/2024 09:27:43</change-date>
+          <change-date>04/19/2024 15:27:58</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
@@ -756,7 +780,13 @@
               <owned-item ref="di79bf5479c7b941b19459b47663de12af8480" />
               <owned-item ref="di9d8107055b9243ab8019e8f95f7699e68480" />
               <owned-item ref="dia49b055bad4c457c94136922975cc82e8480" />
+<<<<<<< HEAD
               <owned-item ref="di79bf5479c7b941b19459b47663de12af8480" />
+=======
+              <owned-item ref="d30454faa744460f874f82fc508e1478" />
+              <owned-item ref="d62a834f42c44aa7ae8b57606ded336c" />
+              <owned-item ref="2bbe098d30184f0690be42c83447d1c6" />
+>>>>>>> d096315f7107bdb8e5ff8c108285b113d47d1239
             </owned-items>
           </item>
           <item id="di1d01d4605f0545528a574f922e3dc6888480" cid="LST005" type="ui-list-box" name="Code permanent| Nom| Prénom | Date de naissance | Date inscription | Date de diplome | numero DA" style-class="" owner="di90aec71ce5464c6c96729455a5c6c36c8480" change-tracking-state="added" creator="" creation-date="04/16/2024 17:16:42">
@@ -775,44 +805,59 @@
           <item id="dia49b055bad4c457c94136922975cc82e8480" cid="BTN018" type="ui-button" name="Afficher la liste dÉtudiants" style-class="" owner="didd10078f7ea64b2f85f65769655967c48480" change-tracking-state="added" creator="" creation-date="04/16/2024 16:52:14">
             <button />
           </item>
+          <item id="d30454faa744460f874f82fc508e1478" cid="LBL031" type="ui-label" name="idSession:" style-class="" owner="didd10078f7ea64b2f85f65769655967c48480" change-tracking-state="added" creator="" creation-date="04/19/2024 15:27:29" />
+          <item id="d62a834f42c44aa7ae8b57606ded336c" cid="LBL032" type="ui-label" name="Label9" style-class="" owner="didd10078f7ea64b2f85f65769655967c48480" change-tracking-state="added" creator="" creation-date="04/19/2024 15:27:49" />
+          <item id="2bbe098d30184f0690be42c83447d1c6" cid="TXT031" type="ui-text-box" name="TextBox8" style-class="" owner="didd10078f7ea64b2f85f65769655967c48480" change-tracking-state="added" creator="" creation-date="04/19/2024 15:27:58">
+            <text-box password-dots="false" display-password-button="false" />
+          </item>
         </abstract-items>
         <layer id="e0b77e2e730c49759a0151d2c251d126" name="Default" visible="true" enabled="true" locked="false">
           <item id="di9f119536a2da44ef98472cd84cbda6168480" iid="0fd59414d86e4c649e43aee974db28a2" creation-date="04/16/2024 17:14:34" order-index="13" type="ui-window">
-            <layout ax="103" ay="-21" awidth="1147" aheight="542" x="103" y="-21" width="1147" height="542" rotation-center="141.5,-121" />
+            <layout ax="67" ay="10" awidth="1147" aheight="542" x="67" y="10" width="1147" height="542" rotation-center="141.5,-121" />
           </item>
           <item id="di90aec71ce5464c6c96729455a5c6c36c8480" iid="ff5673f5bdd74ffe87f8d3e2e4b1cc73" container="di9f119536a2da44ef98472cd84cbda6168480" container-iid="0fd59414d86e4c649e43aee974db28a2" creation-date="04/16/2024 17:16:19" order-index="15" type="ui-group-box">
-            <layout ax="425" ay="24" awidth="804" aheight="454" x="583" y="24" width="804" height="453.5" rotation-center="-167,-142" />
+            <layout ax="389" ay="55" awidth="804" aheight="454" x="583" y="24" width="804" height="453.5" rotation-center="-167,-142" />
           </item>
           <item id="didd10078f7ea64b2f85f65769655967c48480" iid="191a4e99dbcf45b086521a95c17528ae" container="di9f119536a2da44ef98472cd84cbda6168480" container-iid="0fd59414d86e4c649e43aee974db28a2" creation-date="04/16/2024 16:44:40" order-index="1" type="ui-group-box">
-            <layout ax="118.5" ay="24" awidth="291" aheight="161" x="276.5" y="24" width="291" height="161" rotation-center="15.5,-0.5" />
+            <layout ax="82.5" ay="55" awidth="291" aheight="215" x="276.5" y="24" width="291" height="215" rotation-center="15.5,-27.5" />
           </item>
           <item id="di666237c77abb49e3a0fa2a1e429b11b78480" iid="68615a89a4f242bdaded7d2b81de0382" container="di9f119536a2da44ef98472cd84cbda6168480" container-iid="0fd59414d86e4c649e43aee974db28a2" creation-date="04/16/2024 16:58:52" order-index="7" type="ui-group-box">
-            <layout ax="122.5" ay="221" awidth="272" aheight="161" x="280.5" y="221" width="272" height="161" rotation-center="-66,-0.5" />
+            <layout ax="92" ay="348" awidth="272" aheight="161" x="92" y="348" width="272" height="161" rotation-center="-66,-0.5" />
           </item>
           <item id="di1d01d4605f0545528a574f922e3dc6888480" iid="027664fc7c1b4bdc8176bff9df1b77ca" container="di90aec71ce5464c6c96729455a5c6c36c8480" container-iid="ff5673f5bdd74ffe87f8d3e2e4b1cc73" creation-date="04/16/2024 17:16:42" order-index="16" type="ui-list-box">
-            <layout ax="458" ay="70" awidth="748" aheight="360" x="661" y="70.5" width="748" height="360.5" rotation-center="-304,-102.25" />
+            <layout ax="422" ay="101" awidth="748" aheight="360" x="661" y="70.5" width="748" height="360.5" rotation-center="-304,-102.25" />
           </item>
           <item id="di9d8107055b9243ab8019e8f95f7699e68480" iid="de44fa372c3b4b8eb0693eeaba4ed5e7" container="didd10078f7ea64b2f85f65769655967c48480" container-iid="191a4e99dbcf45b086521a95c17528ae" creation-date="04/16/2024 16:50:55" order-index="3" type="ui-label">
-            <layout ax="118.5" ay="48" awidth="150" aheight="36" x="398" y="104" width="150" height="20" />
+            <layout ax="82.5" ay="79" awidth="150" aheight="36" x="398" y="104" width="150" height="20" />
           </item>
           <item id="di79bf5479c7b941b19459b47663de12af8480" iid="56c50d38830343ce8b439042fd391513" container="didd10078f7ea64b2f85f65769655967c48480" container-iid="191a4e99dbcf45b086521a95c17528ae" creation-date="04/16/2024 16:51:28" order-index="4" type="ui-text-box">
-            <layout ax="268.5" ay="52" awidth="113" aheight="28" x="548" y="108" width="113" height="20" rotation-center="18.5,0" />
+            <layout ax="232.5" ay="83" awidth="113" aheight="28" x="548" y="108" width="113" height="20" rotation-center="18.5,0" />
           </item>
           <item id="dia49b055bad4c457c94136922975cc82e8480" iid="c0c0a2c88367441c89478f439ea8f99a" container="didd10078f7ea64b2f85f65769655967c48480" container-iid="191a4e99dbcf45b086521a95c17528ae" creation-date="04/16/2024 16:52:14" order-index="5" type="ui-button">
-            <layout ax="155.5" ay="98" awidth="206" aheight="36" x="435" y="154" width="113" height="30" rotation-center="38.5,0" />
+            <layout ax="139.5" ay="218" awidth="206" aheight="36" x="139.5" y="218" width="113" height="30" rotation-center="38.5,0" />
           </item>
           <item id="dibe50c9ecf84546d6b04f72f72b1131d78480" iid="8dd1473095b049c3816a12b06618e87a" container="di666237c77abb49e3a0fa2a1e429b11b78480" container-iid="68615a89a4f242bdaded7d2b81de0382" creation-date="04/16/2024 17:03:34" order-index="8" type="ui-label">
-            <layout ax="132.5" ay="252" awidth="139" aheight="36" x="175" y="245" width="116.5" height="20" rotation-center="16.75,0" />
+            <layout ax="102" ay="379" awidth="139" aheight="36" x="175" y="245" width="116.5" height="20" rotation-center="16.75,0" />
           </item>
           <item id="di15cc1521cab74d569ab842e5f340f15a8480" iid="15b8bb05c6e8428c8529afbc81ef7fec" container="di666237c77abb49e3a0fa2a1e429b11b78480" container-iid="68615a89a4f242bdaded7d2b81de0382" creation-date="04/16/2024 17:04:10" order-index="9" type="ui-text-box">
-            <layout ax="265.5" ay="256" awidth="113" aheight="28" x="449" y="256" width="113" height="20" rotation-center="18.5,0" />
+            <layout ax="235" ay="383" awidth="113" aheight="28" x="449" y="256" width="113" height="20" rotation-center="18.5,0" />
           </item>
           <item id="di0b6d24af01ee4663912777cf6e47385f8480" iid="15b74ee37691400a88f8217e1ac41bcf" container="di666237c77abb49e3a0fa2a1e429b11b78480" container-iid="68615a89a4f242bdaded7d2b81de0382" creation-date="04/16/2024 17:05:27" order-index="10" type="ui-button">
-            <layout ax="133.5" ay="319" awidth="210" aheight="36" x="178.5" y="356" width="100" height="30" />
+            <layout ax="103" ay="446" awidth="210" aheight="36" x="178.5" y="356" width="100" height="30" />
+          </item>
+          <item id="d30454faa744460f874f82fc508e1478" iid="d047fc7780384534a19665d413b39a52" container="didd10078f7ea64b2f85f65769655967c48480" container-iid="191a4e99dbcf45b086521a95c17528ae" creation-date="04/19/2024 15:27:29" order-index="17" type="ui-label">
+            <layout ax="82.5" ay="152.5" awidth="150" aheight="36" x="91" y="150" width="150" height="20" />
+          </item>
+          <item id="2bbe098d30184f0690be42c83447d1c6" iid="65bb357240af4372bb0ec827231e8b79" container="didd10078f7ea64b2f85f65769655967c48480" container-iid="191a4e99dbcf45b086521a95c17528ae" creation-date="04/19/2024 15:27:58" order-index="18" type="ui-text-box">
+            <layout ax="214" ay="144.5" awidth="150" aheight="36" x="214" y="144.5" width="150" height="20" />
           </item>
         </layer>
       </diagram>
+<<<<<<< HEAD
       <diagram type="user-interface" id="p7c03c757718a4959946a3359f77dcfab_595811952" name="UserInterfaceDiagram5" order-index="6" overview-order-index="4" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-100,-122">
+=======
+      <diagram type="user-interface" id="p7c03c757718a4959946a3359f77dcfab_595811952" name="ModificationEtudiant" order-index="6" overview-order-index="4" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-100,-122">
+>>>>>>> d096315f7107bdb8e5ff8c108285b113d47d1239
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
