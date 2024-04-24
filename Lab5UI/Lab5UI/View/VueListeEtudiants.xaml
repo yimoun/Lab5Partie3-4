@@ -4,6 +4,8 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Lab5UI.View"
+      xmlns:viewmodel="clr-namespace:Lab5UI.ViewModel"
+      d:DataContext="{d:DesignInstance Type=viewmodel:VMListeEtudiants}"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="VueListeEtudiants">
@@ -52,7 +54,7 @@
                 </Grid>
             </GroupBox>
             
-            <GroupBox Grid.Row="1" Header="Liste des diplomés">
+            <GroupBox Grid.Row="1" Header="Liste des diplomés" Margin=" 0 30">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition/>
@@ -66,28 +68,30 @@
                             <ColumnDefinition/>
                         </Grid.ColumnDefinitions>
 
-                        <Label Grid.Column="0" Content="Date du diplome: " VerticalAlignment="Center" HorizontalAlignment="Right"/>
-                        <TextBox Grid.Column="1" Margin="5 15"></TextBox>
+                        <TextBlock Grid.Column="0" VerticalAlignment="Center" 
+                        TextWrapping="Wrap">Date du diplome: </TextBlock>
+                        <!--<Calendar Grid.Column="1" SelectedDate="{Binding DateDiplome}"/>-->
+                        <!--<TextBox Grid.Column="1" Margin="5 15" Text="{Binding DateDiplome}"></TextBox>-->
                     </Grid>
 
 
-                    <Button Grid.Row="1" Margin="50 25" Content="Afficher la liste d'étudiants"/>
+                    <Button Grid.Row="1" Margin="50 10" Content="Afficher la liste d'étudiants" Command="{Binding AfficherEtudiantsDiplomes}"/>
                 </Grid>
             </GroupBox>
             
         </Grid>
 
         <GroupBox Grid.Column="1" Header="Liste des étudiants">
-            <ListView Margin="25" >
+            <ListView Margin="25" ItemsSource="{Binding LesEtudiants}">
                 <ListView.View>
                     <GridView>
-                        <GridViewColumn Header="Code permanent" Width="auto"/>
-                        <GridViewColumn Header="Nom" Width="auto"/>
-                        <GridViewColumn Header="Prénom" Width="auto"/>
-                        <GridViewColumn Header="Date de Naissance" Width="auto"/>
-                        <GridViewColumn Header="Date d'inscription" Width="auto"/>
-                        <GridViewColumn Header="Date de Diplome" Width="auto"/>
-                        <GridViewColumn Header="numéro de DA" Width="auto"/>
+                        <GridViewColumn Header="Code permanent" Width="auto" DisplayMemberBinding="{Binding etu_code_permanent}"/>
+                        <GridViewColumn Header="Nom" Width="auto" DisplayMemberBinding="{Binding etu_nom}"/>
+                        <GridViewColumn Header="Prénom" Width="auto" DisplayMemberBinding="{Binding etu_prenom}"/>
+                        <GridViewColumn Header="Date de Naissance" Width="auto" DisplayMemberBinding="{Binding etu_date_naissance}"/>
+                        <GridViewColumn Header="Date d'inscription" Width="auto" DisplayMemberBinding="{Binding etu_date_inscription}"/>
+                        <GridViewColumn Header="Date de Diplome" Width="auto" DisplayMemberBinding="{Binding etu_date_diplome}"/>
+                        <GridViewColumn Header="numéro de DA" Width="auto" DisplayMemberBinding="{Binding etu_num_da}"/>
                     </GridView>
                 </ListView.View>
             </ListView>

@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using Lab5UI.Models;
 using CommunityToolkit.Mvvm.Input;
+using System.Runtime.CompilerServices;
 
 namespace Lab5UI.ViewModel
 {
@@ -24,6 +25,17 @@ namespace Lab5UI.ViewModel
             }
         }
 
+        private int idProf;
+        public int IdProf
+        {
+            get { return idProf; }
+            set
+            {
+                idProf = value;
+                OnPropertyChanged(nameof(IdProf));
+            }
+        }
+
         private List<Cours> lesCours;
 
         public List<Cours> LesCours
@@ -38,15 +50,33 @@ namespace Lab5UI.ViewModel
 
         public VMListeCoursBulletins()
         {
-            AfficherCours = new RelayCommand(AfficherCours_Execute);
-
+            AfficherCoursEtudiant = new RelayCommand(AfficherCoursEtudiant_Execute);
+            AfficherCoursEnseignant = new RelayCommand(AfficherCoursEnseignant_execute);
+            AfficherHistorique = new RelayCommand(AfficherHistorique_Execute);
+            AfficherBulletins = new RelayCommand(AfficherBulletins_Execute);
         }
 
-        public ICommand AfficherCours { get; }
+        public ICommand AfficherCoursEtudiant { get; }
 
-        private async void AfficherCours_Execute()
+        private async void AfficherCoursEtudiant_Execute()
         {
             LesCours = await Lab5Processor.GetListCoursActuel(CodePermanent);
+        }
+        public ICommand AfficherCoursEnseignant { get; }
+        private async void AfficherCoursEnseignant_execute()
+        {
+            LesCours = await Lab5Processor.GetListCoursEnseignant(IdProf);
+        }
+        public ICommand AfficherHistorique { get; }
+        private async void AfficherHistorique_Execute()
+        {
+            LesCours = await Lab5Processor.GetHistoriqueCours(CodePermanent);
+        } 
+
+        public ICommand AfficherBulletins { get; }
+        private async void AfficherBulletins_Execute()
+        {
+            //LesCours = await Lab5Processor.
         }
 
     }

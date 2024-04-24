@@ -24,5 +24,6 @@ namespace Lab5UI.View
         {
             InitializeComponent();
         }
+
     }
 }
