@@ -1,0 +1,128 @@
+P:\HIV24\SERVICE DE DONNÉES\Lab5Partie3\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.csproj.AssemblyReference.cache
+P:\HIV24\SERVICE DE DONNÉES\Lab5Partie3\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\MainWindow.g.cs
+P:\HIV24\SERVICE DE DONNÉES\Lab5Partie3\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\App.g.cs
+P:\HIV24\SERVICE DE DONNÉES\Lab5Partie3\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI_MarkupCompile.cache
+P:\HIV24\SERVICE DE DONNÉES\Lab5Partie3\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI_MarkupCompile.lref
+P:\HIV24\SERVICE DE DONNÉES\Lab5Partie3\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Lab5UI.exe
+P:\HIV24\SERVICE DE DONNÉES\Lab5Partie3\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Lab5UI.deps.json
+P:\HIV24\SERVICE DE DONNÉES\Lab5Partie3\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Lab5UI.runtimeconfig.json
+P:\HIV24\SERVICE DE DONNÉES\Lab5Partie3\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Lab5UI.dll
+P:\HIV24\SERVICE DE DONNÉES\Lab5Partie3\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Lab5UI.pdb
+P:\HIV24\SERVICE DE DONNÉES\Lab5Partie3\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+P:\HIV24\SERVICE DE DONNÉES\Lab5Partie3\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\MainWindow.baml
+P:\HIV24\SERVICE DE DONNÉES\Lab5Partie3\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.g.resources
+P:\HIV24\SERVICE DE DONNÉES\Lab5Partie3\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.GeneratedMSBuildEditorConfig.editorconfig
+P:\HIV24\SERVICE DE DONNÉES\Lab5Partie3\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.AssemblyInfoInputs.cache
+P:\HIV24\SERVICE DE DONNÉES\Lab5Partie3\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.AssemblyInfo.cs
+P:\HIV24\SERVICE DE DONNÉES\Lab5Partie3\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.csproj.CoreCompileInputs.cache
+P:\HIV24\SERVICE DE DONNÉES\Lab5Partie3\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.csproj.CopyComplete
+P:\HIV24\SERVICE DE DONNÉES\Lab5Partie3\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.dll
+P:\HIV24\SERVICE DE DONNÉES\Lab5Partie3\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\refint\Lab5UI.dll
+P:\HIV24\SERVICE DE DONNÉES\Lab5Partie3\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.pdb
+P:\HIV24\SERVICE DE DONNÉES\Lab5Partie3\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.genruntimeconfig.cache
+P:\HIV24\SERVICE DE DONNÉES\Lab5Partie3\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\ref\Lab5UI.dll
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Lab5UI.exe
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Lab5UI.deps.json
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Lab5UI.runtimeconfig.json
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Lab5UI.dll
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Lab5UI.pdb
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\CommunityToolkit.Mvvm.dll
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.csproj.AssemblyReference.cache
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\View\MenuPrincipal.g.cs
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\View\VueAjoutModifEtudiant.g.cs
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\View\VueAjoutModifSupprCours.g.cs
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\View\VueListeCoursBulletins.g.cs
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\View\VueListeEtudiants.g.cs
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI_MarkupCompile.cache
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI_MarkupCompile.lref
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\View\MenuPrincipal.baml
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\View\VueAjoutModifEtudiant.baml
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\View\VueAjoutModifSupprCours.baml
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\View\VueListeCoursBulletins.baml
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\View\VueListeEtudiants.baml
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.g.resources
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.AssemblyInfoInputs.cache
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.AssemblyInfo.cs
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.csproj.CoreCompileInputs.cache
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.csproj.CopyComplete
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.dll
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\refint\Lab5UI.dll
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.pdb
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.genruntimeconfig.cache
+C:\Users\2230912\Desktop\Lab5Partie3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\ref\Lab5UI.dll
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Lab5UI.exe
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Lab5UI.deps.json
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Lab5UI.runtimeconfig.json
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Lab5UI.dll
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Lab5UI.pdb
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\CommunityToolkit.Mvvm.dll
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.csproj.AssemblyReference.cache
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\View\MenuPrincipal.g.cs
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\View\VueAjoutModifEtudiant.g.cs
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\View\VueAjoutModifSupprCours.g.cs
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\View\VueListeCoursBulletins.g.cs
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\View\VueListeEtudiants.g.cs
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI_MarkupCompile.cache
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI_MarkupCompile.lref
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\View\MenuPrincipal.baml
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\View\VueAjoutModifEtudiant.baml
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\View\VueAjoutModifSupprCours.baml
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\View\VueListeCoursBulletins.baml
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\View\VueListeEtudiants.baml
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.g.resources
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.AssemblyInfoInputs.cache
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.AssemblyInfo.cs
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.csproj.CoreCompileInputs.cache
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.csproj.CopyComplete
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.dll
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\refint\Lab5UI.dll
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.pdb
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.genruntimeconfig.cache
+C:\Users\Utilisateur\OneDrive\Bureau\Coding\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\ref\Lab5UI.dll
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Lab5UI.exe
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Lab5UI.deps.json
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Lab5UI.runtimeconfig.json
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Lab5UI.dll
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Lab5UI.pdb
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\en\Lab5UI.resources.dll
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\CommunityToolkit.Mvvm.dll
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Microsoft.OpenApi.dll
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Swashbuckle.AspNetCore.Swagger.dll
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Swashbuckle.AspNetCore.SwaggerGen.dll
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Swashbuckle.AspNetCore.SwaggerUI.dll
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.csproj.AssemblyReference.cache
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\View\MenuPrincipal.g.cs
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\View\VueAjoutModifEtudiant.g.cs
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\View\VueAjoutModifSupprCours.g.cs
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\View\VueListeCoursBulletins.g.cs
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\View\VueListeEtudiants.g.cs
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\App.g.cs
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI_MarkupCompile.cache
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI_MarkupCompile.lref
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\View\MenuPrincipal.baml
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\View\VueAjoutModifEtudiant.baml
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\View\VueAjoutModifSupprCours.baml
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\View\VueListeCoursBulletins.baml
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\View\VueListeEtudiants.baml
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.g.resources
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.Resources.Resource.resources
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.Resources.Resource.en.resources
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.csproj.GenerateResource.cache
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.GeneratedMSBuildEditorConfig.editorconfig
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.AssemblyInfoInputs.cache
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.AssemblyInfo.cs
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.csproj.CoreCompileInputs.cache
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\en\Lab5UI.resources.dll
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.csproj.CopyComplete
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.dll
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\refint\Lab5UI.dll
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.pdb
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.genruntimeconfig.cache
+P:\session 4\Intro Services de Données\2230912_Lab5\Laboratoire 5 partie 3-4\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\ref\Lab5UI.dll

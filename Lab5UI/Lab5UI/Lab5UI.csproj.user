@@ -7,7 +7,33 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="MainWindow.xaml">
+    <Compile Update="View\VueAjoutModifEtudiant.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\VueAjoutModifSupprCours.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\VueListeCoursBulletins.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\VueListeEtudiants.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="View\MenuPrincipal.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\VueAjoutModifEtudiant.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\VueAjoutModifSupprCours.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\VueListeCoursBulletins.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\VueListeEtudiants.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

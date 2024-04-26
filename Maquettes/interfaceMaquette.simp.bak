@@ -47,7 +47,7 @@
     <entity-ids>
       <counter>
         <item-type type-id="group" type="Group" />
-        <value>907</value>
+        <value>898</value>
       </counter>
       <counter>
         <item-type type-id="ui-window" type="Window" />
@@ -138,7 +138,7 @@
         <phone-number />
         <description />
         <color>#00000000</color>
-        <working-schedule uid="ws-dee389fd6cb04584936c673723afc233" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+        <working-schedule uid="ws-f540ef3c44444edd95a7b9a6c57e8475" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
       </person>
       <person id="">
         <first-name>Raphael</first-name>
