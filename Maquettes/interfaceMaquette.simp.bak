@@ -47,7 +47,11 @@
     <entity-ids>
       <counter>
         <item-type type-id="group" type="Group" />
-        <value>898</value>
+<<<<<<< HEAD
+        <value>897</value>
+=======
+        <value>900</value>
+>>>>>>> ab63e1ceea9f6c767fbcf9d5f31da19d3bc7f44b
       </counter>
       <counter>
         <item-type type-id="ui-window" type="Window" />
@@ -138,7 +142,11 @@
         <phone-number />
         <description />
         <color>#00000000</color>
+<<<<<<< HEAD
+        <working-schedule uid="ws-90c32d82e03142848bd1af90aebcc0d5" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+=======
         <working-schedule uid="ws-f540ef3c44444edd95a7b9a6c57e8475" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+>>>>>>> ab63e1ceea9f6c767fbcf9d5f31da19d3bc7f44b
       </person>
       <person id="">
         <first-name>Raphael</first-name>

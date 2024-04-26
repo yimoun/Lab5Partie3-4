@@ -15,6 +15,7 @@ namespace Lab5UI.Models
         public static void InitializeClient()
         {
             APIClient = new HttpClient();
+            APIClient.BaseAddress = new Uri("https://localhost:7100/") ;
             APIClient.DefaultRequestHeaders.Accept.Clear();
             APIClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
         }

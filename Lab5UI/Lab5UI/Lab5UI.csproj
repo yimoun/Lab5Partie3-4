@@ -30,5 +30,10 @@
       <LastGenOutput>Resource.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+  <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+    <_Parameter1>TestUnitaireLab5</_Parameter1> <!-- The name of the project that you want the Internal class to be visible To it -->
+  </AssemblyAttribute>
+</ItemGroup>
 
 </Project>

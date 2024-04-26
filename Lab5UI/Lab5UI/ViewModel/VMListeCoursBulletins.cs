@@ -1,3 +1,4 @@
+
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using System;
 using System.Collections.Generic;
@@ -8,6 +9,8 @@ using System.Windows.Input;
 using Lab5UI.Models;
 using CommunityToolkit.Mvvm.Input;
 using System.Runtime.CompilerServices;
+using System.Windows;
+
 
 namespace Lab5UI.ViewModel
 {
@@ -34,6 +37,7 @@ namespace Lab5UI.ViewModel
                 idProf = value;
                 OnPropertyChanged(nameof(IdProf));
             }
+
         }
 
         private List<Cours> lesCours;
@@ -60,17 +64,31 @@ namespace Lab5UI.ViewModel
 
         private async void AfficherCoursEtudiant_Execute()
         {
-            LesCours = await Lab5Processor.GetListCoursActuel(CodePermanent);
+            List<Cours> ListCoursProcessor = await CoursProcessor.GetListCoursActuel(CodePermanent);
+
+            if (ListCoursProcessor[0].SigleCours == "\"L'étudiant n'existe pas.\"" ||
+                 ListCoursProcessor[0].SigleCours.StartsWith("Aucune connexion n’a pu être établie"))
+            {
+                //MessageBox messageBox = null;
+                MessageBoxResult result = MessageBox.Show(ListCoursProcessor[0].SigleCours, "Erreur",
+                    MessageBoxButton.OK, MessageBoxImage.Error);
+
+            }
+            else
+            {
+                LesCours = ListCoursProcessor;
+            }
         }
         public ICommand AfficherCoursEnseignant { get; }
+
         private async void AfficherCoursEnseignant_execute()
         {
-            LesCours = await Lab5Processor.GetListCoursEnseignant(IdProf);
+            LesCours = await CoursProcessor.GetListCoursEnseignant(IdProf);
         }
         public ICommand AfficherHistorique { get; }
         private async void AfficherHistorique_Execute()
         {
-            LesCours = await Lab5Processor.GetHistoriqueCours(CodePermanent);
+            LesCours = await CoursProcessor.GetHistoriqueCours(CodePermanent);
         } 
 
         public ICommand AfficherBulletins { get; }

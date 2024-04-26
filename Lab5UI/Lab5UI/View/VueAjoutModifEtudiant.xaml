@@ -48,7 +48,7 @@
             </Grid>
 
         </GroupBox>
-        <GroupBox Grid.Column="1" Margin="10">
+        <GroupBox Grid.Column="1" Margin="10" Header="Modifier résultat d'un étudiant">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="5*"/>

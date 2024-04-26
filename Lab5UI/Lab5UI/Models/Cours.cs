@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -19,5 +20,12 @@ namespace Lab5UI.Models
 
         [JsonProperty(PropertyName = "dureeCours")]
         public int DureeCours { get; set; }
+
+        public Cours(string sigle, string titre, int duree)
+        {
+            SigleCours = sigle;
+            TitreCours = titre;
+            DureeCours = duree;
+        }
     }
 }
