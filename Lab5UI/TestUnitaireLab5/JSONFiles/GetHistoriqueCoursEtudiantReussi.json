@@ -1,0 +1,27 @@
+[
+  {
+    "sigleCours": "420-163-CH",
+    "titreCours": "Programmation structurée",
+    "dureeCours": 90
+  },
+  {
+    "sigleCours": "420-242-CH",
+    "titreCours": "Programmatino orientée objets",
+    "dureeCours": 60
+  },
+  {
+    "sigleCours": "420-C41-CH",
+    "titreCours": "Interface utilisateur",
+    "dureeCours": 60
+  },
+  {
+    "sigleCours": "420-163-CH",
+    "titreCours": "Programmation structurée",
+    "dureeCours": 90
+  },
+  {
+    "sigleCours": "tes",
+    "titreCours": "test",
+    "dureeCours": 50
+  }
+]
