@@ -36,7 +36,7 @@ namespace Lab5UI.Models
                    if (test.StatusCode == System.Net.HttpStatusCode.NotFound) //statut 404
                     {
                         string json = await test.Content.ReadAsStringAsync();
-                        _lesCours.Add(new Cours(json, json, 0)); //Juste pour savoir à quoi m'attendre;
+                        _lesCours.Add(new Cours(json, json, 0, "pas affiché!")); //Juste pour savoir à quoi m'attendre;
 
                         return _lesCours;
                     }
@@ -53,7 +53,7 @@ namespace Lab5UI.Models
             catch (Exception ex)
             {
                 string message = ex.Message; //statut 500
-                _lesCours.Add(new Cours(message, message, 0)); //Juste pour savoir à quoi m'attendre;
+                _lesCours.Add(new Cours(message, message, 0, "pas affiché!")); //Juste pour savoir à quoi m'attendre;
 
                 return _lesCours;
             }
@@ -70,21 +70,35 @@ namespace Lab5UI.Models
 
         private static async Task<List<Cours>> LoadHistoriqueCours(string codePermanent)
         {
-            String url = "https://localhost:7100/Cours/GetHistoriqueCoursEtudiant?codePermanent=" + codePermanent;
-            using HttpResponseMessage test = await APIHelper.APIClient.GetAsync(url);
+            try
             {
-                if (test.IsSuccessStatusCode)
+                String url = "https://localhost:7100/Cours/GetHistoriqueCoursEtudiant?codePermanent=" + codePermanent;
+                using HttpResponseMessage test = await APIHelper.APIClient.GetAsync(url);
                 {
-                    string json = await test.Content.ReadAsStringAsync();
-                    _lesCours = JsonConvert.DeserializeObject<List<Cours>>(json);
+                    if (test.StatusCode == System.Net.HttpStatusCode.NotFound)  //statut 404
+                    {
+                        string json = await test.Content.ReadAsStringAsync();
+                        _lesCours.Add(new Cours(json, json, 0, "pas affiché!")); //Juste pour savoir à quoi m'attendre;
 
-                    return _lesCours;
+                        return _lesCours;
 
+                    }
+                    else //statut 200
+                    {
+                        //Il faut gerer le cas où: "L'étudiant n'a aucun cours dans la session actuel."
+                        string json = await test.Content.ReadAsStringAsync();
+                        _lesCours = JsonConvert.DeserializeObject<List<Cours>>(json);
+
+                        return _lesCours;
+                    }
                 }
-                else
-                {
-                    throw new Exception(test.ReasonPhrase);
-                }
+            }
+            catch (Exception ex)
+            {
+                string message = ex.Message; //statut 500
+                _lesCours.Add(new Cours(message, message, 0, "pas affiché!")); //Juste pour savoir à quoi m'attendre;
+
+                return _lesCours;
             }
         }
 
@@ -97,21 +111,34 @@ namespace Lab5UI.Models
 
         private static async Task<List<Cours>> LoadListCoursEnseignant(int idProf)
         {
-            String url = "https://localhost:7100/Cours/GetListCoursSelonEnseignant?idProf=" + idProf;
-            using HttpResponseMessage test = await APIHelper.APIClient.GetAsync(url);
+            try
             {
-                if (test.IsSuccessStatusCode)
-                {
-                    string json = await test.Content.ReadAsStringAsync();
-                    _lesCours = JsonConvert.DeserializeObject<List<Cours>>(json);
+                String url = "https://localhost:7100/Cours/GetListCoursSelonEnseignant?idProf=" + idProf;
+                using HttpResponseMessage test = await APIHelper.APIClient.GetAsync(url);
+                {               
+                    if (test.StatusCode == System.Net.HttpStatusCode.NotFound)  //statut 404
+                    {
+                        string json = await test.Content.ReadAsStringAsync();
+                        _lesCours.Add(new Cours(json, json, 0, "pas affiché!")); //Juste pour savoir à quoi m'attendre;
 
-                    return _lesCours;
+                        return _lesCours;
 
+                    }
+                    else //statut 200
+                    {
+                        string json = await test.Content.ReadAsStringAsync();
+                        _lesCours = JsonConvert.DeserializeObject<List<Cours>>(json);
+
+                        return _lesCours;
+                    }
                 }
-                else
-                {
-                    throw new Exception(test.ReasonPhrase);
-                }
+            }
+            catch (Exception ex)
+            {
+                string message = ex.Message; //statut 500
+                _lesCours.Add(new Cours(message, message, 0, "pas affiché!")); //Juste pour savoir à quoi m'attendre;
+
+                return _lesCours;
             }
         }
 

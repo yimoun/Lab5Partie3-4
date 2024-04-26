@@ -40,7 +40,7 @@ namespace Lab5UI.ViewModel
 
         }
 
-        private List<Cours> lesCours;
+        private List<Cours> lesCours = new List<Cours>();
 
         public List<Cours> LesCours
         {
@@ -83,18 +83,61 @@ namespace Lab5UI.ViewModel
 
         private async void AfficherCoursEnseignant_execute()
         {
-            LesCours = await CoursProcessor.GetListCoursEnseignant(IdProf);
+            List<Cours> ListCoursProcessor = await CoursProcessor.GetListCoursEnseignant(IdProf);
+
+            if (ListCoursProcessor[0].SigleCours == "\"L'enseignant n'existe pas.\"" ||
+                 ListCoursProcessor[0].SigleCours.StartsWith("Aucune connexion n’a pu être établie"))
+            {
+                //MessageBox messageBox = null;
+                MessageBoxResult result = MessageBox.Show(ListCoursProcessor[0].SigleCours, "Erreur",
+                    MessageBoxButton.OK, MessageBoxImage.Error);
+
+            }
+            else
+            {
+                LesCours = ListCoursProcessor;
+            }
         }
         public ICommand AfficherHistorique { get; }
         private async void AfficherHistorique_Execute()
         {
-            LesCours = await CoursProcessor.GetHistoriqueCours(CodePermanent);
+            List<Cours> ListCoursProcessor = await CoursProcessor.GetHistoriqueCours(CodePermanent);
+
+            if (ListCoursProcessor[0].SigleCours == "\"L'étudiant n'existe pas.\"" ||
+                 ListCoursProcessor[0].SigleCours.StartsWith("Aucune connexion n’a pu être établie"))
+            {
+                //MessageBox messageBox = null;
+                MessageBoxResult result = MessageBox.Show(ListCoursProcessor[0].SigleCours, "Erreur",
+                    MessageBoxButton.OK, MessageBoxImage.Error);
+
+            }
+            else
+            {
+                LesCours = ListCoursProcessor;
+            }
         } 
 
         public ICommand AfficherBulletins { get; }
         private async void AfficherBulletins_Execute()
         {
-            //LesCours = await Lab5Processor.
+            List<CoursResultat> ListBulletins = await CoursResultatProcessor.GetListBulletins(CodePermanent);
+
+            if (ListBulletins[0].Cours.SigleCours == "\"L'étudiant n'existe pas.\"" ||
+                 ListBulletins[0].Cours.SigleCours.StartsWith("Aucune connexion n’a pu être établie"))
+            {
+                //MessageBox messageBox = null;
+                MessageBoxResult result = MessageBox.Show(ListBulletins[0].Cours.SigleCours, "Erreur",
+                    MessageBoxButton.OK, MessageBoxImage.Error);
+
+            }
+            else
+            {
+                for(int i = 0; i < ListBulletins.Count; i++)
+                {
+                    LesCours[i] = ListBulletins[i].Cours;
+                    LesCours[i].Resultat = ListBulletins[i].Resultat;   
+                }
+            }
         }
 
     }

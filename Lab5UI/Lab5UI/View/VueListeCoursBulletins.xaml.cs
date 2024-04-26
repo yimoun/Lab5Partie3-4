@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Lab5UI.ViewModel;
 
 namespace Lab5UI.View
 {
@@ -23,6 +24,13 @@ namespace Lab5UI.View
         public VueListeCoursBulletins()
         {
             InitializeComponent();
+
+            this.DataContext = new VMListeCoursBulletins();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

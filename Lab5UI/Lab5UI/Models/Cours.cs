@@ -21,11 +21,14 @@ namespace Lab5UI.Models
         [JsonProperty(PropertyName = "dureeCours")]
         public int DureeCours { get; set; }
 
-        public Cours(string sigle, string titre, int duree)
+        public string? Resultat { get; set; } 
+
+        public Cours(string sigle, string titre, int duree, string resultat)
         {
             SigleCours = sigle;
             TitreCours = titre;
             DureeCours = duree;
+            Resultat = resultat ?? "pas affiché!";    
         }
     }
 }

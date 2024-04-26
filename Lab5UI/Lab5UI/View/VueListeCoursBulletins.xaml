@@ -43,7 +43,7 @@
                     
                     <Button Grid.Row="1" Margin="50 10" Content="Afficher la liste de cours" Command="{Binding AfficherCoursEtudiant}"/>
                     <Button Grid.Row="2" Margin="50 10" Content="Afficher l'historique des cours" Command="{Binding AfficherHistorique}"/>
-                    <Button Grid.Row="3" Margin="50 10" Content="Afficher les bulletins des cours" Command="{Binding AfficherBulletins}"/>
+                    <Button Grid.Row="3" Margin="50 10" Content="Afficher les bulletins des cours" Command="{Binding AfficherBulletins}" Click="Button_Click"/>
                 </Grid>
             </GroupBox>
 
@@ -76,7 +76,7 @@
                         <GridViewColumn Header="Sigle" Width="auto" DisplayMemberBinding="{Binding SigleCours}"/>
                         <GridViewColumn Header="Titre" Width="auto" DisplayMemberBinding="{Binding TitreCours}"/>
                         <GridViewColumn Header="Durée" Width="auto" DisplayMemberBinding="{Binding DureeCours}"/>
-                        <!--<GridViewColumn Header="Résultat" Width="auto"/>-->
+                        <GridViewColumn Header="Résultat" Width="auto" DisplayMemberBinding="{Binding Resultat}"/>
                     </GridView>
                 </ListView.View>
             </ListView>

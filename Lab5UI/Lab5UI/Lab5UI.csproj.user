@@ -21,6 +21,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Update="Resources\Resource.en.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="View\MenuPrincipal.xaml">
       <SubType>Designer</SubType>
     </Page>
