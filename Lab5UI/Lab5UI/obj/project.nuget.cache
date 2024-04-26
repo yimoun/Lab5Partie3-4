@@ -1,11 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "Gw+bkMEp0jEsEmwKgdlKN3WvGU7/I7Kx0mMinz7nPWukJYomVFFyVn/nRzS88DAYJi1MaHFXDKJHVf0ZFXfcXw==",
+  "dgSpecHash": "be85TQhoWSCf7xF8KLeB5cJyyOM1br42yvdxGkjJdArEieFjpRPbV/TUAwDCTvkSwzfkeBHQARlimKkUdI3n+w==",
   "success": true,
   "projectFilePath": "P:\\HIV24\\SERVICE DE DONNÉES\\Lab5Partie3\\Lab5Partie3-4\\Lab5UI\\Lab5UI\\Lab5UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\2130331\\.nuget\\packages\\communitytoolkit.mvvm\\8.0.0\\communitytoolkit.mvvm.8.0.0.nupkg.sha512",
-    "C:\\Users\\2130331\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\2130331\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\2130331\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\2130331\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\2130331\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\2130331\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\2130331\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\2130331\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
   ],
   "logs": []
 }
