@@ -10,7 +10,7 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace Lab5UI.Models
 {
-    internal static class CoursProcessor
+    static class CoursProcessor
     {
         /* API DOC:
          */

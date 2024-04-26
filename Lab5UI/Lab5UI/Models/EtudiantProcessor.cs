@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Lab5UI.Models
 {
-    internal class EtudiantProcessor
+    class EtudiantProcessor
     {
         private static List<Etudiant> _lesEtudiants = new List<Etudiant> { };
 

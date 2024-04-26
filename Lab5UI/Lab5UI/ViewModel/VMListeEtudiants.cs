@@ -43,7 +43,11 @@ namespace Lab5UI.ViewModel
         public ICommand AfficherEtudiantsDiplomes { get; set; }
         private async void AfficherEtudiantsDiplomes_Execute()
         {
+<<<<<<< HEAD
             LesEtudiants = await EtudiantProcessor.GetListDiplomes(DateDiplome.ToString());
+=======
+            //LesEtudiants = await CoursProcessor.GetListDiplomes(DateDiplome.ToString());
+>>>>>>> 4d1f673c73c0662e325c0dd5f28cfffbe013ef97
         }
     }
 }
