@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab5UI", "Lab5UI\Lab5UI.csproj", "{C44CF657-7F62-46B5-A338-164598F77B76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab5UI", "Lab5UI\Lab5UI.csproj", "{C44CF657-7F62-46B5-A338-164598F77B76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUnitaireLab5", "TestUnitaireLab5\TestUnitaireLab5.csproj", "{9E690670-96F4-4CA8-A41D-E5D7594AC435}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C44CF657-7F62-46B5-A338-164598F77B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C44CF657-7F62-46B5-A338-164598F77B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C44CF657-7F62-46B5-A338-164598F77B76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E690670-96F4-4CA8-A41D-E5D7594AC435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E690670-96F4-4CA8-A41D-E5D7594AC435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E690670-96F4-4CA8-A41D-E5D7594AC435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E690670-96F4-4CA8-A41D-E5D7594AC435}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
