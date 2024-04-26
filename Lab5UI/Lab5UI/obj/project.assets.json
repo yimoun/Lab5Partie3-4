@@ -100,23 +100,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Utilisateur\\.nuget\\packages\\": {},
+    "C:\\Users\\2130331\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Utilisateur\\OneDrive\\Bureau\\Coding\\Lab5Partie3-4\\Lab5UI\\Lab5UI\\Lab5UI.csproj",
+      "projectUniqueName": "C:\\Users\\2130331\\Downloads\\Lab5Partie34\\Lab5Partie3-4\\Lab5UI\\Lab5UI\\Lab5UI.csproj",
       "projectName": "Lab5UI",
-      "projectPath": "C:\\Users\\Utilisateur\\OneDrive\\Bureau\\Coding\\Lab5Partie3-4\\Lab5UI\\Lab5UI\\Lab5UI.csproj",
-      "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Utilisateur\\OneDrive\\Bureau\\Coding\\Lab5Partie3-4\\Lab5UI\\Lab5UI\\obj\\",
+      "projectPath": "C:\\Users\\2130331\\Downloads\\Lab5Partie34\\Lab5Partie3-4\\Lab5UI\\Lab5UI\\Lab5UI.csproj",
+      "packagesPath": "C:\\Users\\2130331\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\2130331\\Downloads\\Lab5Partie34\\Lab5Partie3-4\\Lab5UI\\Lab5UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\2130331\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -137,6 +137,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -171,7 +176,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

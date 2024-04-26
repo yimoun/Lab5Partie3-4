@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lab5UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc5c3d2682cfd9472c3e562cc6d5c71ebf128448")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lab5UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lab5UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

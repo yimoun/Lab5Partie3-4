@@ -8,6 +8,7 @@ using System.Windows.Input;
 using Lab5UI.Models;
 using CommunityToolkit.Mvvm.Input;
 using System.Runtime.CompilerServices;
+using System.Windows;
 
 namespace Lab5UI.ViewModel
 {
@@ -60,7 +61,20 @@ namespace Lab5UI.ViewModel
 
         private async void AfficherCoursEtudiant_Execute()
         {
-            LesCours = await Lab5Processor.GetListCoursActuel(CodePermanent);
+            List<Cours> ListCoursProcessor = await Lab5Processor.GetListCoursActuel(CodePermanent);
+
+            if (ListCoursProcessor[0].SigleCours == "\"L'étudiant n'existe pas.\"" ||
+                 ListCoursProcessor[0].SigleCours.StartsWith("\"Une erreur s'est produite lors de l'ajout de l'étudiant à un cours\""))
+            {
+                //MessageBox messageBox = null;
+                MessageBoxResult result = MessageBox.Show(ListCoursProcessor[0].SigleCours, "Information",
+                    MessageBoxButton.OK, MessageBoxImage.Error);
+
+            }
+            else
+            {
+                LesCours = ListCoursProcessor;
+            }
         }
         public ICommand AfficherCoursEnseignant { get; }
         private async void AfficherCoursEnseignant_execute()

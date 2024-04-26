@@ -15,25 +15,36 @@ namespace Lab5UI.Models
         /* API DOC:
          */
 
-        private static List<Cours> _lesCours = null;
-        private static List<Etudiant> _lesEtudiants = null;
+        private static List<Cours> _lesCours = new List<Cours> { };
+        private static List<Etudiant> _lesEtudiants = new List<Etudiant> { };
 
         private static async Task<List<Cours>> LoadListCoursActuel(string codePermanent)
         {
             String url = "https://localhost:7100/Cours/GetListCoursActuelEtudiant?codePermanent=" + codePermanent;
             using HttpResponseMessage test = await APIHelper.APIClient.GetAsync(url);
             {
-                if (test.IsSuccessStatusCode)
+                if (test.StatusCode == System.Net.HttpStatusCode.InternalServerError)   //statut 500
                 {
                     string json = await test.Content.ReadAsStringAsync();
-                    _lesCours = JsonConvert.DeserializeObject<List<Cours>>(json);
+                    _lesCours.Add(new Cours(json, json, 0)); //Juste pour savoir à quoi m'attendre;
 
                     return _lesCours;
 
                 }
-                else
+                else if (test.StatusCode == System.Net.HttpStatusCode.NotFound) //statut 404
                 {
-                    throw new Exception(test.ReasonPhrase);
+                    string json = await test.Content.ReadAsStringAsync();
+                    _lesCours.Add(new Cours(json, json, 0)); //Juste pour savoir à quoi m'attendre;
+
+                    return _lesCours;
+                }
+                else  //statut 200
+                {
+                    //Il faut gerer le cas où: "L'étudiant n'a aucun cours dans la session actuel."
+                    string json = await test.Content.ReadAsStringAsync();
+                    _lesCours = JsonConvert.DeserializeObject<List<Cours>>(json);
+
+                    return _lesCours;
                 }
             }
         }
