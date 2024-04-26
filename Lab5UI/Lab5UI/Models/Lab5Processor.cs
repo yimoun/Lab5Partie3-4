@@ -20,7 +20,7 @@ namespace Lab5UI.Models
 
         private static async Task<List<Cours>> LoadListCoursActuel(string codePermanent)
         {
-            String url = "https://localhost:7100/Cours/GetListCoursActuelEtudiant?codePermanent=" + codePermanent;
+            String url = "Cours/GetListCoursActuelEtudiant?codePermanent=" + codePermanent;
             using HttpResponseMessage test = await APIHelper.APIClient.GetAsync(url);
             {
                 if (test.IsSuccessStatusCode)
