@@ -47,11 +47,7 @@
     <entity-ids>
       <counter>
         <item-type type-id="group" type="Group" />
-<<<<<<< HEAD
-        <value>877</value>
-=======
-        <value>896</value>
->>>>>>> d096315f7107bdb8e5ff8c108285b113d47d1239
+        <value>907</value>
       </counter>
       <counter>
         <item-type type-id="ui-window" type="Window" />
@@ -142,7 +138,7 @@
         <phone-number />
         <description />
         <color>#00000000</color>
-        <working-schedule uid="ws-1fb41f18f7e9497db421ca209539cbec" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+        <working-schedule uid="ws-dee389fd6cb04584936c673723afc233" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
       </person>
       <person id="">
         <first-name>Raphael</first-name>
@@ -204,11 +200,7 @@
         <abstract-items />
         <layer id="7d04f0dd79884ef5b91414d2feb8c452" name="Default" visible="true" enabled="true" locked="false" />
       </diagram>
-<<<<<<< HEAD
-      <diagram type="user-interface" id="p4d74f445753647898e675e645c7f1d78_475045920" name="UserInterfaceDiagram1" order-index="2" overview-order-index="0" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="68,-134" zoom="1.2">
-=======
       <diagram type="user-interface" id="p4d74f445753647898e675e645c7f1d78_475045920" name="ModificationCours" order-index="2" overview-order-index="0" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="68,-134" zoom="1.2">
->>>>>>> d096315f7107bdb8e5ff8c108285b113d47d1239
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -501,11 +493,7 @@
           </item>
         </layer>
       </diagram>
-<<<<<<< HEAD
-      <diagram type="user-interface" id="p3d4fec2833254086bafcf002d9748d3b_249988457" name="UserInterfaceDiagram2" order-index="3" overview-order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-51,-89">
-=======
       <diagram type="user-interface" id="p3d4fec2833254086bafcf002d9748d3b_249988457" name="listeCours" order-index="3" overview-order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-51,-89">
->>>>>>> d096315f7107bdb8e5ff8c108285b113d47d1239
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -630,11 +618,7 @@
           </item>
         </layer>
       </diagram>
-<<<<<<< HEAD
-      <diagram type="user-interface" id="pa959dc1d68d34750ad0a3386611516a7_262332391" name="UserInterfaceDiagram3" order-index="4" overview-order-index="2" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-100,-28">
-=======
-      <diagram type="user-interface" id="pa959dc1d68d34750ad0a3386611516a7_262332391" name="Principale" order-index="4" overview-order-index="2" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-100,-28">
->>>>>>> d096315f7107bdb8e5ff8c108285b113d47d1239
+      <diagram type="user-interface" id="pa959dc1d68d34750ad0a3386611516a7_262332391" name="Principale" order-index="4" overview-order-index="2" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-408,-28">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -731,11 +715,7 @@
           </item>
         </layer>
       </diagram>
-<<<<<<< HEAD
-      <diagram type="user-interface" id="p9532f23715c24d06a05cc145909ba49f_728983198" name="UserInterfaceDiagram4" order-index="5" overview-order-index="3" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-33,-129">
-=======
-      <diagram type="user-interface" id="p9532f23715c24d06a05cc145909ba49f_728983198" name="listeEtudiants" order-index="5" overview-order-index="3" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-33,-129">
->>>>>>> d096315f7107bdb8e5ff8c108285b113d47d1239
+      <diagram type="user-interface" id="p9532f23715c24d06a05cc145909ba49f_728983198" name="listeEtudiants" order-index="5" overview-order-index="3" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-41,-98">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -780,13 +760,10 @@
               <owned-item ref="di79bf5479c7b941b19459b47663de12af8480" />
               <owned-item ref="di9d8107055b9243ab8019e8f95f7699e68480" />
               <owned-item ref="dia49b055bad4c457c94136922975cc82e8480" />
-<<<<<<< HEAD
-              <owned-item ref="di79bf5479c7b941b19459b47663de12af8480" />
-=======
               <owned-item ref="d30454faa744460f874f82fc508e1478" />
               <owned-item ref="d62a834f42c44aa7ae8b57606ded336c" />
               <owned-item ref="2bbe098d30184f0690be42c83447d1c6" />
->>>>>>> d096315f7107bdb8e5ff8c108285b113d47d1239
+              <owned-item ref="di79bf5479c7b941b19459b47663de12af8480" />
             </owned-items>
           </item>
           <item id="di1d01d4605f0545528a574f922e3dc6888480" cid="LST005" type="ui-list-box" name="Code permanent| Nom| Prénom | Date de naissance | Date inscription | Date de diplome | numero DA" style-class="" owner="di90aec71ce5464c6c96729455a5c6c36c8480" change-tracking-state="added" creator="" creation-date="04/16/2024 17:16:42">
@@ -853,11 +830,7 @@
           </item>
         </layer>
       </diagram>
-<<<<<<< HEAD
-      <diagram type="user-interface" id="p7c03c757718a4959946a3359f77dcfab_595811952" name="UserInterfaceDiagram5" order-index="6" overview-order-index="4" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-100,-122">
-=======
       <diagram type="user-interface" id="p7c03c757718a4959946a3359f77dcfab_595811952" name="ModificationEtudiant" order-index="6" overview-order-index="4" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-100,-122">
->>>>>>> d096315f7107bdb8e5ff8c108285b113d47d1239
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
