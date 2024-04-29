@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Lab5UI.ViewModel;
 
 namespace Lab5UI.View
 {
@@ -23,6 +24,7 @@ namespace Lab5UI.View
         public VueAjoutModifEtudiant()
         {
             InitializeComponent();
+            this.DataContext = new VMAjoutModifEtudiant();
         }
     }
 }

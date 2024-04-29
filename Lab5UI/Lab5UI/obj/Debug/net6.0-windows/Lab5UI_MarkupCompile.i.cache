@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-P:\HIV24\SERVICE DE DONNÉES\Lab5Partie3\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\
+C:\Users\2130331\Downloads\Lab5Partie34\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\
 Lab5UI
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-P:\HIV24\SERVICE DE DONNÉES\Lab5Partie3\Lab5Partie3-4\Lab5UI\Lab5UI\App.xaml
+C:\Users\2130331\Downloads\Lab5Partie34\Lab5Partie3-4\Lab5UI\Lab5UI\App.xaml
 5-115099575
 
 23-1699463502
-327-1288363706
+327-54328810
 View\MenuPrincipal.xaml;View\VueAjoutModifEtudiant.xaml;View\VueAjoutModifSupprCours.xaml;View\VueListeCoursBulletins.xaml;View\VueListeEtudiants.xaml;
 
 True

@@ -182,3 +182,12 @@ P:\HIV24\SERVICE DE DONNÉES\Lab5Partie3\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\n
 P:\HIV24\SERVICE DE DONNÉES\Lab5Partie3\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.Resources.Resource.en.resources
 P:\HIV24\SERVICE DE DONNÉES\Lab5Partie3\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.csproj.GenerateResource.cache
 P:\HIV24\SERVICE DE DONNÉES\Lab5Partie3\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\en\Lab5UI.resources.dll
+C:\Users\2130331\Downloads\Lab5Partie34\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\en\Lab5UI.resources.dll
+C:\Users\2130331\Downloads\Lab5Partie34\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Microsoft.OpenApi.dll
+C:\Users\2130331\Downloads\Lab5Partie34\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\2130331\Downloads\Lab5Partie34\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\2130331\Downloads\Lab5Partie34\Lab5Partie3-4\Lab5UI\Lab5UI\bin\Debug\net6.0-windows\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\2130331\Downloads\Lab5Partie34\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.Resources.Resource.resources
+C:\Users\2130331\Downloads\Lab5Partie34\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.Resources.Resource.en.resources
+C:\Users\2130331\Downloads\Lab5Partie34\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\Lab5UI.csproj.GenerateResource.cache
+C:\Users\2130331\Downloads\Lab5Partie34\Lab5Partie3-4\Lab5UI\Lab5UI\obj\Debug\net6.0-windows\en\Lab5UI.resources.dll

@@ -19,9 +19,18 @@ namespace Lab5UI.Models
                 string url = "Etudiant/GetBulletin?codePermanent=" + codePermanent;
                 using HttpResponseMessage test = await APIHelper.APIClient.GetAsync(url);
                 {
+                    if (codePermanent == null) //statut 404
+                    {
+                        string json = "Veuillez saisir le code permanent";
+                        _lesCoursResultat.Clear();
+                        _lesCoursResultat.Add(new CoursResultat(new Cours(json, json, 0, "pas affiché!"), "pas affiché!")); //Juste pour savoir à quoi m'attendre;
+
+                        return _lesCoursResultat;
+                    }
                     if (test.StatusCode == System.Net.HttpStatusCode.NotFound) //statut 404
                     {
                         string json = await test.Content.ReadAsStringAsync();
+                        _lesCoursResultat.Clear();
                         _lesCoursResultat.Add(new CoursResultat(new Cours(json, json, 0, "pas affiché!"), "pas affiché!")); //Juste pour savoir à quoi m'attendre;
 
                         return _lesCoursResultat;
@@ -30,6 +39,7 @@ namespace Lab5UI.Models
                     {
                         //Il faut gerer le cas où: "L'étudiant n'a aucun cours dans la session actuel."
                         string json = await test.Content.ReadAsStringAsync();
+                        _lesCoursResultat.Clear();
                         _lesCoursResultat = JsonConvert.DeserializeObject<List<CoursResultat>>(json);
 
                         return _lesCoursResultat;
@@ -39,6 +49,7 @@ namespace Lab5UI.Models
             catch (Exception ex)
             {
                 string message = ex.Message; //statut 500
+                _lesCoursResultat.Clear();
                 _lesCoursResultat.Add(new CoursResultat(new Cours(message, message, 0, "pas affiché!"), "pas affiché!")); //Juste pour savoir à quoi m'attendre;
 
 

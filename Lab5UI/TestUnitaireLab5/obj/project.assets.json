@@ -6310,11 +6310,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "P:\\HIV24\\SERVICE DE DONNÉES\\Lab5Partie3\\Lab5Partie3-4\\Lab5UI\\TestUnitaireLab5\\TestUnitaireLab5.csproj",
+      "projectUniqueName": "C:\\Users\\2130331\\Downloads\\Lab5Partie34\\Lab5Partie3-4\\Lab5UI\\TestUnitaireLab5\\TestUnitaireLab5.csproj",
       "projectName": "TestUnitaireLab5",
-      "projectPath": "P:\\HIV24\\SERVICE DE DONNÉES\\Lab5Partie3\\Lab5Partie3-4\\Lab5UI\\TestUnitaireLab5\\TestUnitaireLab5.csproj",
+      "projectPath": "C:\\Users\\2130331\\Downloads\\Lab5Partie34\\Lab5Partie3-4\\Lab5UI\\TestUnitaireLab5\\TestUnitaireLab5.csproj",
       "packagesPath": "C:\\Users\\2130331\\.nuget\\packages\\",
-      "outputPath": "P:\\HIV24\\SERVICE DE DONNÉES\\Lab5Partie3\\Lab5Partie3-4\\Lab5UI\\TestUnitaireLab5\\obj\\",
+      "outputPath": "C:\\Users\\2130331\\Downloads\\Lab5Partie34\\Lab5Partie3-4\\Lab5UI\\TestUnitaireLab5\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6329,15 +6329,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "P:\\HIV24\\SERVICE DE DONNÉES\\Lab5Partie3\\Lab5Partie3-4\\Lab5UI\\Lab5UI\\Lab5UI.csproj": {
-              "projectPath": "P:\\HIV24\\SERVICE DE DONNÉES\\Lab5Partie3\\Lab5Partie3-4\\Lab5UI\\Lab5UI\\Lab5UI.csproj"
+            "C:\\Users\\2130331\\Downloads\\Lab5Partie34\\Lab5Partie3-4\\Lab5UI\\Lab5UI\\Lab5UI.csproj": {
+              "projectPath": "C:\\Users\\2130331\\Downloads\\Lab5Partie34\\Lab5Partie3-4\\Lab5UI\\Lab5UI\\Lab5UI.csproj"
             }
           }
         }
@@ -6346,6 +6345,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -6389,7 +6393,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
