@@ -67,6 +67,7 @@ namespace Lab5UI.ViewModel
             List<Cours> ListCoursProcessor = await CoursProcessor.GetListCoursActuel(CodePermanent);
 
             if (ListCoursProcessor[0].SigleCours == "\"L'étudiant n'existe pas.\"" ||
+                ListCoursProcessor[0].SigleCours == "Veuillez saisir le code permanent" ||
                  ListCoursProcessor[0].SigleCours.StartsWith("Aucune connexion n’a pu être établie"))
             {
                 //MessageBox messageBox = null;
@@ -86,6 +87,7 @@ namespace Lab5UI.ViewModel
             List<Cours> ListCoursProcessor = await CoursProcessor.GetListCoursEnseignant(IdProf);
 
             if (ListCoursProcessor[0].SigleCours == "\"L'enseignant n'existe pas.\"" ||
+                ListCoursProcessor[0].SigleCours == "Veuillez saisir l'id du prof" ||
                  ListCoursProcessor[0].SigleCours.StartsWith("Aucune connexion n’a pu être établie"))
             {
                 //MessageBox messageBox = null;
@@ -104,6 +106,7 @@ namespace Lab5UI.ViewModel
             List<Cours> ListCoursProcessor = await CoursProcessor.GetHistoriqueCours(CodePermanent);
 
             if (ListCoursProcessor[0].SigleCours == "\"L'étudiant n'existe pas.\"" ||
+                 ListCoursProcessor[0].SigleCours == "Veuillez saisir le code permanent" ||
                  ListCoursProcessor[0].SigleCours.StartsWith("Aucune connexion n’a pu être établie"))
             {
                 //MessageBox messageBox = null;
@@ -123,20 +126,29 @@ namespace Lab5UI.ViewModel
             List<CoursResultat> ListBulletins = await CoursResultatProcessor.GetListBulletins(CodePermanent);
 
             if (ListBulletins[0].Cours.SigleCours == "\"L'étudiant n'existe pas.\"" ||
+                 ListBulletins[0].Cours.SigleCours == "Veuillez saisir le code permanent" ||
                  ListBulletins[0].Cours.SigleCours.StartsWith("Aucune connexion n’a pu être établie"))
             {
-                //MessageBox messageBox = null;
+               
                 MessageBoxResult result = MessageBox.Show(ListBulletins[0].Cours.SigleCours, "Erreur",
                     MessageBoxButton.OK, MessageBoxImage.Error);
 
             }
             else
             {
-                for(int i = 0; i < ListBulletins.Count; i++)
+                List<Cours> ListCoursTest = new List<Cours>();
+
+                for(int i = 0; i < ListBulletins.Count(); i++)
                 {
-                    LesCours[i] = ListBulletins[i].Cours;
-                    LesCours[i].Resultat = ListBulletins[i].Resultat;   
+                    CoursResultat BulletinTest = ListBulletins[i];  
+                    Cours CoursTest = BulletinTest.Cours;
+
+                    //TODO: à demander au prof pourquoi ca fonctionne mtn
+                    ListCoursTest.Add(new Cours(CoursTest.SigleCours, CoursTest.TitreCours, CoursTest.DureeCours, BulletinTest.Resultat));
                 }
+
+                //TODO: Pourquoi ai-je été obligé d'utiliser une "ListCoursTest" pourque le résultat s'affiche ?
+                LesCours = ListCoursTest;
             }
         }
 

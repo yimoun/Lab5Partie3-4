@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Net.Http;
 using System.Security.Policy;
 using System.Text;
@@ -25,17 +26,18 @@ namespace Lab5UI.Models
                 String url = "Cours/GetListCoursActuelEtudiant?codePermanent=" + codePermanent;
                 using HttpResponseMessage test = await APIHelper.APIClient.GetAsync(url);
                 {
-                    //if (test.StatusCode == System.Net.HttpStatusCode.InternalServerError)   
-                    //{
-                    //    string json = await test.Content.ReadAsStringAsync();
-                    //    _lesCours.Add(new Cours(json, json, 0)); //Juste pour savoir à quoi m'attendre;
+                    if (codePermanent == null) 
+                    {
+                        string json = "Veuillez saisir le code permanent";
+                        _lesCours.Clear();
+                        _lesCours.Add(new Cours(json, json, 0, "pas affiché!")); //Juste pour savoir à quoi m'attendre;
 
-                    //    return _lesCours;
-
-                    //}
-                   if (test.StatusCode == System.Net.HttpStatusCode.NotFound) //statut 404
+                        return _lesCours;
+                    }
+                    if (test.StatusCode == System.Net.HttpStatusCode.NotFound) //statut 404
                     {
                         string json = await test.Content.ReadAsStringAsync();
+                        _lesCours.Clear();
                         _lesCours.Add(new Cours(json, json, 0, "pas affiché!")); //Juste pour savoir à quoi m'attendre;
 
                         return _lesCours;
@@ -44,6 +46,7 @@ namespace Lab5UI.Models
                     {
                         //Il faut gerer le cas où: "L'étudiant n'a aucun cours dans la session actuel."
                         string json = await test.Content.ReadAsStringAsync();
+                        _lesCours.Clear();
                         _lesCours = JsonConvert.DeserializeObject<List<Cours>>(json);
 
                         return _lesCours;
@@ -53,12 +56,11 @@ namespace Lab5UI.Models
             catch (Exception ex)
             {
                 string message = ex.Message; //statut 500
+                _lesCours.Clear();
                 _lesCours.Add(new Cours(message, message, 0, "pas affiché!")); //Juste pour savoir à quoi m'attendre;
 
                 return _lesCours;
             }
-
-           
         }
 
 
@@ -75,9 +77,18 @@ namespace Lab5UI.Models
                 String url = "https://localhost:7100/Cours/GetHistoriqueCoursEtudiant?codePermanent=" + codePermanent;
                 using HttpResponseMessage test = await APIHelper.APIClient.GetAsync(url);
                 {
+                    if (codePermanent == null) //statut 404
+                    {
+                        string json = "Veuillez saisir le code permanent";
+                        _lesCours.Clear();
+                        _lesCours.Add(new Cours(json, json, 0, "pas affiché!")); //Juste pour savoir à quoi m'attendre;
+
+                        return _lesCours;
+                    }
                     if (test.StatusCode == System.Net.HttpStatusCode.NotFound)  //statut 404
                     {
                         string json = await test.Content.ReadAsStringAsync();
+                        _lesCours.Clear();
                         _lesCours.Add(new Cours(json, json, 0, "pas affiché!")); //Juste pour savoir à quoi m'attendre;
 
                         return _lesCours;
@@ -87,6 +98,7 @@ namespace Lab5UI.Models
                     {
                         //Il faut gerer le cas où: "L'étudiant n'a aucun cours dans la session actuel."
                         string json = await test.Content.ReadAsStringAsync();
+                        _lesCours.Clear();
                         _lesCours = JsonConvert.DeserializeObject<List<Cours>>(json);
 
                         return _lesCours;
@@ -96,6 +108,7 @@ namespace Lab5UI.Models
             catch (Exception ex)
             {
                 string message = ex.Message; //statut 500
+                _lesCours.Clear();
                 _lesCours.Add(new Cours(message, message, 0, "pas affiché!")); //Juste pour savoir à quoi m'attendre;
 
                 return _lesCours;
@@ -115,10 +128,19 @@ namespace Lab5UI.Models
             {
                 String url = "https://localhost:7100/Cours/GetListCoursSelonEnseignant?idProf=" + idProf;
                 using HttpResponseMessage test = await APIHelper.APIClient.GetAsync(url);
-                {               
+                {
+                    if(idProf == 0 )
+                    {
+                        string json = "Veuillez saisir l'id du prof";
+                        _lesCours.Clear();
+                        _lesCours.Add(new Cours(json, json, 0, "pas affiché!")); //Juste pour savoir à quoi m'attendre;
+
+                        return _lesCours;
+                    }
                     if (test.StatusCode == System.Net.HttpStatusCode.NotFound)  //statut 404
                     {
                         string json = await test.Content.ReadAsStringAsync();
+                        _lesCours.Clear();
                         _lesCours.Add(new Cours(json, json, 0, "pas affiché!")); //Juste pour savoir à quoi m'attendre;
 
                         return _lesCours;
@@ -127,6 +149,7 @@ namespace Lab5UI.Models
                     else //statut 200
                     {
                         string json = await test.Content.ReadAsStringAsync();
+                        _lesCours.Clear();
                         _lesCours = JsonConvert.DeserializeObject<List<Cours>>(json);
 
                         return _lesCours;
@@ -136,6 +159,7 @@ namespace Lab5UI.Models
             catch (Exception ex)
             {
                 string message = ex.Message; //statut 500
+                _lesCours.Clear();
                 _lesCours.Add(new Cours(message, message, 0, "pas affiché!")); //Juste pour savoir à quoi m'attendre;
 
                 return _lesCours;
@@ -148,5 +172,30 @@ namespace Lab5UI.Models
             return await LoadListCoursEnseignant(idProf);
         }
 
+        private static async Task<string> AjouterUnCours(string sigle, string titre, int duree, int idProf)
+        {
+            try
+            {
+                string url = "Cours/AjouterUnCours?sigle=" + sigle + "&titre=" + titre + "&duree=" + duree + "&idProf=" + idProf;
+                using HttpResponseMessage test = await APIHelper.APIClient.GetAsync(url);
+                {
+                    HttpStatusCode statutCode = test.StatusCode;
+
+                      string json = await test.Content.ReadAsStringAsync();
+                        return json;
+                }
+            }
+            catch (Exception ex)
+            {
+                string message = ex.Message; //statut 500
+                return message;
+            }
+
+        }
+
+        public static async Task<string> GetResponseAjouterCours(string sigle, string titre, int duree, int idProf)
+        {
+            return await AjouterUnCours(sigle, titre, duree, idProf);
+        }
     }
 }

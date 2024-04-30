@@ -35,5 +35,16 @@ namespace Lab5UI.Models
 
         [JsonProperty(PropertyName = "etu_num_da")]
         public int etu_num_da { get; set; }
+
+        public Etudiant(string? etu_code_permanent, string? etu_nom, string? etu_prenom, string? etu_date_naissance, string? etu_date_inscription, string? etu_date_diplome, int etu_num_da)
+        {
+            this.etu_code_permanent = etu_code_permanent;
+            this.etu_nom = etu_nom;
+            this.etu_prenom = etu_prenom;
+            this.etu_date_naissance = etu_date_naissance;
+            this.etu_date_inscription = etu_date_inscription;
+            this.etu_date_diplome = etu_date_diplome;
+            this.etu_num_da = etu_num_da;
+        }
     }
 }

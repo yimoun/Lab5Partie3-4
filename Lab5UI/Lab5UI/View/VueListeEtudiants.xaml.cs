@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Lab5UI.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,7 @@ namespace Lab5UI.View
         public VueListeEtudiants()
         {
             InitializeComponent();
+            this.DataContext = new VMListeEtudiants();
         }
 
     }

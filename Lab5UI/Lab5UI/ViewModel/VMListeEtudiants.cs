@@ -8,14 +8,15 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using Lab5UI.Models;
 using CommunityToolkit.Mvvm.Input;
+using System.Windows;
 
 namespace Lab5UI.ViewModel
 {
     internal class VMListeEtudiants : ObservableObject
     {
-        private DateTime dateDiplome;
+        private String dateDiplome;
 
-        public DateTime DateDiplome
+        public String DateDiplome
         {
             get { return dateDiplome;}
             set
@@ -25,29 +26,38 @@ namespace Lab5UI.ViewModel
             }
         }
 
-        private List<Etudiant> lesEtudiants;
+        private List<Etudiant> _lesEtudiants;
         public List<Etudiant> LesEtudiants
         {
-            get { return lesEtudiants; }
+            get { return _lesEtudiants; }
             set
             {
-                lesEtudiants = value;
+                _lesEtudiants = value;
                 OnPropertyChanged(nameof(LesEtudiants));
             }
         }
         public VMListeEtudiants()
         {
+            _lesEtudiants = new List<Etudiant>() { };
             AfficherEtudiantsDiplomes = new RelayCommand(AfficherEtudiantsDiplomes_Execute);
         }
 
         public ICommand AfficherEtudiantsDiplomes { get; set; }
-        private async void AfficherEtudiantsDiplomes_Execute()
+        private async void AfficherEtudiantsDiplomes_Execute( )
         {
-<<<<<<< HEAD
-            LesEtudiants = await EtudiantProcessor.GetListDiplomes(DateDiplome.ToString());
-=======
-            //LesEtudiants = await CoursProcessor.GetListDiplomes(DateDiplome.ToString());
->>>>>>> 4d1f673c73c0662e325c0dd5f28cfffbe013ef97
+            List<Etudiant> listEtudiantsProcessor = await EtudiantProcessor.GetListEtudiantsSelonDateDiplome(DateDiplome);
+
+            LesEtudiants.Clear();   //On la vide d'abord avant de possiblement la remplir pour l'afficher !
+            if (listEtudiantsProcessor[0].etu_code_permanent == "\"Le format de la date n'est pas bon.\"" ||
+                listEtudiantsProcessor[0].etu_code_permanent == "\"Il n'y a pas de finissants pour cette année.\"" ||
+                listEtudiantsProcessor[0].etu_code_permanent == "Veuillez entrer la date de diplome!" ||
+                listEtudiantsProcessor[0].etu_code_permanent == "Aucune connexion n’a pu être établie")
+            {
+                MessageBoxResult result = MessageBox.Show(listEtudiantsProcessor[0].etu_code_permanent, "Erreur",
+                    MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            else
+                LesEtudiants = listEtudiantsProcessor;
         }
     }
 }
